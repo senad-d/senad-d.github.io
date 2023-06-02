@@ -4,6 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 > Thank you for visiting. Together, let's unlock the full potential of DevOps and propel you towards continuous success.
+{: .prompt-tip }
 
 ## My mission 
 To empower individuals by providing comprehensive and streamlined DevOps documentation. In today's fast-paced and ever-evolving technology landscape, DevOps has emerged as a game-changing methodology. It brings together the realms of development and operations, fostering collaboration, efficiency, and agility throughout the software development lifecycle. However, harnessing the true potential of DevOps requires more than just implementing the right tools and processes—it demands effective documentation practices that enable seamless knowledge sharing and enhance cross-functional collaboration.
