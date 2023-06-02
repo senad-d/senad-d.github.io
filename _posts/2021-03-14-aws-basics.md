@@ -5,6 +5,10 @@ categories: [Cloud, AWS]
 tags: [aws, basics]
 ---
 
+<div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;">
+  <img src="https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true" alt="" style="width: 100%; height: auto;">
+</div>
+
 ## Amazon EC2 instance
 -   Amazon EC2 provides scalable computing capacity in the AWS Cloud
     
