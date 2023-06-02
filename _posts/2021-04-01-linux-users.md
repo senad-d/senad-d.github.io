@@ -1,5 +1,5 @@
 ---
-title: Users
+title: Linux Users
 date: 2021-04-01 12:00:00
 categories: [OS, Linux]
 tags: [linux, users]
@@ -16,7 +16,7 @@ tags: [linux, users]
 `sudo deluser username groupname` | Remove a user from a group
 
 
-## Create multiple users ( it requires a separate list for user names and keys ):
+## Create multiple users ( it requires a separate list for user names and keys )
 
 create_user.sh
 ```bash
