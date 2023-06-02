@@ -1,0 +1,99 @@
+---
+title: Use multiple AWS accounts using AWS CLI
+date: 2023-05-29 12:00:00
+categories: [Cloud, AWS]
+tags: [aws cli, iam]
+---
+# Use multiple AWS accounts using AWS CLI
+Using multiple AWS accounts from the command line is natively handled with profiles in the AWS CLI.
+
+## Using aws configure
+Using the aws configure command, multiple profiles can be configured.
+```shell
+aws configure --profile account1
+AWS Access Key ID [None]: ...
+AWS Secret Access Key [None]: ...
+Default region name [None]: ...
+Default output format [None]: ...
+```
+
+Then, the `--profile account1` option may be used with future commands.
+```shell
+aws s3 ls --profile account1
+```
+
+Or an environment variable may be set.
+```shell
+export AWS_PROFILE=account1
+aws s3 ls # uses account1 credentials
+```
+Note: If the profile is named `--profile default`, it will represent the default profile when no `--profile argument` is provided.
+
+## Manually setting credentials
+The `~/.aws/credentials` and `~/.aws/config` files can be modified directly.
+
+1. Add the credentials to the `~/.aws/credentials` file
+```shell
+[default]
+aws_access_key_id=accesskey
+aws_secret_access_key=secretaccesskey
+
+[account1]
+aws_access_key_id=accesskey
+aws_secret_access_key=secretaccesskey
+```
+
+2. Add the profile to the `~/.aws/config` file
+```shell
+[default]
+region=us-east-1
+output=json
+
+[profile account1]
+region=us-east-1
+output=json
+```
+
+3. Use the `--profile argument` or set the `AWS_PROFILE` environment variable.
+```shell
+aws s3 ls --profile account1
+```
+
+OR
+```shell
+export AWS_PROFILE=account1
+aws s3 ls # uses account1 credentials
+```
+
+## Use export to login
+
+### Add access key and secret key:
+```shell
+export AWS_ACCESS_KEY_ID=<YOUR_AWS_IAM_ACCESS_KEY_ID>  
+export AWS_SECRET_ACCESS_KEY=<YOUR_AWS_IAM_SECRET_ACCESS_KEY>
+```
+
+### Check the identity
+```shell
+aws sts get-caller-identity
+```
+
+### Add IAM Role to the `~/.aws/config` file
+```shell
+[profile role1]
+region = eu-central-1
+source_profile = default
+role_arn = arn:aws:iam::05449:role/administrator
+```
+### Asume Role:
+```shell
+export AWS_PROFILE=role1
+```
+
+
+```shell
+aws sts assume-role --role-arn arn:aws:iam::123456789:role/admin --role-session-name build-sandbox > aws.json
+          export AWS_ACCESS_KEY_ID=$(jq '.Credentials.AccessKeyId' -r aws.json)
+          export AWS_SECRET_ACCESS_KEY=$(jq '.Credentials.SecretAccessKey' -r aws.json)
+          export AWS_SESSION_TOKEN=$(jq '.Credentials.SessionToken' -r aws.json)
+```
