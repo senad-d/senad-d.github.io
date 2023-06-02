@@ -1,8 +1,8 @@
 ---
 title: Test AWS credentials using AWS CLI
-date: 2022-05-29 12:00:00
+date: 2022-06-01 12:00:00
 categories: [Cloud, AWS]
-tags: [aws cli, iam]
+tags: [aws-cli, iam]
 ---
 # Test AWS credentials using AWS CLI
 Testing for AWS credentials is a straightforward operation.

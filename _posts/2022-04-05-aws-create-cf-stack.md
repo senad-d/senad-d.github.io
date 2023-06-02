@@ -10,11 +10,10 @@ A step-by-step example of provisioning resources with a CloudFormation template.
 
 1. Visit a CloudFormation section in your AWS account
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/1.png?raw=true)
-    1.  Select Create Stack
+    1. Select Create Stack
 	2. With new resources (standard)
 
 2. Add a custom template
-
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/2.png?raw=true)
 	1. Select Upload a template file
 	2. Chose a file

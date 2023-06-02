@@ -6,12 +6,11 @@ tags: [aws, account]
 ---
 
 1. Open the [Amazon Web Services home page](https://aws.amazon.com/).
-2. Choose to **Create an AWS account**.
 
+2. Choose to **Create an AWS account**.
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221117115025.png?raw=true)
 
 3. Enter your account information, and then choose **Continue**.
-
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221117115123.png?raw=true)
 
 4. Enter your company or personal information.

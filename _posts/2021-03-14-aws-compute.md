@@ -2,7 +2,7 @@
 title: AWS Compute
 date: 2021-03-14 12:00:00
 categories: [Cloud, AWS]
-tags: [aws compute]
+tags: [aws, compute]
 ---
 
 ## Amazon Machine Images:

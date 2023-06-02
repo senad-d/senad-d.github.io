@@ -1,6 +1,6 @@
 ---
 title: AWS Basics
-date: 2021-03-14 12:00:00
+date: 2021-03-14 11:00:00
 categories: [Cloud, AWS]
 tags: [aws, basics]
 ---

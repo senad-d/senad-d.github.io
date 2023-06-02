@@ -2,7 +2,7 @@
 title: Use multiple AWS accounts using AWS CLI
 date: 2022-06-01 12:00:00
 categories: [Cloud, AWS]
-tags: [aws cli, iam]
+tags: [aws-cli, iam]
 ---
 
 [Configure AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
