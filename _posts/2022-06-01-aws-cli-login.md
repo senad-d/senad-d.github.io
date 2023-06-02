@@ -88,8 +88,8 @@ role_arn = arn:aws:iam::05449:role/administrator
 ```shell
 export AWS_PROFILE=role1
 ```
-
-
+## Security Token Service (STS) and exports the credentials obtained from the assumed role into environment variables.
+Assumes an IAM role using STS, retrieves the temporary credentials for that role, and exports them into environment variables. These environment variables can then be used in subsequent commands or scripts to authenticate and access AWS services using the assumed role's permissions.
 ```shell
 aws sts assume-role --role-arn arn:aws:iam::123456789:role/admin --role-session-name build-sandbox > aws.json
           export AWS_ACCESS_KEY_ID=$(jq '.Credentials.AccessKeyId' -r aws.json)
