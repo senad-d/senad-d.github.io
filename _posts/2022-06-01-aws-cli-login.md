@@ -1,6 +1,6 @@
 ---
 title: Use multiple AWS accounts using AWS CLI
-date: 2023-05-29 12:00:00
+date: 2022-06-01 12:00:00
 categories: [Cloud, AWS]
 tags: [aws cli, iam]
 ---
