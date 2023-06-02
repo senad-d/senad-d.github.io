@@ -4,6 +4,7 @@ date: 2021-03-14 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, well-architected framework]
 ---
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
 
 # Five pillars:
 

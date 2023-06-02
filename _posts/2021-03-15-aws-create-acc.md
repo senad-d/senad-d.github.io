@@ -4,6 +4,7 @@ date: 2022-04-04 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, account]
 ---
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
 
 1. Open the [Amazon Web Services home page](https://aws.amazon.com/).
 

@@ -4,6 +4,7 @@ date: 2021-03-14 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, management]
 ---
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
 
 Amazon CloudWatch: If you need to monitor the health of different resources, set alerts, gather metrics
   

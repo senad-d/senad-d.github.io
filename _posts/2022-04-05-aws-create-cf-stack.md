@@ -4,6 +4,7 @@ date: 2022-04-05 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, account]
 ---
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
 
 A step-by-step example of provisioning resources with a CloudFormation template. 
 
