@@ -4,6 +4,9 @@ date: 2022-06-01 12:00:00
 categories: [Cloud, AWS]
 tags: [aws cli, iam]
 ---
+
+[Configure AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+
 Using multiple AWS accounts from the command line is natively handled with profiles in the AWS CLI.
 
 ## Using aws configure
