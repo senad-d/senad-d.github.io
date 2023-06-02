@@ -2,7 +2,7 @@
 title: AWS Networking
 date: 2021-03-14 12:00:00
 categories: [Cloud, AWS]
-tags: [aws networking]
+tags: [aws, networking]
 ---
 
 # AWS Networking

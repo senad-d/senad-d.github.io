@@ -2,7 +2,7 @@
 title: AWS Architecture
 date: 2021-03-15 12:00:00
 categories: [Cloud, AWS]
-tags: [architecture]
+tags: [aws, architecture]
 ---
 ## Decoupled and Event-Driven Architecture
 -   Monolithic Applications are essentially tightly coupled together and had a lot of built-in dependencies against each other

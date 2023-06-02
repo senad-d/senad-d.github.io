@@ -2,7 +2,7 @@
 title: AWS Management
 date: 2021-03-14 12:00:00
 categories: [Cloud, AWS]
-tags: [aws management]
+tags: [aws, management]
 ---
 
 # AWS Management

@@ -2,7 +2,7 @@
 title: AWS Storage
 date: 2021-03-14 12:00:00
 categories: [Cloud, AWS]
-tags: [aws storage]
+tags: [aws, storage]
 ---
 
 # AWS Storage

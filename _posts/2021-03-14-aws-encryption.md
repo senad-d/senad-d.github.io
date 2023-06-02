@@ -2,7 +2,7 @@
 title: AWS Encryption
 date: 2021-03-14 12:00:00
 categories: [Cloud, AWS]
-tags: [aws encryption]
+tags: [aws, encryption]
 ---
 
 # AWS Encryption
