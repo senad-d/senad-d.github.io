@@ -9,23 +9,23 @@ tags: [linux, crontab]
 The Cron daemon is a service that runs on all main distributions of Unix and Linux. Specifically designed to execute commands at a given time. These jobs are commonly referred to as cronjobs and are one of the essential tools that should be present in every Systems Administrator's toolbox. Cronjobs are used for automating tasks or scripts so that they can be executed at specific times.
 
 Edit crontab
-```Bash
+```shell
 crontab -e
 ```
 
 Add crontab task
-```Bash
+```shell
 crontab -u "$USER" /etc/cron.d/crontask
 ```
 
 List crontab tasks
-```Bash
+```shell
 crontab -l
 crontab -l [-u user]
 ```
 
 Examples
-```Bash
+```shell
 0 * * * *	    every hour
 */15 * * * *	every 15 mins
 0 */2 * * *	    every 2 hours
@@ -36,7 +36,7 @@ Examples
 ```
 
 Format
-```Bash
+```shell
 Min  Hour Day  Mon  Weekday
 *    *    *    *    *  command to be executed
 ┬    ┬    ┬    ┬    ┬
