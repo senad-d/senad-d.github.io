@@ -5,8 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws basics]
 ---
 
-# AWS Compute
-
 ## Amazon EC2 instance
 -   Amazon EC2 provides scalable computing capacity in the AWS Cloud
     

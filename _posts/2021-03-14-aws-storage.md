@@ -5,9 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws, storage]
 ---
 
-# AWS Storage
-
-
 ## Persistence of data with EC2 instances:
 
 -   EBS volumes

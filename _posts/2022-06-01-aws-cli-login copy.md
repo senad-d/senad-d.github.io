@@ -4,7 +4,6 @@ date: 2022-06-01 12:00:00
 categories: [Cloud, AWS]
 tags: [aws cli, ecs]
 ---
-# ECS CLI
 
 [AWS DOCS](https://docs.aws.amazon.com/cli/latest/reference/ecs/index.html)
 

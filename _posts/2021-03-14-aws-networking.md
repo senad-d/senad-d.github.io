@@ -5,8 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws, networking]
 ---
 
-# AWS Networking
-
 ## Virtual Private Clouds (VPCs)
 
 -   A VPC resides inside of the AWS Cloud and it's essentially your own isolated segment of the AWS Cloud itself

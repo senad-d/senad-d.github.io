@@ -5,8 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws, high availability]
 ---
 
-# High Availability
-
 Designing for high availability, fault tolerance and cost efficiency
 
 ## Backup and DR Strategies

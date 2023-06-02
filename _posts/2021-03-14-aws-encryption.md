@@ -5,8 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws, encryption]
 ---
 
-# AWS Encryption
-
 ## Key Management Service (KMS)
 
 -   The Key Management Service is a managed service used to store and generate encryption keys

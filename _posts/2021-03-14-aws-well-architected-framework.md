@@ -5,8 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws, well-architected framework]
 ---
 
-# AWS Well-Architected Framework
-
 # Five pillars:
 
 ## Operational excellence

@@ -5,17 +5,15 @@ categories: [Cloud, AWS]
 tags: [aws, management]
 ---
 
-# AWS Management
+Amazon CloudWatch: If you need to monitor the health of different resources, set alerts, gather metrics
+  
+AWS CloudTrail: If you need to capture API calls being made across your AWS account
+  
+AWS Config: If you need to monitor, manage, and assess the configurational state of your resources
+  
+AWS Organizations: If you need to set up management and security controls across a multi AWS account level
 
--   Amazon CloudWatch: If you need to monitor the health of different resources, set alerts, gather metrics
-  
--   AWS CloudTrail: If you need to capture API calls being made across your AWS account
-  
--   AWS Config: If you need to monitor, manage, and assess the configurational state of your resources
-  
--   AWS Organizations: If you need to set up management and security controls across a multi AWS account level
-
--   VPC Flow Logs: If you need to capture network traffic at an interface, subnet or VPC level and review the logs in CloudWatch
+VPC Flow Logs: If you need to capture network traffic at an interface, subnet or VPC level and review the logs in CloudWatch
 
 
 ## CloudWatch

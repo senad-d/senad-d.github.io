@@ -4,7 +4,6 @@ date: 2022-06-01 12:00:00
 categories: [Cloud, AWS]
 tags: [aws cli, iam]
 ---
-# Use multiple AWS accounts using AWS CLI
 Using multiple AWS accounts from the command line is natively handled with profiles in the AWS CLI.
 
 ## Using aws configure

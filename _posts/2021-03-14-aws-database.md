@@ -5,8 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws compute]
 ---
 
-# AWS Database Service
-
 ## Amazon RDS
 
 -   A relation database service that provides a simple way to provision, create, and scale a relational database

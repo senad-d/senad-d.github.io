@@ -5,8 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws, security]
 ---
 
-# AWS Security
-
 ## AWS IAM:
 
 -   Centrally manage and control security permissions for any identity requiring access to your AWS account and its resources

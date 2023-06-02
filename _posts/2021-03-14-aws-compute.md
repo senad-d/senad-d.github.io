@@ -5,8 +5,6 @@ categories: [Cloud, AWS]
 tags: [aws compute]
 ---
 
-# AWS Compute
-
 ## Amazon Machine Images:
 
 -   AMI's are digital templates of pre-configured EC2 instances allowing you to quickly launch a new instance
