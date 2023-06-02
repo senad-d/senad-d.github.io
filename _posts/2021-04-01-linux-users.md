@@ -19,7 +19,7 @@ tags: [linux, users]
 ## Create multiple users ( it requires a separate list for user names and keys )
 
 create_user.sh
-```bash
+```shell
 #!/bin/bash
 ​
 version=$(cat /etc/os-release | head -1)
@@ -82,6 +82,6 @@ for user in $(cat ${1} | awk '{print $1}'); do
 done
 ```
 user_list
-```
+```shell
 
 ```

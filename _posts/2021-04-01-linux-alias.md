@@ -1,18 +1,23 @@
 ---
-title: Alias
+title: Linux Alias
 date: 2021-04-01 12:00:00
 categories: [OS, Linux]
 tags: [linux, alias]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/linux-banner.png?raw=true)
 
+List All Aliases in Linux
+```shell
+alias
+```
+
 Create a Temporary Alias in Linux
-```Bash
+```shell
 alias c='clear'
 ```
  
 Create a Permanent Alias in Linux
-```Bash
+```shell
 sudo nano ~/.bashrc
 source ~/.bashrc
 
@@ -27,11 +32,6 @@ alias move='mv -i'
 alias frename='Example/Test/file_rename.sh'
 
 source ~/.bashrc
-```
-
-List All Aliases in Linux
-```shell
-alias
 ```
 
 Remove Aliases in Linux

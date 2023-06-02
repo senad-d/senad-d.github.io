@@ -1,13 +1,13 @@
 ---
-title: Backups
+title: Linux Backups
 date: 2021-04-01 12:00:00
 categories: [OS, Linux]
 tags: [linux, backups]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/linux-banner.png?raw=true)
 
-Backup-daily
-```Bash
+## Backup-daily
+```shell
 cat <<EOF >> /home/"$USER"/backup-task/backup-daily.sh
 #!/bin/bash
 tar --exclude=<path to ignore file> -zcf /home/"$USER"/backup/daily/backup-\$(date +%Y%m%d).tar.gz -C /home/"$USER"/<BackupFolder>/*
@@ -16,8 +16,8 @@ EOF
 chmod +x /home/"$USER"/backup-task/backup-daily.sh
 ```
 
-Backup-weekly
-```Bash
+## Backup-weekly
+```shell
 cat <<EOF >> /home/"$USER"/backup-task/backup-weekly.sh
 #!/bin/bash
 tar --exclude=<ignore file> -zcf /home/"$USER"/backup/weekly/backup-\$(date +%Y%m%d).tar.gz -C /home/"$USER"/<BackupFolder>/*
@@ -26,8 +26,8 @@ EOF
 chmod +x /home/"$USER"/backup-task/backup-weekly.sh
 ```
 
-Backup-monthly
-```Bash
+## Backup-monthly
+```shell
 cat <<EOF >> /home/"$USER"/backup-task/backup-monthly.sh
 #!/bin/bash
 tar --exclude=<ignore file> -zcf /home/"$USER"/backup/monthly/backup-\$(date +%Y%m%d).tar.gz -C /home/"$USER"/<BackupFolder>/*
@@ -36,8 +36,8 @@ EOF
 chmod +x /home/"$USER"/backup-task/backup-monthly.sh
 ```
 
-Add [[Chrontab]] task
-```Bash
+## Add Chrontab task
+```shell
 cat <<EOF >> /etc/cron.d/crontask 
 30 5 * * * root    /home/"$USER"/backup-task/backup-daily.sh 
 40 5 * * 1 root    /home/"$USER"/backup-task/backup-weekly.sh 
