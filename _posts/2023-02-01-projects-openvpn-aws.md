@@ -10,9 +10,12 @@ A CloudFormation template for adding an EC2 instance with a fully automated boot
 
 <details><summary> Video </summary>
 
-<video controls>
-  <source src="https://user-images.githubusercontent.com/114985182/205624165-ba77b327-11bd-40ed-a912-92f6dcecf084.mp4" type="video/mp4">
-</video>
+<div style="max-width: 100%; max-height: auto;">
+  <video controls style="width: 100%; height: auto;">
+    <source src="https://user-images.githubusercontent.com/114985182/205624165-ba77b327-11bd-40ed-a912-92f6dcecf084.mp4"" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 </details>
 
