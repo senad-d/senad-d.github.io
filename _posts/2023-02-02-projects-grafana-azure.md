@@ -8,6 +8,17 @@ tags: [azure, grafana]
 
 ARM template for adding an VM with a fully automated bootstrap script to create monitoring that automatically connects to Azure monitor (data source) for metrics and allows users easy viewing of key metrics for Azure resources.
 
+<details><summary> Video </summary>
+
+<div style="max-width: 100%; max-height: auto;">
+  <video controls style="width: 100%; height: auto;">
+    <source src="https://github.com/senad-d/senad-d.github.io/raw/main/_media/video/azure_arm_monitoring.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+</details>
+
 > This is a step-by-step guide on how to create monitoring solution in Azure with Virtual Machine. 
 
 ## Creation Proces:

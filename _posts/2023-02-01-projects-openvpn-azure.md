@@ -8,6 +8,17 @@ tags: [azure, openvpn]
 
 ARM template for adding VM with a fully automated bootstrap script to create a VPN that automatically creates SSL certificates and allows easy management of users.
 
+<details><summary> Video </summary>
+
+<div style="max-width: 100%; max-height: auto;">
+  <video controls style="width: 100%; height: auto;">
+    <source src="https://github.com/senad-d/senad-d.github.io/raw/main/_media/video/azure_arm_vpn.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+</details>
+
 
 ### Creation Process:
 1. Create a Resource groups

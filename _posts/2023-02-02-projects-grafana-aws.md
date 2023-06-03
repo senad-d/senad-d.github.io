@@ -8,6 +8,17 @@ tags: [aws, grafana]
 
 A CloudFormation template for adding an EC2 instance with a fully automated bootstrap script to create monitoring that automatically connects to AWS CloudWatch for metrics and allows users easy viewing of key metrics for AWS resources.
 
+<details><summary> Video </summary>
+
+<div style="max-width: 100%; max-height: auto;">
+  <video controls style="width: 100%; height: auto;">
+    <source src="https://github.com/senad-d/senad-d.github.io/raw/main/_media/video/grafana_aws.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+</details>
+
 Resources used:
 -   [***Monitoring CloudFormation***](https://senad-d.github.io/posts/projects-grafana-aws-cf/)
 	1.  Ec2 instance creation
