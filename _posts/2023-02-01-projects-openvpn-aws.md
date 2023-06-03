@@ -8,7 +8,7 @@ tags: [aws, openvpn]
 
 A CloudFormation template for adding an EC2 instance with a fully automated bootstrap script to create a VPN that automatically creates SSL certificates and allows easy management of users.
 
-[![]()](https://private-user-images.githubusercontent.com/114985182/205624165-ba77b327-11bd-40ed-a912-92f6dcecf084.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg1ODE3MTg5LCJuYmYiOjE2ODU4MTY4ODksInBhdGgiOiIvMTE0OTg1MTgyLzIwNTYyNDE2NS1iYTc3YjMyNy0xMWJkLTQwZWQtYTkxMi05MmY2ZGNlY2YwODQubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDNUMTgyODA5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTQ1YmU1MTgyZTcyZTY3N2MzNjIyOWNjM2MwODgxYjUyZmQ1YTYwNGI1OTc2ODFmMGE0NjYzYmY0YzI4ZTI4MiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.RtRj1yYXrZP7wWHuLS9Yfq6C9cHl30_NzcaDUTPNlBQ)
+![](https://user-images.githubusercontent.com/114985182/205624165-ba77b327-11bd-40ed-a912-92f6dcecf084.mp4)
 
 
 ##### Resources used:
