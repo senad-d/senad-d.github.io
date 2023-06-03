@@ -8,8 +8,6 @@ tags: [azure, grafana, bootstrap]
 
 Bootstrap script for Ubuntu 18.04-LTE image. This script installs docker and docker-compose. Runs Docker-compose.yml for Cloud Monitoring (Grafana, InfluxDB, and Telegraf) with custom configuration files. 
 
----
-
 
 ```shell
 #!/bin/bash

@@ -10,6 +10,7 @@ ARM template for adding an VM with a fully automated bootstrap script to create 
 
 > This is a step-by-step guide on how to create monitoring solution in Azure with Virtual Machine. 
 
+[![]()](https://user-images.githubusercontent.com/114985182/205156582-99064f93-9a3c-4a91-ba55-62e73ab06a9c.gif)
 
 ## Creation Proces:
 1. Create a Resource groups
@@ -31,6 +32,8 @@ ARM template for adding an VM with a fully automated bootstrap script to create 
 - Azure Monitor for getting metrics on network resources. Credentials will be with User assigned Managed Identity.
 - InfluxDB data source in combination with Telegraf for getting metrics on service UpTime.
  
+Custom [***dashboard***](https://senad-d.github.io/posts/projects-grafana-azure-dash/) for Azure resources.
+
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_azure_env.jpg?raw=true)
 
 ## Running ARM temp from Azure CLI

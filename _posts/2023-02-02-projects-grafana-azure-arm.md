@@ -9,7 +9,6 @@ tags: [azure, grafana, arm]
 ARM template for creating an automated monitoring solution for Azure resources.
 Add a Resource group for monitoring VM with [bootstrap](https://senad-d.github.io/posts/projects-grafana-azure-boot/) and start monitoring resources in the account within 10 minutes.
 
----
 
 ```shell
 {
