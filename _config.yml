@@ -18,9 +18,9 @@ timezone: Croatia/Zagreb
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Senad Dizdarević # the main title
+title: Senad Dizdarevic # the main title
 
-tagline: DevOps Docs # it will display as the sub-title
+tagline: DevOps Docs for gathering knowledge. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A Docs site for my knowledge base.
@@ -38,14 +38,14 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Senad Dizdarević
-  email: senad.dizdarevic.ri@gmail.com # change to your email address
+  email: example@link.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
     - https://github.com/senad-d # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/senad-dizdarevic-062269100
 
 google_site_verification: # fill in to your verification string
 
@@ -70,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
