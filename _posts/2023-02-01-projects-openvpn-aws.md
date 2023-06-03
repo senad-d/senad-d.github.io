@@ -10,9 +10,9 @@ A CloudFormation template for adding an EC2 instance with a fully automated boot
 
 <details><summary> Video </summary>
 
-<div style="max-width: auto; max-height: auto;">
-  <video controls style="width: auto; height: auto;">
-    <source src="https://github.com/senad-d/senad-d.github.io/blob/main/_media/video/openvpn_aws.mp4"" type="video/mp4">
+<div style="max-width: 100%; max-height: auto;">
+  <video controls style="width: 100%; height: auto;">
+    <source src="https://github.com/senad-d/senad-d.github.io/blob/main/_media/video/openvpn_aws.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
