@@ -10,7 +10,7 @@ ARM template for adding an VM with a fully automated bootstrap script to create 
 
 > This is a step-by-step guide on how to create monitoring solution in Azure with Virtual Machine. 
 
-[![]()](https://user-images.githubusercontent.com/114985182/205156582-99064f93-9a3c-4a91-ba55-62e73ab06a9c.gif)
+![](https://user-images.githubusercontent.com/114985182/205156582-99064f93-9a3c-4a91-ba55-62e73ab06a9c.gif)
 
 ## Creation Proces:
 1. Create a Resource groups
