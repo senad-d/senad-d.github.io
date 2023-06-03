@@ -12,7 +12,7 @@ ARM template for adding VM with a fully automated bootstrap script to create a V
 
 ### Creation Process:
 1. Create a Resource groups
-2. Run [[Azure OpenVPN ARM template]]
+2. Run [Azure OpenVPN ARM template](https://senad-d.github.io/posts/projects-openvpn-azure-arm/) 
 3. Edit VM Networking to create a user
 		- Add inbound security rule for SSH port 22
 

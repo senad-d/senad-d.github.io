@@ -1,7 +1,7 @@
 ---
 title: AWS OpenVPN bootstrap script
 date: 2023-02-01 12:00:00
-categories: [Projects, OpenVPN, AWS, bootstrap]
+categories: [Projects, OpenVPN, AWS, Bootstrap]
 tags: [aws, openvpn, bootstrap]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
