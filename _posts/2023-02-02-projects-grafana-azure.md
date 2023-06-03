@@ -10,8 +10,6 @@ ARM template for adding an VM with a fully automated bootstrap script to create 
 
 > This is a step-by-step guide on how to create monitoring solution in Azure with Virtual Machine. 
 
-![](https://user-images.githubusercontent.com/114985182/205156582-99064f93-9a3c-4a91-ba55-62e73ab06a9c.gif)
-
 ## Creation Proces:
 1. Create a Resource groups
 2. Create [Azure Grafana ARM template](https://senad-d.github.io/posts/projects-grafana-azure-arm/)
@@ -27,6 +25,8 @@ ARM template for adding an VM with a fully automated bootstrap script to create 
 - Virtual machine [***UserData***](https://senad-d.github.io/posts/projects-grafana-azure-boot/)
 - Public IP address
 - Disk
+
+![](https://user-images.githubusercontent.com/114985182/205156582-99064f93-9a3c-4a91-ba55-62e73ab06a9c.gif)
 
 ***Grafana previsioned Data sources***: 
 - Azure Monitor for getting metrics on network resources. Credentials will be with User assigned Managed Identity.
