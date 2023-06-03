@@ -6,6 +6,7 @@ tags: [aws, grafana, dashboard]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
 
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_dash_aws.png?raw=true)
 
 ```shell
 {
