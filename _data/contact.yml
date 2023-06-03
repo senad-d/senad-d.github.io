@@ -10,9 +10,6 @@
 #  icon: "fas fa-envelope"
 #  noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
@@ -22,6 +19,10 @@
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/senad-dizdarevic-062269100/'                  # Fill with your Linkedin homepage
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'

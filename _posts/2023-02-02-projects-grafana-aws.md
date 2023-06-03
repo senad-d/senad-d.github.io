@@ -19,13 +19,13 @@ A CloudFormation template for adding an EC2 instance with a fully automated boot
 
 </details>
 
-Resources used:
+## AWS Resources used:
 -   [***Monitoring CloudFormation***](https://senad-d.github.io/posts/projects-grafana-aws-cf/)
 	1.  Ec2 instance creation
 	2.  Vpc Selection
 	3.  Subnet selection
 	4.  Security group creation
--   Monitoring [bootstrap](https://senad-d.github.io/posts/projects-grafana-aws-boot/) script for installing and running Docker-compose 
+-   Monitoring [***bootstrap***](https://senad-d.github.io/posts/projects-grafana-aws-boot/) script for installing and running Docker-compose 
 -   Docker-compose.yml for  Cloud Monitoring with Grafana, InfluxDB, and Telegraf 
 -   Configured telegraf.conf and InfluxDB to work automatically
 -   Created a custom dashboard for Grafana using metrics from CloudWatch ([[AWS Management#CloudWatch]]) and InfluxDB
