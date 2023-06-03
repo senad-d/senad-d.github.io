@@ -9,7 +9,7 @@ tags: [aws, openvpn, cloudformation]
 CloudFormation template for creating an automated VPN solution for AWS.
 This template will create an EC2 instance with the bootstrap script for installing OpenVPN, which can be placed in a VPC of your choice to create a secure way of connecting to the infrastructure.
 
-```YAML
+```shell
 ---
 AWSTemplateFormatVersion : 2010-09-09
 Description : Add OpenVPN EC2 to VPC
