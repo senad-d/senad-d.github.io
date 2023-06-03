@@ -6,12 +6,12 @@ tags: [azure, openvpn, bootstrap]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true)
 
+
 ARM template for creating an automated VPN solution in Azure.
 Add Resource group for OpenVPN VM with [***bootstrap***](https://senad-d.github.io/posts/projects-openvpn-azure-boot/) and start connecting to the resources in the account within 10 minutes.
 
----
 
-```JSON
+```shell
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",

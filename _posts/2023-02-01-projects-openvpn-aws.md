@@ -8,8 +8,6 @@ tags: [aws, openvpn]
 
 A CloudFormation template for adding an EC2 instance with a fully automated bootstrap script to create a VPN that automatically creates SSL certificates and allows easy management of users.
 
----
-
 ##### Resources used:
 -   OpenVPN CloudFormation
 	1.  Ec2 instance creation
