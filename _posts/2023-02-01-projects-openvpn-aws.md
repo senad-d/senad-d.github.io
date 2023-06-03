@@ -27,11 +27,11 @@ A CloudFormation template for adding an EC2 instance with a fully automated boot
 
 ### 1. CloudFormation template
 
-Created [[OpenVPN CloudFormation]] for creating resources in AWS needed to run the VPN server.
+Created [***OpenVPN CloudFormation***](https://senad-d.github.io/posts/projects-openvpn-aws-cf/) for creating resources in AWS needed to run the VPN server.
 
 ### 2. Bootstrap script for installing OpenVPN
 
-Created [[AWS_OpenVPN_bootstrap_script]] that runs all commands that are necessary for the setup:
+Created AWS_OpenVPN_bootstrap_script that runs all commands that are necessary for the setup:
 	- Import OpenVPN GPG key
 	- Create the repository file
 	- Update apt and install OpenVPN
@@ -49,7 +49,7 @@ Created [[AWS_OpenVPN_bootstrap_script]] that runs all commands that are necessa
 
 ### 3. Created GitHub private repository and access token with only permission to clone that repository.
 
-Placed files in this repository to be used in a bootstrap script with the access token in order to safely use CloudFormation parameters in UserData.
+Placed files in this repository to be used in a [***bootstrap script***](https://senad-d.github.io/posts/projects-openvpn-aws-boot/) with the access token in order to safely use CloudFormation parameters in UserData.
 
 ```shell
 git clone https://<access token>@github.com/user/repo.git /root/OpenVPN
