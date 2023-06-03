@@ -81,6 +81,8 @@ go into the /root folder
 cat /var/log/openvpn/openvpn-status.log | sed '/ROUTING/q' | head -n -1
 ```
 
+***After the user is created send the one-time link to the user***
+
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/vpn_user.png?raw=true)
 
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/file_io.png?raw=true)
