@@ -4,7 +4,7 @@ date: 2023-02-01 12:00:00
 categories: [Projects, OpenVPN, AWS, CloudFormation]
 tags: [aws, openvpn, cloudformation]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/background.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
 
 CloudFormation template for creating an automated VPN solution for AWS.
 This template will create an EC2 instance with the bootstrap script for installing OpenVPN, which can be placed in a VPC of your choice to create a secure way of connecting to the infrastructure.

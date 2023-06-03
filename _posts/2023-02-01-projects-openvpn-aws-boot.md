@@ -4,7 +4,7 @@ date: 2023-02-01 12:00:00
 categories: [Projects, OpenVPN, AWS, bootstrap]
 tags: [aws, openvpn, bootstrap]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/background.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
 
 OpenVPN is a virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It implements both client and server applications.
 
