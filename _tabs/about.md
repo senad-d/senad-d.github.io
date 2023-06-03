@@ -22,5 +22,5 @@ Recognizing the need for a career transition from the oil industry to IT, I soug
 I would like to express my heartfelt gratitude to my mentor, ***Mari Runtic***, whose guidance and support have been instrumental in my professional growth.
 
 
-> You can view my portfolio [***here***](https://seki.ink).
+> You can view my portfolio [***here***](https://portfolio.seki.ink/).
 
