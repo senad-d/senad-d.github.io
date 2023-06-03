@@ -31,7 +31,7 @@ ARM template for adding an VM with a fully automated bootstrap script to create 
 - Azure Monitor for getting metrics on network resources. Credentials will be with User assigned Managed Identity.
 - InfluxDB data source in combination with Telegraf for getting metrics on service UpTime.
  
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_azure_env.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_azure_env.jpg?raw=true)
 
 ## Running ARM temp from Azure CLI
 
@@ -68,7 +68,7 @@ ARM template for adding an VM with a fully automated bootstrap script to create 
 
 6. Go to [portal.azure.com](http://portal.azure.com/) and add the role assignment “Monitoring Reader” to the Subscription you want to monitor.
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/Azure_IAM_Access_control.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/Azure_IAM_Access_control.jpg?raw=true)
 
 7. Visit GrafanaVM IP address (DNS name) to access the Grafana
   
