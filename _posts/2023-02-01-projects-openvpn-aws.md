@@ -10,7 +10,7 @@ A CloudFormation template for adding an EC2 instance with a fully automated boot
 
 <details><summary> Video </summary>
 
-[![Installation](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/openvpn_logo.png?raw=true)](https://user-images.githubusercontent.com/114985182/205624165-ba77b327-11bd-40ed-a912-92f6dcecf084.mp4)
+{% include https://user-images.githubusercontent.com/114985182/205624165-ba77b327-11bd-40ed-a912-92f6dcecf084.mp4 id="openvpn" provider="github" %}
 
 </details>
 
