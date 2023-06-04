@@ -21,7 +21,7 @@
   url:  'https://www.linkedin.com/in/senad-dizdarevic-062269100/'                  # Fill with your Linkedin homepage
 
 - type: portfolio
-  icon: "fab fa-font-awesome"
+  icon: "fas fa-user-circle"
   url:  'https://portfolio.seki.ink/'                  # Fill with your Linkedin homepage
 
 - type: rss
