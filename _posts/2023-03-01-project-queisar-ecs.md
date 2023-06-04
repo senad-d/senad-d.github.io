@@ -52,7 +52,9 @@ Here you can see the two different pipelines for production and development, and
 
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/csi-infra.png?raw=true)
 
-## Project overview
+## GitHub Actions
+Here you can observe actions that are needed for deploying infrastructure into AWS with help from GitHub actions.
+
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/csi-project.png?raw=true)
 
 ## AWS Resources
