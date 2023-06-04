@@ -1,12 +1,12 @@
 ---
 title: Dev env for Quasar and Laravel app on AWS ECS
 date: 2023-03-01 12:00:00
-categories: [Cloud, AWS, ECS]
-tags: [aws, ecs, quasar-framework, laravel, dev]
+categories: [Projects, CSI]
+tags: [aws, ecs, quasar, laravel, dev]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/linux-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
 
-## Introducing Construction Site Inventory: Streamlining Inventory Management for Construction Sites
+## App on AWS ECS Faregate
 
 Construction Site Inventory is a cutting-edge application designed to revolutionize inventory tracking for large construction sites. With its user-friendly interface and powerful features, this application simplifies the complex task of managing inventory in construction projects. Leveraging the Quasar framework (version 2.6.0) for the frontend and the Laravel framework for the backend, Construction Site Inventory offers a robust and scalable solution for construction professionals.
 
