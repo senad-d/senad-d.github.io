@@ -1,6 +1,6 @@
 ---
 title: Dev env for Quasar and Laravel app on AWS ECS
-date: 2021-04-01 12:00:00
+date: 2023-03-01 12:00:00
 categories: [Cloud, AWS, ECS]
 tags: [aws, ecs, quasar-framework, laravel, dev]
 ---
@@ -51,6 +51,9 @@ Additionally, we have implemented automated Actions that trigger whenever files 
 Here you can see the two different pipelines for production and development, and all the services that are going to be used in each environment.
 
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/csi-infra.png?raw=true)
+
+## Project overview
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/csi-project.png?raw=true)
 
 ## AWS Resources
 
