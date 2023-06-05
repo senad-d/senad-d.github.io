@@ -55,13 +55,13 @@ git clone https://github.com/senad-d/SekiInstall.git install && cd install && su
 <p>
 
 To be able to connect to yor home you need to do additional steps.
-
+<br>
   - In the router you need to port forward ports 80, 443 and 22 (or use DMZ).
-
+<br>
   - Buy domain name (I use namecheap.com).
-
+<br>
   - Create account and connect your domain name to cloudflare.com for more security.
-
+<br>
   - Configure NginxProxyMenager to point po the specific services and add a free SSL certificate.
 
 </p>
@@ -73,11 +73,11 @@ To be able to connect to yor home you need to do additional steps.
 Create environment for docker containers.
 
   - Nano
-
+<br>
   - Btop
-
+<br>
   - Cron
-
+<br>
   - Docker
 
 </p>
@@ -90,17 +90,17 @@ Create environment for docker containers.
 Create environment for docker containers with basic protection and monitoring.
 
   - Nano
-
+<br>
   - Btop
-
+<br>
   - Cron
-
+<br>
   - Docker
-
+<br>
   - Crowdsec
-
+<br>
   - Cockpit
-
+<br>
   - UFW
 
 </p>
@@ -113,21 +113,21 @@ Create environment for docker containers with basic protection and monitoring.
 Create environment for docker containers with file sharing, media sharing, basic protection and monitoring.
 
   - Nano
-
+<br>
   - Btop
-
+<br>
   - Cron
-
+<br>
   - Docker
-
+<br>
   - Crowdsec
-
+<br>
   - Cockpit
-
+<br>
   - UFW
-
+<br>
   - Samba
-
+<br>
   - Plex
 
 </p>
@@ -137,43 +137,43 @@ Create environment for docker containers with file sharing, media sharing, basic
 <p>
 
 Run Docker images. (Start with Basic or Full install first.)
-
+  <br>
   - Portainer
-
+  <br>
   - Nginx
-
+  <br>
   - Homer
-
+  <br>
   - Grafana
-
+  <br>
   - Prometheus
-
+  <br>
   - Speedtest
-
+  <br>
   - Qbittorrent
-
+  <br>
   - Jackett
-
+  <br>
   - Radarr
-
+  <br>
   - Sonarr
-
+  <br>
   - Filebrowser
-
+  <br>
   - VSCode
-
+  <br>
   - Matomo
-
+  <br>
   - Wireguard
-
+  <br>
   - MariaDB
-
+  <br>
   - Node_exporter
-
+  <br>
   - Cadvisor
-
+  <br>
   - Cloudflare-ddns
-  
+  <br>
   - Watchtower
 
 </p>
