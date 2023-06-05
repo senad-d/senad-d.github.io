@@ -28,11 +28,6 @@
   icon: "fas fa-rss"
   noblank: true
 
-- type: js
-  icon: "<script defer data-domain=senad-d.github.io src=https://plus.seki.ink/js/script.js></script>"
-
-
-
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
