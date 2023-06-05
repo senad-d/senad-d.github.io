@@ -4,7 +4,7 @@ date: 2023-01-25 12:00:00
 categories: [Projects, SekiInstaller]
 tags: [homelab, installer, dev]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/homelab-banner.png?raw=true)
 
 # Installer
 
