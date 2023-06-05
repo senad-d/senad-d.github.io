@@ -55,9 +55,13 @@ git clone https://github.com/senad-d/SekiInstall.git install && cd install && su
 <p>
 
 To be able to connect to yor home you need to do additional steps.
+
   - In the router you need to port forward ports 80, 443 and 22 (or use DMZ).
+
   - Buy domain name (I use namecheap.com).
+
   - Create account and connect your domain name to cloudflare.com for more security.
+
   - Configure NginxProxyMenager to point po the specific services and add a free SSL certificate.
 
 </p>
@@ -67,9 +71,13 @@ To be able to connect to yor home you need to do additional steps.
 <p>
 
 Create environment for docker containers.
+
   - Nano
+
   - Btop
+
   - Cron
+
   - Docker
 
 </p>
@@ -80,12 +88,19 @@ Create environment for docker containers.
 <p>
 
 Create environment for docker containers with basic protection and monitoring.
+
   - Nano
+
   - Btop
+
   - Cron
+
   - Docker
+
   - Crowdsec
+
   - Cockpit
+
   - UFW
 
 </p>
@@ -96,14 +111,23 @@ Create environment for docker containers with basic protection and monitoring.
 <p>
 
 Create environment for docker containers with file sharing, media sharing, basic protection and monitoring.
+
   - Nano
+
   - Btop
+
   - Cron
+
   - Docker
+
   - Crowdsec
+
   - Cockpit
+
   - UFW
+
   - Samba
+
   - Plex
 
 </p>
@@ -113,24 +137,43 @@ Create environment for docker containers with file sharing, media sharing, basic
 <p>
 
 Run Docker images. (Start with Basic or Full install first.)
+
   - Portainer
+
   - Nginx
+
   - Homer
+
   - Grafana
+
   - Prometheus
+
   - Speedtest
+
   - Qbittorrent
+
   - Jackett
+
   - Radarr
+
   - Sonarr
+
   - Filebrowser
+
   - VSCode
+
   - Matomo
+
   - Wireguard
+
   - MariaDB
+
   - Node_exporter
+
   - Cadvisor
+
   - Cloudflare-ddns
+  
   - Watchtower
 
 </p>
