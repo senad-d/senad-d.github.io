@@ -8,6 +8,8 @@ tags: [homelab, installer, dev]
 
 # Installer
 
+Powerful bash script designed to streamline the process of installing essential software on a fresh Ubuntu installation for your Homelab environment. With a comprehensive set of features, SekiInstall empowers users to quickly and effortlessly set up their systems with the necessary tools and services.
+
 ## For Ubuntu 22.04 LTS (minimized install)
 
 In this short video you can see the installation process of this script for "Basic install" and OpenVPN installation with SSL certificate, user and configuration download link.
@@ -24,6 +26,7 @@ In this short video you can see the installation process of this script for "Bas
 
 </details>
 
+---
 
 ```shell
 git clone https://github.com/senad-d/SekiInstall.git install && cd install && sudo bash installer.sh
@@ -51,7 +54,7 @@ git clone https://github.com/senad-d/SekiInstall.git install && cd install && su
 <details><summary>Connecting to the server fom the domain name.</summary>
 <p>
 
-#### To be able to connect to yor home you need to do additional steps.
+To be able to connect to yor home you need to do additional steps.
   - In the router you need to port forward ports 80, 443 and 22 (or use DMZ).
   - Buy domain name (I use namecheap.com).
   - Create account and connect your domain name to cloudflare.com for more security.
@@ -63,7 +66,7 @@ git clone https://github.com/senad-d/SekiInstall.git install && cd install && su
 <details><summary>SIMPLE Install</summary>
 <p>
 
-#### Create environment for docker containers.
+Create environment for docker containers.
   - Nano
   - Btop
   - Cron
@@ -76,7 +79,7 @@ git clone https://github.com/senad-d/SekiInstall.git install && cd install && su
 <details><summary>BASIC Install</summary>
 <p>
 
-#### Create environment for docker containers with basic protection and monitoring.
+Create environment for docker containers with basic protection and monitoring.
   - Nano
   - Btop
   - Cron
@@ -92,7 +95,7 @@ git clone https://github.com/senad-d/SekiInstall.git install && cd install && su
 <details><summary>FULL Install</summary>
 <p>
 
-#### Create environment for docker containers with file sharing, media sharing, basic protection and monitoring.
+Create environment for docker containers with file sharing, media sharing, basic protection and monitoring.
   - Nano
   - Btop
   - Cron
@@ -109,7 +112,7 @@ git clone https://github.com/senad-d/SekiInstall.git install && cd install && su
 <details><summary>Run Docker-compose.yml</summary>
 <p>
 
-#### Run Docker images. (Start with Basic or Full install first.)
+Run Docker images. (Start with Basic or Full install first.)
   - Portainer
   - Nginx
   - Homer
@@ -136,7 +139,7 @@ git clone https://github.com/senad-d/SekiInstall.git install && cd install && su
 <details><summary>Warning</summary>
 <p>
 
-#### ⚠️ Please beware that products can change over time.
+⚠️ Please beware that products can change over time.
 
 I do my best to keep up with the latest changes and releases, but please understand that this won’t always be the case.
 
