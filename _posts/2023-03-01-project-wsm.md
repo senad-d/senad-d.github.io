@@ -26,7 +26,7 @@ Actions were implemented to automatically build the Docker image for the applica
 
 Automated actions were configured to start and end the entire environment at specific times, minimizing manual intervention.
 
-## The process includes:
+#### The process includes:
 
 Infrastructure creation using the CloudFormation template to establish the environment.
 
