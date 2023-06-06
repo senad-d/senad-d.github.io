@@ -36,9 +36,9 @@ To ensure seamless deployment and efficient operations, we have implemented the 
 
 11. Initiate the AWS Infrastructure for the environment using the CloudFormation [***template***](https://senad-d.github.io/posts/project-csi-cf-resources/).
 
-12. Create an ECS Service for the MySQL container, utilizing EFS for persistent storage.
+12. Create an [***ECS Service***](https://senad-d.github.io/posts/project-csi-ecs-db/) for the MySQL container, utilizing EFS for persistent storage.
 
-13. Establish an ECS Service for the CSInventory container, integrated with a LoadBalancer and Route53.
+13. Establish an [***ECS Service***](https://senad-d.github.io/posts/project-csi-ecs-app/) for the CSInventory container, integrated with a LoadBalancer and Route53.
 
 14. Cease all ECS Services related to the application when required.
 
