@@ -18,7 +18,7 @@ To ensure seamless deployment and efficient operations, we have implemented the 
 
 2. In AWS, create a new IAM user with the appropriate permissions for building the required infrastructure.
 
-3. Establish an SES Verified Identity for the email address used to send emails through Amazon SES.
+3. Establish an [***SES Verified Identity***](https://docs.aws.amazon.com/ses/latest/dg/creating-identities.html) for the email address used to send emails through Amazon SES.
 
 4. Create an IAM user for SMTP authentication with Amazon SES.
 
@@ -26,7 +26,7 @@ To ensure seamless deployment and efficient operations, we have implemented the 
 
 6. Generate Incoming Webhooks for Slack notifications.
 
-7. Utilize the CloudFormation [***template***](https://senad-d.github.io/posts/project-csi-cf-static/) to create static resources.
+7. Utilize the [***CloudFormation template***](https://senad-d.github.io/posts/project-csi-cf-static/) to create static resources.
 
 8. Execute the GitHub Action to build the Docker image and copy the CloudFormation templates to the designated S3 bucket.
 
@@ -34,7 +34,7 @@ To ensure seamless deployment and efficient operations, we have implemented the 
 
 10. Configure automated Actions to start and end the entire environment at specific times.
 
-11. Initiate the AWS Infrastructure for the environment using the CloudFormation [***template***](https://senad-d.github.io/posts/project-csi-cf-resources/).
+11. Initiate the AWS Infrastructure for the environment using the [***CloudFormation template***](https://senad-d.github.io/posts/project-csi-cf-resources/).
 
 12. Create an [***ECS Service***](https://senad-d.github.io/posts/project-csi-ecs-db/) for the MySQL container, utilizing EFS for persistent storage.
 

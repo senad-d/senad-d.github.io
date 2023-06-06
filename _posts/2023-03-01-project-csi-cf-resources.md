@@ -1,5 +1,5 @@
 ---
-title: CSI CloudFormation Infrastructure
+title: CSI CloudFormation Backend and Frontend Infrastructure
 date: 2023-03-01 12:00:00
 categories: [Projects, CSI, CloudFormation]
 tags: [aws, ecs, cloudformation]
@@ -8,7 +8,7 @@ tags: [aws, ecs, cloudformation]
 
 Create AWS Infrastructure for the CSI backend services.
 
-infra.yml
+## Backend template
 ```shell
 #!/bin/bash
 
@@ -16,7 +16,7 @@ HZID="$1"
 HZN="$2"
 CERT="$3"
 
-cat <<EOF >> ./infrastructure/cloudformation/backend.yml
+cat <<EOF >> backend.yml
 ---
 AWSTemplateFormatVersion : 2010-09-09
 Description : ConstructionSiteInventory Backend infrastructure
@@ -605,5 +605,110 @@ Resources:
       Type: String
       Value: !GetAtt EcsDBTaskRole.Arn
       Description: SSM Parameter for EcsDBTaskRoleParameter
+EOF
+```
+
+## Backend template
+Run Bash script to create a CloudFormation template for running the CloudFront distribution using a private S3 bucket and creating Rout53 RecordSet for the domain. 
+
+```shell
+#!/bin/bash
+
+HZID="$1"
+HZN="$2"
+CERT="$3"
+
+cat <<EOF >> frontend.yml
+---
+AWSTemplateFormatVersion : 2010-09-09
+Description: ConstructionSiteInventory CloudFront distributions Stack
+
+### Set Parameters (values to pass to your template at runtime)
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    AllowedValues:
+    - dev
+    - prod
+    Description: Choose environment to deploy
+  DomainPrefix:
+    Type: String
+    Default: csi-fe
+    Description: Choose domain prefix for Construction Site Inventory app
+  ProjectName:
+    Type: String
+    Default: CSInventory
+    Description: This will be used for for resource names, keyname and tagging
+  SiteBucket:
+    Type: String
+    Default: csi-app
+    Description: Prefix for ConstructionSiteInventory website
+  HostedZone:
+    Type: String
+    Default: $HZN
+    Description: Hosted zone for project
+
+Resources:
+### Route53 record for CloudFront distributions
+  DnsRecordCdnDistribution:
+    Type: AWS::Route53::RecordSetGroup
+    DependsOn: CdnDistribution
+    Properties:
+      HostedZoneId: $HZID
+      Comment: !Sub \${ProjectName} frontend DNS records.
+      RecordSets:
+      - Name: !Sub \${DomainPrefix}.\${HostedZone}
+        Type: A
+        AliasTarget:
+          HostedZoneId: Z2FDTNDATAQYW2
+          DNSName: !GetAtt CdnDistribution.DomainName
+  
+### CloudFront distributions
+  CdnDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Comment: ConstructionSiteInventory App
+        Aliases: 
+          - !Sub '\${DomainPrefix}.\${HostedZone}'
+        Enabled: true
+        PriceClass: PriceClass_100
+        HttpVersion: http2and3
+        DefaultRootObject: index.html
+        CustomErrorResponses:
+        - ErrorCode: 403
+          ResponsePagePath: '/index.html'
+          ResponseCode: '200'
+          ErrorCachingMinTTL: 300
+        - ErrorCode: 404
+          ResponsePagePath: '/index.html'
+          ResponseCode: '200'
+          ErrorCachingMinTTL: 300
+        DefaultCacheBehavior:
+          TargetOriginId: !Sub "\${SiteBucket}-\${Environment}"
+          ViewerProtocolPolicy: redirect-to-https
+          DefaultTTL: "0"
+          AllowedMethods: [DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT]
+          CachedMethods: [HEAD, GET]
+          Compress: true
+          ForwardedValues:
+            QueryString: false
+        Logging:
+          Bucket: !Sub 'csi-cf-logs-\${Environment}.s3.amazonaws.com'
+          IncludeCookies: true
+          Prefix: !Sub 'cloudfront-logs-csi-\${DomainPrefix}/'
+        Origins:
+        - DomainName: !Sub '\${SiteBucket}-\${Environment}.s3.eu-west-1.amazonaws.com'
+          Id: !Sub "\${SiteBucket}-\${Environment}"
+          S3OriginConfig:
+            OriginAccessIdentity: !Join ['', ['origin-access-identity/cloudfront/', !ImportValue CSICloudFrontOAI]]
+        ViewerCertificate:
+          AcmCertificateArn: $CERT
+          SslSupportMethod: sni-only
+          MinimumProtocolVersion: TLSv1.2_2021
+      Tags:
+      - {Key: Project, Value: !Ref ProjectName}
+      - {Key: Environment, Value: !Ref Environment}
 EOF
 ```

@@ -8,8 +8,6 @@ tags: [aws, ecs, task definition]
 
 Create database task definition for ECS Faregate.
 
-
-
 ```shell
 #!/bin/bash
 
