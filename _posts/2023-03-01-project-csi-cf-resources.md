@@ -608,7 +608,7 @@ Resources:
 EOF
 ```
 
-## Backend template
+## Frontend template
 Run Bash script to create a CloudFormation template for running the CloudFront distribution using a private S3 bucket and creating Rout53 RecordSet for the domain. 
 
 ```shell
