@@ -26,7 +26,7 @@ To ensure seamless deployment and efficient operations, we have implemented the 
 
 6. Generate Incoming Webhooks for Slack notifications.
 
-7. Utilize the CloudFormation template to create static resources.
+7. Utilize the CloudFormation [***template***](https://senad-d.github.io/posts/project-csi-cf-static/) to create static resources.
 
 8. Execute the GitHub Action to build the Docker image and copy the CloudFormation templates to the designated S3 bucket.
 
@@ -34,7 +34,7 @@ To ensure seamless deployment and efficient operations, we have implemented the 
 
 10. Configure automated Actions to start and end the entire environment at specific times.
 
-11. Initiate the AWS Infrastructure for the environment using the CloudFormation template.
+11. Initiate the AWS Infrastructure for the environment using the CloudFormation [***template***](https://senad-d.github.io/posts/project-csi-cf-resources/).
 
 12. Create an ECS Service for the MySQL container, utilizing EFS for persistent storage.
 
