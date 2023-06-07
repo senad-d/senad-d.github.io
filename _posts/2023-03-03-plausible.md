@@ -94,7 +94,7 @@ networks:
     external: true
 ```
 
-## Run the commands to create a secret key and create the plausible-conf.env file.
+## Run the commands to create a secret key and the plausible-conf.env file.
 
 ```shell
 cat <<EOF >>./plausible-conf.env
