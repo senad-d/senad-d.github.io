@@ -30,9 +30,9 @@ To ensure seamless deployment and efficient operations, we have implemented the 
 
 8. Execute the GitHub [***Action to build the Docker image***](https://senad-d.github.io/posts/github-actions-docker-build/) and copy the CloudFormation templates to the designated S3 bucket.
 
-9. Run the GitHub Action to [***copy frontend files to S3***](https://senad-d.github.io/posts/github-actions-s3/), facilitating their usage with CloudFront.
+9. Run the GitHub Action to copy [***Frontend files to S3***](https://senad-d.github.io/posts/github-actions-s3/), facilitating their usage with CloudFront.
 
-10. Configure [***automated Actions***](https://senad-d.github.io/posts/github-actions-auto-env/) to start and end the entire environment at specific times.
+10. Configure [***Automated Actions***](https://senad-d.github.io/posts/github-actions-auto-env/) to start and end the entire environment at specific times.
 
 11. Initiate the AWS Infrastructure for the environment using the [***CloudFormation template***](https://senad-d.github.io/posts/project-csi-cf-resources/).
 
