@@ -94,17 +94,12 @@ networks:
     external: true
 ```
 
-## Run the command to create a secret key and copy the output into a plausible-conf.env file.
+## Run the commands to create a secret key and create the plausible-conf.env file.
 
-SECRET_KEY_BASE:
 ```shell
-openssl rand -base64 64 | tr -d '\n' ; echo
-```
-
-## Store Plausible variables.
-plausible-conf.env
-```shell
+cat <<EOF >>./plausible-conf.env
 BASE_URL=https://<your-domain>
-SECRET_KEY_BASE=<from-above>
+SECRET_KEY_BASE=$(openssl rand -base64 64 | tr -d '\n')
 #DISABLE_REGISTRATION=invite_only
+EOF
 ```
