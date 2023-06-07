@@ -24,11 +24,11 @@ To ensure seamless deployment and efficient operations, we have implemented the 
 
 5. Set up all the required GitHub Secrets for the Actions.
 
-6. Generate Incoming Webhooks for Slack notifications.
+6. Generate [***Incoming Webhooks***](https://senad-d.github.io/posts/slack-webhook/) for Slack notifications.
 
 7. Utilize the [***CloudFormation template***](https://senad-d.github.io/posts/project-csi-cf-static/) to create static resources.
 
-8. Execute the GitHub Action to build the Docker image and copy the CloudFormation templates to the designated S3 bucket.
+8. Execute the GitHub [***Action to build the Docker image***](https://senad-d.github.io/posts/github-actions-docker-build/) and copy the CloudFormation templates to the designated S3 bucket.
 
 9. Run the GitHub Action to copy frontend files to S3, facilitating their usage with CloudFront.
 
