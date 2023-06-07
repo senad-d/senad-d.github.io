@@ -1,8 +1,8 @@
 ---
-title: Quickstart for GitHub Actions
+title: GitHub Actions for building Docker image
 date: 2021-04-02 12:00:00
 categories: [Software, GitHub]
-tags: [github, actions]
+tags: [github, actions, docker]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
 
@@ -18,7 +18,8 @@ Create a `.github/workflows` directory in your repository on GitHub if this dire
 
 In the `.github/workflows` directory, create a file named like `github-actions.yml`.
 
-Example YAML file:
+## Example YAML file:
+
 > The double curly braces are missing for the GitHub actions, don't forget to put them back.
 
 ```shell
