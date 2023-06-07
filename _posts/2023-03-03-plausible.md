@@ -96,6 +96,7 @@ networks:
 
 ## Run the command to create a secret key and copy the output into a plausible-conf.env file.
 
+SECRET_KEY_BASE:
 ```shell
 openssl rand -base64 64 | tr -d '\n' ; echo
 ```
