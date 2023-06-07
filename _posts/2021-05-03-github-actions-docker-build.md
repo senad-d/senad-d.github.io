@@ -19,7 +19,7 @@ Create a `.github/workflows` directory in your repository on GitHub if this dire
 In the `.github/workflows` directory, create a file named like `github-actions.yml`.
 
 Example YAML file:
-> The "{{}}" are missing
+> The double curly braces are missing for the GitHub actions, don't forget to put them back.
 
 ```shell
 name: 0.3 - Build and Push Backend Image

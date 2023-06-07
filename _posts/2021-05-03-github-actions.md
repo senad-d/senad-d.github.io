@@ -16,9 +16,11 @@ The following example shows you how GitHub Actions jobs can be automatically tri
 
 Create a `.github/workflows` directory in your repository on GitHub if this directory does not already exist.
 
-In the `.github/workflows` directory, create a file named `github-actions.yml`.
+In the `.github/workflows` directory, create a file named like `github-actions.yml`.
 
-Example YAML for the github-actions.yml file:
+Example YAML file:
+
+> The double curly braces are missing for the GitHub actions, don't forget to put them back.
 
 ```shell
 name: 0.3 - Update and Push Image
@@ -44,35 +46,35 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
-        aws-region: ${{ env.AWS_REGION }}
+        aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
+        aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
+        aws-region: $ env.AWS_REGION 
 
     - name: Retrieve an authentication token
       run: |
-        aws ecr get-login-password --region ${{ env.AWS_REGION }} | docker login \
+        aws ecr get-login-password --region $ env.AWS_REGION  | docker login \
         --username AWS \
-        --password-stdin $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com
+        --password-stdin $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com
 
     - name: Build docker image
       run: |
-        docker build -t $(aws ssm get-parameter --name "${{ env.aws_env }}.ECRepo.hrfbapp" --query "Parameter.Value" --output text) \
+        docker build -t $(aws ssm get-parameter --name "$ env.aws_env .ECRepo.hrfbapp" --query "Parameter.Value" --output text) \
         -f ./infra/Dockerfile .
 
     - name: Tag docker image
       run: |
-        docker tag $(aws ssm get-parameter --name "${{ env.aws_env }}.ECRepo.hrfbapp" --query "Parameter.Value" --output text):latest $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/$(aws ssm get-parameter --name "${{ env.aws_env }}.ECRepo.hrfbapp" --query "Parameter.Value" --output text):latest
+        docker tag $(aws ssm get-parameter --name "$ env.aws_env .ECRepo.hrfbapp" --query "Parameter.Value" --output text):latest $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.hrfbapp" --query "Parameter.Value" --output text):latest
 
     - name: Push docker image to repository
       run: | 
         docker push $(aws sts get-caller-identity \
         --query "Account" \
-        --output text).dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/$(aws ssm get-parameter --name "${{ env.aws_env }}.ECRepo.hrfbapp" --query "Parameter.Value" --output text):latest
+        --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.hrfbapp" --query "Parameter.Value" --output text):latest
 
     - name: Update ECS cluster with new image
       run: | 
         aws ecs update-service \
-        --cluster $(aws ssm get-parameter --name "${{ env.aws_env }}.ECSCluster.hrfbapp" --query "Parameter.Value" --output text) \
+        --cluster $(aws ssm get-parameter --name "$ env.aws_env .ECSCluster.hrfbapp" --query "Parameter.Value" --output text) \
         --service hrfbapp-service \
         --force-new-deployment
 
@@ -92,20 +94,20 @@ jobs:
           # For posting a rich message using Block Kit
           payload: |
             {
-              "text": "hrfbapp - New App Version GitHub Action build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}",
+              "text": "hrfbapp - New App Version GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url ",
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "hrfbapp - New App Version GitHub Action build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
+                    "text": "hrfbapp - New App Version GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url "
                   }
                 }
               ]
             }
         env:
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: $ secrets.SLACK_WEBHOOK_URL 
 ```
 
 ## Viewing your workflow results
