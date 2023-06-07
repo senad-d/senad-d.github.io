@@ -27,25 +27,25 @@ SES_ID="$5"
 SES_ENDPOINT="$6"
 # Get parameters from AWS Parameter Store
 ID="$(aws sts get-caller-identity --query "Account" --output text)"
-LOGS="$(aws ssm get-parameter --name "$ENV.LogGroup.CSInventory" --query "Parameter.Value" --output text)"
-TASKEXROLE="$(aws ssm get-parameter --name "$ENV.EcsTaskExecutionRole.CSInventory" --query "Parameter.Value" --output text)"
-TASKROLE="$(aws ssm get-parameter --name "$ENV.EcsTaskRole.CSInventory" --query "Parameter.Value" --output text)"
-ECR="$(aws ssm get-parameter --name "$ENV.ECRepo.CSInventory" --query "Parameter.Value" --output text)"
-ECS="$(aws ssm get-parameter --name "$ENV.ECSCluster.CSInventory" --query "Parameter.Value" --output text)"
+LOGS="$(aws ssm get-parameter --name "$ENV.LogGroup.App" --query "Parameter.Value" --output text)"
+TASKEXROLE="$(aws ssm get-parameter --name "$ENV.EcsTaskExecutionRole.App" --query "Parameter.Value" --output text)"
+TASKROLE="$(aws ssm get-parameter --name "$ENV.EcsTaskRole.App" --query "Parameter.Value" --output text)"
+ECR="$(aws ssm get-parameter --name "$ENV.ECRepo.App" --query "Parameter.Value" --output text)"
+ECS="$(aws ssm get-parameter --name "$ENV.ECSCluster.App" --query "Parameter.Value" --output text)"
 TASK="$(aws ecs list-tasks --cluster "$ECS" --desired-status RUNNING --query 'taskArns[0]' --output text | awk '{print substr($0,length-31)}')"
 IP="$(aws ecs describe-tasks --cluster "$ECS" --tasks "$TASK" --query 'tasks[].containers[].networkInterfaces[].privateIpv4Address' --output text)"
-DB_USERNAME="$(aws ssm get-parameter --name "$ENV.DataBase.DB_USERNAME.CSInventory" --query "Parameter.Value" --output text)"
-DB_PASSWORD="$(aws ssm get-parameter --name "$ENV.DataBase.DB_PASSWORD.CSInventory" --query "Parameter.Value" --output text)"
+DB_USERNAME="$(aws ssm get-parameter --name "$ENV.DataBase.DB_USERNAME.App" --query "Parameter.Value" --output text)"
+DB_PASSWORD="$(aws ssm get-parameter --name "$ENV.DataBase.DB_PASSWORD.App" --query "Parameter.Value" --output text)"
 
 # Create new Database private IP parameter
-aws ssm put-parameter --name "$ENV.DataBase.IP.CSInventory" --type "String" --value "$IP" --overwrite
+aws ssm put-parameter --name "$ENV.DataBase.IP.App" --type "String" --value "$IP" --overwrite
 
 # Create new task definition for the Backend container
-cat <<EOF >> ./infrastructure/ecs/CSInventory-task.json
+cat <<EOF >> ./infrastructure/ecs/App-task.json
 {
   "containerDefinitions": [
     {
-      "name": "CSInventory",
+      "name": "App",
       "image": "$ID.dkr.ecr.$AZ.amazonaws.com/$ECR:latest",
       "memory": 2048,
       "essential": true,
@@ -117,7 +117,7 @@ cat <<EOF >> ./infrastructure/ecs/CSInventory-task.json
       }
     }
   ],
-  "family": "App-CSInventory-TaskDefinition",
+  "family": "App-App-TaskDefinition",
   "cpu": "1024",
   "memory": "2048",
   "networkMode": "awsvpc",

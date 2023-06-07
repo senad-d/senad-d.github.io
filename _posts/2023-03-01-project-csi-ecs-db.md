@@ -25,14 +25,14 @@ AZ="$2"
 DB_USERNAME="$3"
 DB_PASSWORD="$4"
 # Get parameters from AWS Parameter Store
-LOGS="$(aws ssm get-parameter --name "$ENV.LogGroup.CSInventory" --query "Parameter.Value" --output text)"
-EFS="$(aws ssm get-parameter --name "$ENV.CSIAppSystemFiles.CSInventory" --query "Parameter.Value" --output text)"
-TASKROLE="$(aws ssm get-parameter --name "$ENV.EcsDBTaskRole.CSInventory" --query "Parameter.Value" --output text)"
-TASKEXROLE="$(aws ssm get-parameter --name "$ENV.EcsTaskExecutionRole.CSInventory" --query "Parameter.Value" --output text)"
+LOGS="$(aws ssm get-parameter --name "$ENV.LogGroup.App" --query "Parameter.Value" --output text)"
+EFS="$(aws ssm get-parameter --name "$ENV.AppSystemFiles.App" --query "Parameter.Value" --output text)"
+TASKROLE="$(aws ssm get-parameter --name "$ENV.EcsDBTaskRole.App" --query "Parameter.Value" --output text)"
+TASKEXROLE="$(aws ssm get-parameter --name "$ENV.EcsTaskExecutionRole.App" --query "Parameter.Value" --output text)"
 
 # Create parameters for database
-aws ssm put-parameter --name "$ENV.DataBase.DB_PASSWORD.CSInventory" --type "String" --value "$DB_PASSWORD" --overwrite
-aws ssm put-parameter --name "$ENV.DataBase.DB_USERNAME.CSInventory" --type "String" --value "$DB_USERNAME" --overwrite
+aws ssm put-parameter --name "$ENV.DataBase.DB_PASSWORD.App" --type "String" --value "$DB_PASSWORD" --overwrite
+aws ssm put-parameter --name "$ENV.DataBase.DB_USERNAME.App" --type "String" --value "$DB_USERNAME" --overwrite
 
 
 # Create new task definition for DataBase

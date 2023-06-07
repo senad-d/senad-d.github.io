@@ -26,7 +26,7 @@ Parameters:
   ProjectName:
     Description: This name will be used for for resource names, keyname and tagging.
     Type: String
-    Default: CSInventory
+    Default: App
   Environment:
     Description: Deployment environment.
     Type: String
@@ -277,7 +277,7 @@ Resources:
       TargetType: ip
       Matcher:
         HttpCode: 200-499
-      Name: !Sub '\${Environment}-CSInventory-Fargate-TG'
+      Name: !Sub '\${Environment}-App-Fargate-TG'
       Port: 80
       Protocol: HTTP
       UnhealthyThresholdCount: 3
@@ -521,7 +521,7 @@ Resources:
   ALBSGParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.ALB.SG.CSInventory'
+      Name: !Sub '\${Environment}.ALB.SG.App'
       Type: String
       Value: !Ref ALBSecurityGroup
       Description: SSM Parameter for security group
@@ -529,7 +529,7 @@ Resources:
   AppSGParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.AppSG.CSInventory'
+      Name: !Sub '\${Environment}.AppSG.App'
       Type: String
       Value: !Ref AppSecurityGroup
       Description: SSM Parameter for App security group
@@ -537,7 +537,7 @@ Resources:
   DBSGParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.SG.CSInventory.DataBase'
+      Name: !Sub '\${Environment}.SG.App.DataBase'
       Type: String
       Value: !Ref DBSecurityGroup
       Description: SSM Parameter for DataBase security group
@@ -545,7 +545,7 @@ Resources:
   PublicSubnetAParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.PublicSubnetA.CSInventory'
+      Name: !Sub '\${Environment}.PublicSubnetA.App'
       Type: String
       Value: !Ref PublicSubnetAZa
       Description: SSM Parameter for subnet
@@ -553,7 +553,7 @@ Resources:
   PublicSubnetBParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.PublicSubnetB.CSInventory'
+      Name: !Sub '\${Environment}.PublicSubnetB.App'
       Type: String
       Value: !Ref PublicSubnetAZb
       Description: SSM Parameter for subnet
@@ -561,7 +561,7 @@ Resources:
   PrivateSubnetParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.PrivateSubnet.CSInventory'
+      Name: !Sub '\${Environment}.PrivateSubnet.App'
       Type: String
       Value: !Ref PrivateSubnetAZa
       Description: SSM Parameter for subnet
@@ -569,7 +569,7 @@ Resources:
   EFSMountTargetDBParameterDB:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.EFSMountTargetDB.CSInventory'
+      Name: !Sub '\${Environment}.EFSMountTargetDB.App'
       Type: String
       Value: !Ref EFSMountTargetDB
       Description: SSM Parameter for EFSMountPrivateTarget
@@ -577,7 +577,7 @@ Resources:
   ECSClusterParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.ECSCluster.CSInventory'
+      Name: !Sub '\${Environment}.ECSCluster.App'
       Type: String
       Value: !Ref ECSCluster
       Description: SSM Parameter for ECSCluster
@@ -585,7 +585,7 @@ Resources:
   EcsTaskExecutionRoleParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.EcsTaskExecutionRole.CSInventory'
+      Name: !Sub '\${Environment}.EcsTaskExecutionRole.App'
       Type: String
       Value: !GetAtt EcsTaskExecutionRole.Arn
       Description: SSM Parameter for EcsTaskExecutionRole
@@ -593,7 +593,7 @@ Resources:
   EcsTaskRoleParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.EcsTaskRole.CSInventory'
+      Name: !Sub '\${Environment}.EcsTaskRole.App'
       Type: String
       Value: !GetAtt EcsTaskRole.Arn
       Description: SSM Parameter for EcsTaskRoleParameter
@@ -601,7 +601,7 @@ Resources:
   EcsDBTaskRoleParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '\${Environment}.EcsDBTaskRole.CSInventory'
+      Name: !Sub '\${Environment}.EcsDBTaskRole.App'
       Type: String
       Value: !GetAtt EcsDBTaskRole.Arn
       Description: SSM Parameter for EcsDBTaskRoleParameter
@@ -638,7 +638,7 @@ Parameters:
     Description: Choose domain prefix for Construction Site Inventory app
   ProjectName:
     Type: String
-    Default: CSInventory
+    Default: App
     Description: This will be used for for resource names, keyname and tagging
   SiteBucket:
     Type: String

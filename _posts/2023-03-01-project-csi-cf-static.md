@@ -21,7 +21,7 @@ Parameters:
   ProjectName:
     Description: This name will be used for resource names, keyname and tagging.
     Type: String
-    Default: CSInventory
+    Default: App
   Environment:
     Description: Deployment environment.
     Type: String
@@ -92,7 +92,7 @@ Resources:
             ]
           }'
         RegistryId: !Ref 'AWS::AccountId'
-      RepositoryName: !Sub 'csinventory-app-${Environment}-ecr'
+      RepositoryName: !Sub 'App-app-${Environment}-ecr'
       RepositoryPolicyText: 
         Version: "2012-10-17"
         Statement: 
@@ -231,7 +231,7 @@ Resources:
   CSIAppSystemFilesParameter:
       Type: AWS::SSM::Parameter
       Properties:
-        Name: !Sub '${Environment}.CSIAppSystemFiles.CSInventory'
+        Name: !Sub '${Environment}.CSIAppSystemFiles.App'
         Type: String
         Value: !Ref CSIAppSystemFiles
         Description: SSM Parameter for SystemFiles
@@ -239,7 +239,7 @@ Resources:
   LogGroupParameter:
       Type: AWS::SSM::Parameter
       Properties:
-        Name: !Sub '${Environment}.LogGroup.CSInventory'
+        Name: !Sub '${Environment}.LogGroup.App'
         Type: String
         Value: !Ref LogGroup
         Description: SSM Parameter for LogGroup
@@ -247,7 +247,7 @@ Resources:
   ECRepoParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '${Environment}.ECRepo.CSInventory'
+      Name: !Sub '${Environment}.ECRepo.App'
       Type: String
       Value: !Ref ECRepo
       Description: SSM Parameter for ECRepo
@@ -255,7 +255,7 @@ Resources:
   ReleasesBucketParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '${Environment}.ReleasesBucket.CSInventory'
+      Name: !Sub '${Environment}.ReleasesBucket.App'
       Type: String
       Value: !Ref ReleasesBucket
       Description: SSM Parameter for ReleasesBucket
@@ -263,7 +263,7 @@ Resources:
   BucketFrontendParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: !Sub '${Environment}.BucketFrontend.CSInventory'
+      Name: !Sub '${Environment}.BucketFrontend.App'
       Type: String
       Value: !Ref BucketFrontend
       Description: SSM Parameter for BucketFrontend
