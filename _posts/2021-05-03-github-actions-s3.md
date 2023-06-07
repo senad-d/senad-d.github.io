@@ -59,7 +59,7 @@ jobs:
 
       - name: Copy infrastructure templates to S3
         run: |
-          aws s3 sync ./infrastructure/cloudformation/ s3://csi-resources-dev/cloudformation/
+          aws s3 sync ./infrastructure/cloudformation/ s3://csi/cloudformation/
 ```
 
 ## Example 2 YAML file:
@@ -109,7 +109,7 @@ jobs:
       
       - name: Copy Frontend to Private S3 Bucket
         run: |
-          aws s3 sync ./frontend/dist/spa/ s3://csi-app-$ env.aws_env /
+          aws s3 sync ./frontend/dist/spa/ s3://csi-$ env.aws_env /
 
 # Send notification to Slack private chanel.
   slack-workflow-status:
