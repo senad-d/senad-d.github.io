@@ -11,3 +11,8 @@ In this presentation, we will cover the critical AWS services that need to be mo
 <div style="max-width: 100%; max-height: auto;">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/Bet3Q1zTCqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+
+- Here you can see the [***Grafana installation***](https://senad-d.github.io/posts/projects-grafana-aws/) in AWS.
+
+- Here you can see the [***Grafana installation***](https://senad-d.github.io/posts/projects-grafana-azure/) in Azure.
