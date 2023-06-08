@@ -13,6 +13,6 @@ In this presentation, we will cover the critical AWS services that need to be mo
 </div>
 
 
-- Here you can see the [***Grafana installation***](https://senad-d.github.io/posts/projects-grafana-aws/) in AWS.
+- Here you can find the [***Grafana installation***](https://senad-d.github.io/posts/projects-grafana-aws/) for AWS.
 
-- Here you can see the [***Grafana installation***](https://senad-d.github.io/posts/projects-grafana-azure/) in Azure.
+- Here you can find the [***Grafana installation***](https://senad-d.github.io/posts/projects-grafana-azure/) for Azure.
