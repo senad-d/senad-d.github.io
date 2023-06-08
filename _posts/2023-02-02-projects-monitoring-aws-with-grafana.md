@@ -8,7 +8,6 @@ tags: [aws, grafana, video]
 
 In this presentation, we will cover the critical AWS services that need to be monitored, the importance of monitoring metrics, alternative monitoring solutions, why they may not be the best fit for your needs, and how Grafana can provide cost-effective monitoring solutions. 
 
-<div style="max-width: 90%; max-height: 315;">
-    <iframe width="90%" height="315" src="https://www.youtube.com/embed/Bet3Q1zTCqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="max-width: 100%; max-height: auto;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Bet3Q1zTCqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
