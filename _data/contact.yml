@@ -20,6 +20,10 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/senad-dizdarevic-062269100/'                  # Fill with your Linkedin homepage
 
+- type: youtube
+  icon: 'fab fa-youtube'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.youtube.com/@senaddizdarevic7849/featured'
+
 - type: portfolio
   icon: "fas fa-user-circle"
   url:  'https://portfolio.seki.ink/'                  # Fill with your Linkedin homepage
