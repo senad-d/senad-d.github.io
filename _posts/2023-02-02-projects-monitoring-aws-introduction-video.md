@@ -1,5 +1,5 @@
 ---
-title: AWS Introduction Video
+title: AWS Introduction
 date: 2023-02-02 12:00:00
 categories: [Projects, AWS]
 tags: [aws, video]
