@@ -1,7 +1,7 @@
 ---
 title: Monitoring AWS with Grafana
 date: 2023-02-02 12:00:00
-categories: [Projects, Grafana, AWS]
+categories: [Projects, Education]
 tags: [aws, grafana, video]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/cloud-banner.png?raw=true)
