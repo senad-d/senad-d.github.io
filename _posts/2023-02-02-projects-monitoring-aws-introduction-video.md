@@ -8,10 +8,7 @@ tags: [aws, video]
 
 In this short presentation, we will cover the various topics related to AWS, and we will provide you with a high-level overview of its core features and benefits.
 
-
-<div style="max-width: 100%; max-height: auto;">
-    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RnxS23ypF5U" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include embed/youtube.html id='RnxS23ypF5U' %}
 
 ## To become an AWS Solutions Architect, follow these steps:
 
