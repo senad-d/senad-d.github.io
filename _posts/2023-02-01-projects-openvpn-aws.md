@@ -4,7 +4,7 @@ date: 2023-02-01 12:00:00
 categories: [Projects, OpenVPN, AWS]
 tags: [aws, openvpn]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 A CloudFormation template for adding an EC2 instance with a fully automated bootstrap script to create a VPN that automatically creates SSL certificates and allows easy management of users.
 
@@ -33,7 +33,7 @@ A CloudFormation template for adding an EC2 instance with a fully automated boot
 	9. FlowLog creation
 -   VPN bootstrap script for installing and running OpenVPN 
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221120184106.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221120184106.png?raw=true){: .shadow }
 
 ### 1. CloudFormation template
 
@@ -93,6 +93,6 @@ cat /var/log/openvpn/openvpn-status.log | sed '/ROUTING/q' | head -n -1
 
 ***After the user is created send the one-time link to the user***
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/vpn_user.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/vpn_user.png?raw=true){: .shadow }
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/file_io.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/file_io.png?raw=true){: .shadow }

@@ -4,7 +4,7 @@ date: 2021-04-01 12:00:00
 categories: [OS, Linux]
 tags: [linux, users]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/linux-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/linux-banner.png?raw=true){: .shadow }
 
 
 `sudo adduser username` | Create a new user

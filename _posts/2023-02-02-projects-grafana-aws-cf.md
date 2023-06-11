@@ -4,7 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, Grafana, AWS, CloudFormation]
 tags: [aws, grafana, cloudformation]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 CloudFormation template for creating an automated monitoring solution for AWS resources.
 Add the Ec2 instance to VPC and Subnet of your choice and start monitoring resources in the account within 10 minutes.

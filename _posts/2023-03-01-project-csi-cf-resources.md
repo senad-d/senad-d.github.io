@@ -4,7 +4,7 @@ date: 2023-03-01 12:00:00
 categories: [Projects, CSI, CloudFormation]
 tags: [aws, ecs, cloudformation]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 Create AWS Infrastructure for the CSI backend services.
 

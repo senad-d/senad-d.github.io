@@ -4,7 +4,7 @@ date: 2022-06-01 12:00:00
 categories: [Cloud, AWS]
 tags: [aws-cli, iam]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 # Test AWS credentials using AWS CLI
 Testing for AWS credentials is a straightforward operation.

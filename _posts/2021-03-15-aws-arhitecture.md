@@ -4,7 +4,7 @@ date: 2021-03-15 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, architecture]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 ## Decoupled and Event-Driven Architecture
 -   Monolithic Applications are essentially tightly coupled together and had a lot of built-in dependencies against each other

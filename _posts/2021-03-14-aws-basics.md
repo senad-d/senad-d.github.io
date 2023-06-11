@@ -5,7 +5,7 @@ categories: [Cloud, AWS]
 tags: [aws, basics]
 ---
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 ## Amazon EC2 instance
 -   Amazon EC2 provides scalable computing capacity in the AWS Cloud
     

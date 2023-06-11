@@ -4,7 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, OpenVPN, Azure]
 tags: [azure, openvpn]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 ARM template for adding VM with a fully automated bootstrap script to create a VPN that automatically creates SSL certificates and allows easy management of users.
 
@@ -35,7 +35,7 @@ ARM template for adding VM with a fully automated bootstrap script to create a V
 - Public IP address
 - Disk
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221121004547.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221121004547.png?raw=true){: .shadow }
 
 #### Running ARM temp from Azure CLI
 
@@ -73,9 +73,9 @@ ARM template for adding VM with a fully automated bootstrap script to create a V
 - Visit VM Network 
 - Enable SSH connection for the VM and after the managment is over disable it.
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/add_ssh_rule.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/add_ssh_rule.png?raw=true){: .shadow }
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/inbound_security_rule_azure.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/inbound_security_rule_azure.png?raw=true){: .shadow }
 
 7. Create or remove a VPN user
 Connect with SSH to the VM and use scripts to manage users.
@@ -98,6 +98,6 @@ cat /var/log/openvpn/openvpn-status.log | sed '/ROUTING/q' | head -n -1
 ```
 ***After the user is created send the one-time link to the user***
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/vpn_user.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/vpn_user.png?raw=true){: .shadow }
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/file_io.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/file_io.png?raw=true){: .shadow }

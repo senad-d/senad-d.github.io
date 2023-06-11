@@ -4,7 +4,7 @@ date: 2023-02-02 13:00:00
 categories: [Projects, Grafana, Azure, Bootstrap]
 tags: [azure, grafana, bootstrap]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 Bootstrap script for Ubuntu 18.04-LTE image. This script installs docker and docker-compose. Runs Docker-compose.yml for Cloud Monitoring (Grafana, InfluxDB, and Telegraf) with custom configuration files. 
 

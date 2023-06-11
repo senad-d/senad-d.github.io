@@ -4,7 +4,7 @@ date: 2023-03-03 12:00:00
 categories: [Software, Plausible]
 tags: [analytics, monitoring]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/plausible-analytics.jpg?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/plausible-analytics.jpg?raw=true){: .shadow }
 
 Plausible Analytics is an open source, simple, lightweight and privacy-friendly Google Analytics alternative. One aspect that makes Plausible different from many of the other web analytics tools such as Google Analytics is the fact that Plausible is fully open-source software.
 

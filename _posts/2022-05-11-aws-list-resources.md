@@ -4,7 +4,7 @@ date: 2022-05-11 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, resources]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 You can use the `Tag Editor`
 
@@ -13,14 +13,14 @@ You can use the `Tag Editor`
 3.  Click `Tag Editor`
 
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221115145424.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221115145424.png?raw=true){: .shadow }
 
 Here we can select either a particular region in which we want to search or select all regions from the dropdown. Then we can select actual resources we want to search for or click on individual resources.
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221115145556.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221115145556.png?raw=true){: .shadow }
 
 Export the list as a CSV file and import it into Excel or LibreOffice and create a “Pivot Table” from the available data.
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221116100649.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221116100649.png?raw=true){: .shadow }
 
 
 ---

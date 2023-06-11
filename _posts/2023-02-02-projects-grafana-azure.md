@@ -4,7 +4,7 @@ date: 2023-02-02 13:00:00
 categories: [Projects, Grafana, Azure]
 tags: [azure, grafana]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 ARM template for adding an VM with a fully automated bootstrap script to create monitoring that automatically connects to Azure monitor (data source) for metrics and allows users easy viewing of key metrics for Azure resources.
 
@@ -41,7 +41,7 @@ ARM template for adding an VM with a fully automated bootstrap script to create 
  
 Custom [***dashboard***](https://senad-d.github.io/posts/projects-grafana-azure-dash/) for Azure resources.
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_azure_env.jpg?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_azure_env.jpg?raw=true){: .shadow }
 
 ## Running ARM temp from Azure CLI
 
@@ -78,7 +78,7 @@ Custom [***dashboard***](https://senad-d.github.io/posts/projects-grafana-azure-
 
 6. Go to [portal.azure.com](http://portal.azure.com/) and add the role assignment “Monitoring Reader” to the Subscription you want to monitor.
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/Azure_IAM_Access_control.jpg?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/Azure_IAM_Access_control.jpg?raw=true){: .shadow }
 
 7. Visit GrafanaVM IP address (DNS name) to access the Grafana
   

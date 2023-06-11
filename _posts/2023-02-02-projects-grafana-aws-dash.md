@@ -4,11 +4,11 @@ date: 2023-02-02 12:00:00
 categories: [Projects, Grafana, AWS, Dashboard]
 tags: [aws, grafana, dashboard]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 The Dashboard provides a comprehensive and visually appealing view of essential metrics collected from your Amazon Web Services (AWS) infrastructure. This dashboard combines the power of CloudWatch, AWS's monitoring and observability service, with Grafana's intuitive and customizable data visualization capabilities.
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_dash_aws.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_dash_aws.png?raw=true){: .shadow }
 
 ```shell
 {

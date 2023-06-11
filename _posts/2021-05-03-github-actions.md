@@ -4,7 +4,7 @@ date: 2021-04-02 12:00:00
 categories: [Software, GitHub]
 tags: [github, actions]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true){: .shadow }
 
 # Introduction
 
@@ -124,7 +124,7 @@ jobs:
 
 - The log shows you how each of the steps was processed. Expand any of the steps to view its details.
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/github-actions-resault.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/github-actions-resault.png?raw=true){: .shadow }
 
 ## More starter workflows
 

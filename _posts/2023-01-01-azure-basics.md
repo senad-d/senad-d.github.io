@@ -4,7 +4,7 @@ date: 2023-01-01 12:00:00
 categories: [Cloud, Azure]
 tags: [azure, basics]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 # All Products
 

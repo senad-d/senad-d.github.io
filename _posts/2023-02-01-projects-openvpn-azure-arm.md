@@ -4,7 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, OpenVPN, Azure, ARM]
 tags: [azure, openvpn, arm]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 ARM template for creating an automated VPN solution in Azure.
 Add Resource group for OpenVPN VM with [***bootstrap***](https://senad-d.github.io/posts/projects-openvpn-azure-boot/) and start connecting to the resources in the account within 10 minutes.

@@ -4,7 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, Grafana, AWS]
 tags: [aws, grafana]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 A CloudFormation template for adding an EC2 instance with a fully automated bootstrap script to create monitoring that automatically connects to AWS CloudWatch for metrics and allows users easy viewing of key metrics for AWS resources.
 
@@ -30,7 +30,7 @@ A CloudFormation template for adding an EC2 instance with a fully automated boot
 -   Configured telegraf.conf and InfluxDB to work automatically
 -   Created a custom dashboard for Grafana using metrics from CloudWatch ([[AWS Management#CloudWatch]]) and InfluxDB
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_env.jpg?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/grafana_env.jpg?raw=true){: .shadow }
 
 ### 1. CloudFormation template
 

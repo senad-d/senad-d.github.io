@@ -4,7 +4,7 @@ date: 2021-04-01 12:00:00
 categories: [Software, Docker]
 tags: [docker, docker-compose]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/docker-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/docker-banner.png?raw=true){: .shadow }
 
 ## Networking
 By default, Docker-Compose will create a new network for the given compose file. You can change the behavior by defining custom networks in your compose file.

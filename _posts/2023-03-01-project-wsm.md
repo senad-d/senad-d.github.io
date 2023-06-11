@@ -4,7 +4,7 @@ date: 2023-03-01 12:00:00
 categories: [Projects, WSM]
 tags: [aws, ecs, mendix, dev]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 Application is designed to streamline the management of available office space. Developed using Mendix, this solution offers businesses a comprehensive platform to effectively track and optimize their office resources.
 
@@ -72,7 +72,7 @@ For the CD/CI pipeline, the next workflows will be used:
 	- Push the docker image to a repository
 	- Update the ECS cluster with a new image
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/wsm-pipeline.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/wsm-pipeline.png?raw=true){: .shadow }
 
 ## AWS resources
 
@@ -107,4 +107,4 @@ For building a Docker image the  Mendix Buildpack for Docke is used
 - Docker Mendix Buildpack
 	- Create a Docker image from the Mendix application
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/wsm-env.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/wsm-env.png?raw=true){: .shadow }

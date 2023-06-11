@@ -4,7 +4,7 @@ date: 2023-03-03 13:00:00
 categories: [Software, Nginx]
 tags: [nginx, proxymanager, docker-compose]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/nginx-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/nginx-banner.png?raw=true){: .shadow }
 
 
 Expose your private network Web services and get connected anywhere. Built-in Let’s Encrypt support allows you to secure your Web services at no cost to you. Configure other users to either view or manage their own hosts. Full access permissions are available.
