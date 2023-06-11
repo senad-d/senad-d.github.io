@@ -10,7 +10,7 @@ In this short presentation, we will cover the various topics related to AWS, and
 
 
 <div style="max-width: 100%; max-height: auto;">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/RnxS23ypF5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RnxS23ypF5U" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## To become an AWS Solutions Architect, follow these steps:
