@@ -4,7 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, Education]
 tags: [aws, video]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/cloud-banner.png?raw=true)
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/cloud-banner.png?raw=true){: .shadow }
 
 In this short presentation, we will cover the various topics related to AWS, and we will provide you with a high-level overview of its core features and benefits.
 
