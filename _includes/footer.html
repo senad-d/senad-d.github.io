@@ -15,8 +15,7 @@
         {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
       </p>-->
 
-      <p>
-        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
         {{ '©' }}
         {{ 'now' | date: '%Y' }}
         <!-- {% if site.data.locales[include.lang].copyright.brief %}
@@ -28,7 +27,6 @@
             {{- site.data.locales[include.lang].copyright.brief -}}
           </span>
         {% endif %}-->
-      </p>
     </div>
   </div>
 </footer>
