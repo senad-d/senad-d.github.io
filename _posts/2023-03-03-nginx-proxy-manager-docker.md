@@ -9,6 +9,8 @@ tags: [nginx, proxymanager, docker-compose]
 
 Expose your private network Web services and get connected anywhere. Built-in Let’s Encrypt support allows you to secure your Web services at no cost to you. Configure other users to either view or manage their own hosts. Full access permissions are available.
 
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/nginx-proxy-manager-dash.png?raw=true){: .shadow }
+
 ### Default Nginx Proxy Manager login and password:
 ```shell
 Username: admin@example.com
