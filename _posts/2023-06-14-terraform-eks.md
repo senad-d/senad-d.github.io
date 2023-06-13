@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Amazon EKS using Terraform
-date: 2023-14-06 12:00:00
+date: 2023-06-14 12:00:00
 categories: [Cloud, AWS, EKS]
 tags: [eks, terraform]
 ---
