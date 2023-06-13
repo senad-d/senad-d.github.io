@@ -28,9 +28,9 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/senad-dizdarevic-062269100/'                  # Fill with your Linkedin homepage
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+#- type: rss
+#  icon: "fas fa-rss"
+#  noblank: true
 
 #
 # - type: stack-overflow
