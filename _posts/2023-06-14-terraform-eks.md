@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Amazon EKS using Terraform
 date: 2023-06-14 12:00:00
-categories: [Cloud, AWS, EKS]
+categories: [Software, Terraform]
 tags: [eks, terraform]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/eks-banner.png?raw=true){: .shadow }

@@ -1,7 +1,7 @@
 ---
 title: EKS using Terraform - variables.tf
 date: 2023-06-14 12:00:00
-categories: [Cloud, AWS, EKS]
+categories: [Software, Terraform]
 tags: [eks, terraform]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/terraform-banner.png?raw=true){: .shadow }
@@ -93,3 +93,5 @@ variable "map_users" {
   ]
 }
 ```
+
+More info on [***Getting Started with Amazon EKS using Terraform***](https://senad-d.github.io/posts/terraform-eks/)
