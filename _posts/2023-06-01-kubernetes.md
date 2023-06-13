@@ -1,18 +1,14 @@
 ---
-title: Kubernetes Tutorial
+title: Kubernetes/Kind Tutorial
 date: 2023-06-02 12:00:00
 categories: [Software, Kubernetes]
-tags: [kubernetes]
+tags: [kubernetes, kind]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/kubernetes-banner.png?raw=true){: .shadow }
 
 ## The Basics
 
-This guide is aimed to fast-track your Kubernetes learning by focusing on a practical hands-on overview guide.
-
-When learning Kubernetes, you usually have an idea of some existing system you own and manage, or a website that you are building.
-
-The challenge is understanding which Kubernetes building blocks you need in order to run your workloads on Kubernetes
+This guide is aimed to fast-track your Kubernetes learning by focusing on a practical hands-on overview guide. When learning Kubernetes, you usually have an idea of some existing system you own and manage, or a website that you are building. The challenge is understanding which Kubernetes building blocks you need in order to run your workloads on Kubernetes
 
 ***The problem***: "I want to adopt Kubernetes"
 
