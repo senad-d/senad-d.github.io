@@ -37,4 +37,4 @@ output "region" {
 }
 ```
 
-More info on [***Getting Started with Amazon EKS using Terraform***](https://senad-d.github.io/posts/terraform-eks/)
+More info on [***Getting Started with Amazon EKS using Terraform***](https://senad-d.github.io/posts/terra-eks/)
