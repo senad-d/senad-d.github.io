@@ -1,0 +1,86 @@
+---
+title: Getting Started with Amazon EKS using Terraform
+date: 2023-14-06 12:00:00
+categories: [Cloud, AWS, EKS]
+tags: [eks, terraform]
+---
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/eks-banner.png?raw=true){: .shadow }
+
+More resources:
+
+Terraform provider for AWS [***here***](https://www.terraform.io/docs/providers/aws/index.html)
+
+## Amazon CLI
+You can get the Amazon CLI on [***Docker-Hub***](https://hub.docker.com/r/amazon/aws-cli)
+We'll need the Amazon CLI to gather information so we can build our Terraform file.
+
+```shell
+# Run Amazon CLI
+docker run -it --rm -v ${PWD}:/work -w /work --entrypoint /bin/sh amazon/aws-cli:2.0.43
+
+# some handy tools :)
+yum install -y jq gzip nano tar git unzip wget
+```
+
+## Login to AWS
+
+```shell
+aws configure
+
+Default region name: 
+Default output format: json
+```
+Find out more about the login [***here***](https://senad-d.github.io/posts/aws-cli-login/)
+
+## Install Terraform CLI (Linux 64-bit)
+
+```shell
+curl -o /tmp/terraform.zip -LO https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_linux_amd64.zip
+unzip /tmp/terraform.zip
+
+chmod +x terraform && mv terraform /usr/local/bin/
+
+terraform
+```
+
+## Terraform Amazon Kubernetes Provider
+
+Documentation on all the Kubernetes fields for terraform [***here***](https://www.terraform.io/docs/providers/aws/r/eks_cluster.html)
+
+Terraform will allow us to describe everything as a file or multiple files and then piece them together. 
+So what we need to do next is create a Terraform file. We're going to describe a bunch of variables as inputs, describe a security group for our infrastructure, then we're going to tell a VPC network with Public and Private subnets, then we're also going to describe an EKS cluster with an auto-scaling worker group for our nodes. We will describe a Kubernetes deployment with two pods running Nginx and then finally describe a Kubernetes service of the type load balancer to make Nginx public.
+
+Create files:
+ - [***main.tf***](https://senad-d.github.io/posts/terraform-eks-main/)
+ - [***variables.tf***](https://senad-d.github.io/posts/terraform-eks-variables/)
+ - [***outputs.tf***](https://senad-d.github.io/posts/terraform-eks-otputs/)
+
+```shell
+terraform init
+
+terraform plan
+terraform apply
+```
+
+## What we deployed
+
+```shell
+# grab our EKS config
+aws eks update-kubeconfig --name getting-started-eks --region ap-southeast-2
+
+# Get kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+chmod +x ./kubectl
+mv ./kubectl /usr/local/bin/kubectl
+
+kubectl get nodes
+kubectl get deploy
+kubectl get pods
+kubectl get svc
+```
+
+Clean up
+
+```shell
+terraform destroy
+```
