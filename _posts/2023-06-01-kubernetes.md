@@ -80,31 +80,30 @@ kubectl -n test create secret generic mysql `
 kubectl -n test get secret
 ```
 
-[***Clone***](https://github.com/senad-d/KindDemo.git) Kubernetes example yaml files for deployment, services, statefulset, and ingress.
 
 ## Deployments
 
 * Deployment [***documentation***](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
-cd kubernetes\tutorials\basics
+[***Clone***](https://github.com/senad-d/KindDemo.git) Kubernetes example yaml files for deployment, services, statefulset, and ingress.
 
 ```shell
-kubectl -n test apply -f yaml/deploy.yaml
+kubectl -n test apply -f deploy.yaml
 kubectl -n test get pods
 ```
 
 # Services
 
-Services [***documentation***](https://kubernetes.io/docs/concepts/services-networking/service/)
+* Services [***documentation***](https://kubernetes.io/docs/concepts/services-networking/service/)
 
 ```shell
-kubectl -n test apply -f yaml/service.yaml
+kubectl -n test apply -f service.yaml
 kubectl -n test get svc
 ```
 
 # Storage Class
 
-StorageClass [***documentation***](https://kubernetes.io/docs/concepts/storage/storage-classes/)
+* StorageClass [***documentation***](https://kubernetes.io/docs/concepts/storage/storage-classes/)
 
 ```shell
 kubectl get storageclass
@@ -112,23 +111,21 @@ kubectl get storageclass
 
 # Statefulset
 
-Statefulset [***documentation***](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)
-
-Let's deploy our `mysql` using what we learnt above:
+* Statefulset [***documentation***](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)
 
 ```shell
-kubectl -n test apply -f yaml/statefulset.yaml
+kubectl -n test apply -f statefulset.yaml
 
 kubectl -n test get pods
 ```
 
 ## Persistent Volumes
 
-[***Documentation***](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
+* Persistent [***documentation***](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 
 ## Port Forwarding
 
-We can access private service endpoints or pods using `port-forward` :
+* We can access private service endpoints or pods using `port-forward` :
 
 ```shell
 kubectl -n test get pods
@@ -137,13 +134,11 @@ kubectl -n test port-forward <pod-name> 80
 
 ## Public Traffic
 
-In order to make our site public, its common practise to expose web servers via a proxy or API gateway.
-
-In Kubernetes, an Ingress is used.
+* In order to make our site public, its common practise to expose web servers via a proxy or API gateway.
 
 ## Ingress
 
-To use an ingress, we need an ingress controller
+* To use an ingress, we need an ingress controller
 
 ```shell
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.3/deploy/static/provider/cloud/deploy.yaml
@@ -153,8 +148,8 @@ kubectl -n ingress-nginx get pods
 kubectl -n ingress-nginx --address 0.0.0.0 port-forward svc/ingress-nginx-controller 80
 ```
 
-Create an Ingress
+* Create an Ingress
 
 ```shell
-kubectl -n test apply -f yaml/ingress.yaml
+kubectl -n test apply -f ingress.yaml
 ```
