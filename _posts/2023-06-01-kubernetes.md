@@ -49,9 +49,9 @@ kubectl create namespace test
 
 ## Configmaps
 
-[***Environment Variables***](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/) for pods
+* [***Environment Variables***](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/) for pods
 
-[***How to use***](https://kubernetes.io/docs/concepts/configuration/configmap/) configmaps
+* [***How to use***](https://kubernetes.io/docs/concepts/configuration/configmap/) configmaps
 
 
 ```shell
@@ -63,7 +63,7 @@ kubectl -n test get configmaps
 
 ## Secrets
 
-[How to use](https://kubernetes.io/docs/concepts/configuration/secret/) secrets in pods
+* [***How to use***](https://kubernetes.io/docs/concepts/configuration/secret/) secrets in pods
 
 ```shell
 kubectl -n test create secret generic wordpress `
