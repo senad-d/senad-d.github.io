@@ -1,6 +1,6 @@
 ---
 title: EKS using Terraform - variables.tf
-date: 2023-06-14 12:00:00
+date: 2023-06-01 12:00:00
 categories: [Software, Terraform]
 tags: [eks, terraform]
 ---
