@@ -33,9 +33,7 @@ echo '[[ $commands[kubectl] ]] && source <(kubectl completion zsh)' >> ~/.zshrc 
 
 ## A note on `--all-namespaces`
 
-Appending `--all-namespaces` happens frequently enough that you should be aware of the shorthand for `--all-namespaces`:
-
-`kubectl -A`
+Appending `--all-namespaces` happens frequently enough that you should be aware of the shorthand for `--all-namespaces`: `kubectl -A`
 
 # Kubectl context and configuration
 
