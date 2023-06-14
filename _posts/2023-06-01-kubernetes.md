@@ -16,6 +16,8 @@ This guide is aimed to fast-track your Kubernetes learning by focusing on a prac
 
 ***Our focus***: Solving the problem by learning each building block in order to port our infrastructure to Kubernetes. 
 
+* [***Cheat Sheet***](https://senad-d.github.io/posts/kubernetes-cheatsheet/) for `kubectl`.
+
 ## Kubernetes Tools: kubectl
 
 To manage and work with Kubernetes, you need `kubectl` Let's grab that from [***here***](https://kubernetes.io/docs/tasks/tools/)
