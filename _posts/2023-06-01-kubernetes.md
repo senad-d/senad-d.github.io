@@ -36,7 +36,7 @@ To manage and work with Kubernetes, you need `kubectl` Let's grab that from [***
 * Create a cluster 
 
 ```shell
-kind create cluster --image kindest/node:v1.23.5
+kind create cluster --image kindest/node:v1.27.2
 ```
 
 ## Namespaces 
@@ -53,8 +53,7 @@ kubectl create namespace test
 
 
 ```shell
-kubectl -n test create configmap mysql `
---from-literal MYSQL_RANDOM_ROOT_PASSWORD=1
+kubectl -n test create configmap mysql --from-literal MYSQL_RANDOM_ROOT_PASSWORD=1
 
 kubectl -n test get configmaps
 ```
@@ -64,16 +63,9 @@ kubectl -n test get configmaps
 * [***How to use***](https://kubernetes.io/docs/concepts/configuration/secret/) secrets in pods
 
 ```shell
-kubectl -n test create secret generic wordpress `
---from-literal WORDPRESS_DB_HOST=mysql `
---from-literal WORDPRESS_DB_USER=exampleuser `
---from-literal WORDPRESS_DB_PASSWORD=examplepassword `
---from-literal WORDPRESS_DB_NAME=exampledb
+kubectl -n test create secret generic wordpress --from-literal WORDPRESS_DB_HOST=mysql --from-literal WORDPRESS_DB_USER=exampleuser --from-literal WORDPRESS_DB_PASSWORD=examplepassword --from-literal WORDPRESS_DB_NAME=exampledb
 
-kubectl -n test create secret generic mysql `
---from-literal MYSQL_USER=exampleuser `
---from-literal MYSQL_PASSWORD=examplepassword `
---from-literal MYSQL_DATABASE=exampledb
+kubectl -n test create secret generic mysql --from-literal MYSQL_USER=exampleuser --from-literal MYSQL_PASSWORD=examplepassword --from-literal MYSQL_DATABASE=exampledb
 
 kubectl -n test get secret
 ```
@@ -150,4 +142,10 @@ kubectl -n ingress-nginx --address 0.0.0.0 port-forward svc/ingress-nginx-contro
 
 ```shell
 kubectl -n test apply -f ingress.yaml
+```
+
+## Stop the Kind cluster
+
+```shell
+kind delete cluster --name kind
 ```
