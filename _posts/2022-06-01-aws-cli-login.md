@@ -36,6 +36,7 @@ Note: If the profile is named `--profile default`, it will represent the default
 The `~/.aws/credentials` and `~/.aws/config` files can be modified directly.
 
 1. Add the credentials to the `~/.aws/credentials` file
+
 ```shell
 [default]
 aws_access_key_id=accesskey
