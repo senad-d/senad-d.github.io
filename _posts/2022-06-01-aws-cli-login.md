@@ -48,6 +48,7 @@ aws_secret_access_key=secretaccesskey
 ```
 
 2. Add the profile to the `~/.aws/config` file
+
 ```shell
 [default]
 region=us-east-1
@@ -59,6 +60,7 @@ output=json
 ```
 
 3. Use the `--profile argument` or set the `AWS_PROFILE` environment variable.
+
 ```shell
 aws s3 ls --profile account1
 ```
