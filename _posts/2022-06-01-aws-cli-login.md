@@ -35,7 +35,7 @@ Note: If the profile is named `--profile default`, it will represent the default
 ## Manually setting credentials
 The `~/.aws/credentials` and `~/.aws/config` files can be modified directly.
 
-1. Add the credentials to the `~/.aws/credentials` file
+- Add the credentials to the `~/.aws/credentials` file
 
 ```shell
 [default]
@@ -47,7 +47,7 @@ aws_access_key_id=accesskey
 aws_secret_access_key=secretaccesskey
 ```
 
-2. Add the profile to the `~/.aws/config` file
+- Add the profile to the `~/.aws/config` file
 
 ```shell
 [default]
@@ -59,15 +59,17 @@ region=us-east-1
 output=json
 ```
 
-3. Use the `--profile argument` or set the `AWS_PROFILE` environment variable.
+- Use the `--profile argument` or set the `AWS_PROFILE` environment variable.
 
 ```shell
 aws s3 ls --profile account1
 ```
 
-OR
+or you can use
+
 ```shell
 export AWS_PROFILE=account1
+
 aws s3 ls # uses account1 credentials
 ```
 
