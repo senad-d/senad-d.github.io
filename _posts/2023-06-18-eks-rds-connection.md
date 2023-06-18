@@ -1,14 +1,23 @@
 ---
-title: Use IAM to limit EKS to a specific database in RDS
+title: EKS connection to specific database in RDS
 date: 2023-06-18 12:00:00
 categories: [Cloud, AWS]
 tags: [iam, aws, rds, eks]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
-# Use IAM to limit RDS access form EKS
+Imagine having an EKS cluster with multiple namespaces with multiple pods that should not be able to see or communicate with other namespaces or any other resources, except for specific resources such as databases within the RDS instance.
+To create a new, completely isolated project with its own namespaces within a single EKS cluster and an RDS instance, and subsequently add users through IAM, you should follow the next steps.
 
-To limit users or applications running in Amazon Elastic Kubernetes Service (EKS) to a specific database within a single Amazon RDS instance using IAM roles, you can follow these steps:
+In this diagram, you can observe a visual illustration of integrating EKS with RDS using IAM.
+
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/VNP_auth.png?raw=true){: .shadow }
+
+---
+
+# Use IAM to connect RDS and EKS
+
+To connect users or applications running in Amazon Elastic Kubernetes Service (EKS) to a specific database within a RDS instance using IAM roles, you can follow these steps:
 
 1. Create an IAM policy: 
 
@@ -150,7 +159,7 @@ Additionally, RDS Proxy integrates seamlessly with IAM authentication, enhancing
 
 # Configure RBAC for EKS
 
-In the situation where you are connecting EKS pods to an RDS database using RDS Proxy, you may need to configure Role-Based Access Control (RBAC) for EKS depending on your specific requirements. RBAC allows you to define fine-grained access controls and permissions for different entities within the Kubernetes cluster, including users, service accounts, and roles.
+In the situation where you are connecting EKS pods to an RDS database, you may need to configure Role-Based Access Control (RBAC) for EKS depending on your specific requirements. RBAC allows you to define fine-grained access controls and permissions for different entities within the Kubernetes cluster, including users, service accounts, and roles.
 
 ## RBAC can be useful for scenarios such as:
 
@@ -158,7 +167,7 @@ In the situation where you are connecting EKS pods to an RDS database using RDS 
 
 - RBAC can help you define who has access to perform operations on the EKS cluster, such as deploying or managing pods.
     
-2. Granting permissions to service accounts: 
+2. Granting permissions to service accounts:
 
 - You can use RBAC to define roles and bind them to service accounts associated with your EKS pods. This allows you to grant specific permissions to those pods for interacting with other resources, such as the RDS Proxy or other AWS services.
 
@@ -214,10 +223,4 @@ Once you have defined and applied the RBAC configuration, the specified service 
 
 Remember that RBAC is a powerful mechanism for managing access control within your EKS cluster. It is important to carefully define and review the roles and permissions to ensure the appropriate level of security and access control for your application and resources.
 
-In this diagram, you can observe a visual illustration of integrating EKS with RDS using IAM.
-
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/VNP_auth.png?raw=true){: .shadow }
-
-
-Imagine having an EKS cluster with multiple namespaces with multiple pod's that should not be able to see or communicate with other namespaces or any other resources, except for specific resources such as the databases within the RDS instance, which has a Read replica. 
-To create a new, completely isolated project with its own namespaces within a single EKS cluster and an RDS instance, and subsequently add users through IAM, Terraform can be employed in conjunction with GitHub Actions to automate the entire process.
+Terraform can be employed in conjunction with GitHub Actions to automate the entire process of creating new projects/namespaces.
