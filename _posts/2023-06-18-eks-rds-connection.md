@@ -34,7 +34,8 @@ json{
 }
 ```
 
-> Replace `<region>`, `<account-id>`, `<db-resource-id>`, and `<username>` with the appropriate values for your environment.{: .prompt-tip }
+> Replace `<region>`, `<account-id>`, `<db-resource-id>`, and `<username>` with the appropriate values for your environment.
+{: .prompt-tip }
 
 2. Create an IAM role: 
 
@@ -55,7 +56,8 @@ metadata:
     eks.amazonaws.com/role-arn: arn:aws:iam::<account-id>:role/my-iam-role
 ```
 
-> Replace `<account-id>` and `my-iam-role` with your AWS account ID and the name of the IAM role you created in step 2.{: .prompt-tip }
+> Replace `<account-id>` and `my-iam-role` with your AWS account ID and the name of the IAM role you created in step 2.
+{: .prompt-tip }
 
 4. Grant RDS IAM authentication access: 
 
@@ -96,7 +98,8 @@ json{
 }
 ```
 
-> Replace `<region>`, `<account-id>`, `<db-resource-id>`, and `<username>` with the relevant values for your environment.{: .prompt-tip }
+> Replace `<region>`, `<account-id>`, `<db-resource-id>`, and `<username>` with the relevant values for your environment.
+{: .prompt-tip }
 
 3. Attach the IAM policy: 
 
@@ -114,7 +117,8 @@ json{
 GRANT ALL PRIVILEGES ON database_name.* TO 'database_user'@'%';
 ```
 
-> Replace `database_name` with the name of the specific database and `database_user` with the username associated with the IAM user.{: .prompt-tip }
+> Replace `database_name` with the name of the specific database and `database_user` with the username associated with the IAM user.
+{: .prompt-tip }
 
 By following these steps, you are configuring the RDS database to leverage IAM authentication and assigning appropriate privileges to the database user based on the IAM user's permissions. This way, only users with the necessary IAM permissions will be able to authenticate and access the specified databases within the RDS instance.
 
@@ -203,7 +207,8 @@ roleRef:
   apiGroup: rbac.authorization.k8s.io
 ```
 
-> Replace `your-namespace` with the namespace in which your pods and service accounts reside. Also, replace `your-service-account` with the appropriate service account associated with your pods.{: .prompt-tip }
+> Replace `your-namespace` with the namespace in which your pods and service accounts reside. Also, replace `your-service-account` with the appropriate service account associated with your pods.
+{: .prompt-tip }
 
 Once you have defined and applied the RBAC configuration, the specified service account and associated pods will have the permissions granted by the Role. This allows the pods to interact with the RDS Proxy or other resources as defined in the RBAC configuration.
 
