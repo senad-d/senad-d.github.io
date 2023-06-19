@@ -25,7 +25,7 @@ In this diagram, you can observe a visual illustration of integrating EKS with R
 
 To connect users or applications running in Amazon Elastic Kubernetes Service (EKS) to a specific database within a RDS instance using IAM roles, you can follow these steps:
 
-1.  Create an IAM policy: 
+1. Create an IAM policy: 
 - Start by creating an IAM policy that grants the necessary permissions for accessing the specific database in the RDS instance. The policy should include permissions for actions such as `rds-db:connect`, `rds-db:executeSql`, and other relevant permissions. 
 ```shell
 json{
@@ -46,9 +46,9 @@ json{
 ```
 > Replace `<region>`, `<account-id>`, `<db-resource-id>`, and `<username>` with the appropriate values for your environment.
 {: .prompt-tip }
-2.  Create an IAM role: 
+2. Create an IAM role: 
 - Create an IAM role and attach the IAM policy you created in step 1 to this role.
-3.  Configure the Kubernetes service account: 
+3. Configure the Kubernetes service account: 
 - Modify the Kubernetes service account associated with your users or applications in EKS. You can do this by adding an annotation to the service account, specifying the IAM role to be assumed. 
 ```shell
 yamlapiVersion: v1
@@ -60,9 +60,9 @@ metadata:
 ```
 > Replace `<account-id>` and `my-iam-role` with your AWS account ID and the name of the IAM role you created in step 2.
 {: .prompt-tip }
-4.  Grant RDS IAM authentication access: 
+4. Grant RDS IAM authentication access: 
 - Enable IAM database authentication for the RDS instance and create a database user associated with the IAM role. This allows users or applications assuming the IAM role to authenticate with the RDS instance using their IAM credentials. The database user should be created with appropriate permissions to access the desired database.
-5.  Configure the application or user credentials: 
+5. Configure the application or user credentials: 
 - Modify your application or user credentials to use IAM database authentication when connecting to the RDS instance. This typically involves configuring the database connection string or parameters to include the IAM authentication option.
 
 With these steps in place, the users or applications running in EKS will be limited to accessing only the specific database within the RDS instance. IAM roles provide a secure and convenient way to manage access control for your EKS workloads, integrating with IAM and RDS for fine-grained permissions management.
@@ -71,9 +71,9 @@ With these steps in place, the users or applications running in EKS will be limi
 
 To configure the underlying Amazon RDS database to restrict access to specific databases based on IAM permissions, you can follow these steps:
 
-1.  Enable IAM database authentication: 
+1. Enable IAM database authentication: 
 - Enable IAM database authentication for your Amazon RDS instance. This allows users to authenticate to the database using their IAM credentials.
-2.  Create an IAM policy: 
+2. Create an IAM policy: 
 - Create an IAM policy that grants permissions to access the specific databases within the RDS instance. The policy should be associated with an IAM role or user and specify the appropriate actions and resources. For example, you can grant `rds-data:ExecuteStatement` permissions for the desired databases. 
 ```shell
 json{
@@ -89,11 +89,11 @@ json{
 ```
 > Replace `<region>`, `<account-id>`, `<db-resource-id>`, and `<username>` with the relevant values for your environment.
 {: .prompt-tip }
-3.  Attach the IAM policy: 
+3. Attach the IAM policy: 
 - Attach the IAM policy created in step 2 to the IAM role or user associated with the IAM users who will access the RDS database.
-4.  Configure the database user: 
+4. Configure the database user: 
 - Create a database user within the RDS instance associated with the IAM user. This user represents the IAM user within the database and should have the necessary privileges to access the desired databases. You can create the user using the AWS CLI or database management tool specific to your database engine.
-5.  Grant privileges to the database user: 
+5. Grant privileges to the database user: 
 - Grant the appropriate privileges to the database user for the specific databases. This can be done using SQL commands executed against the RDS instance. For example, using MySQL, you can use the `GRANT` statement to assign privileges to the user:
 ```shell
 GRANT ALL PRIVILEGES ON database_name.* TO 'database_user'@'%';
@@ -109,13 +109,13 @@ RDS Proxy can be used to connect Amazon Elastic Kubernetes Service (EKS) pods to
 
 ### Here's how RDS Proxy can be used with EKS pods:
 
-1.  Deploy RDS Proxy: 
+1. Deploy RDS Proxy: 
 - First, you need to deploy an RDS Proxy in your AWS account. You can create and configure the RDS Proxy using the AWS Management Console, AWS CLI, or AWS SDKs.
-2.  Configure RDS Proxy endpoint: 
+2. Configure RDS Proxy endpoint: 
 - Once the RDS Proxy is created, you'll obtain an endpoint for the proxy. This endpoint will be used by your EKS pods to connect to the RDS database.
-3.  Modify application connection settings: 
+3. Modify application connection settings: 
 - Update your application's database connection settings to use the RDS Proxy endpoint instead of directly connecting to the RDS database. The application will now establish connections with the RDS Proxy, which will handle connection pooling, scalability, and high availability.
-4.  IAM authentication with RDS Proxy: 
+4. IAM authentication with RDS Proxy: 
 - Enable IAM database authentication for the RDS database. When the EKS pods connect to the RDS Proxy, they will authenticate using their IAM credentials. This eliminates the need to manage database credentials within your application or Kubernetes cluster.
     
 By using RDS Proxy, you can achieve benefits such as connection pooling, improved scalability, and automatic failover for your EKS pods connecting to the RDS database. RDS Proxy manages the database connections efficiently, reducing the overhead and complexity of managing connections within your application.
@@ -128,18 +128,18 @@ In the situation where you are connecting EKS pods to an RDS database, you may n
 
 ## RBAC can be useful for scenarios such as:
 
-1.  Controlling access to the EKS cluster: 
+1. Controlling access to the EKS cluster: 
 - RBAC can help you define who has access to perform operations on the EKS cluster, such as deploying or managing pods.
-2.  Granting permissions to service accounts:
+2. Granting permissions to service accounts:
 - You can use RBAC to define roles and bind them to service accounts associated with your EKS pods. This allows you to grant specific permissions to those pods for interacting with other resources, such as the RDS Proxy or other AWS services.
 
 ## To configure RBAC in EKS, you can follow these general steps:
 
-1.  Create a Kubernetes Role: 
+1. Create a Kubernetes Role: 
 - Define a Kubernetes Role that specifies the permissions required for the pods to interact with resources like the RDS Proxy. This could include permissions to access the RDS Proxy endpoint or other relevant resources.
-2.  Create a Kubernetes RoleBinding: 
+2. Create a Kubernetes RoleBinding: 
 - Create a RoleBinding that binds the Role created in the previous step to the appropriate service account associated with your EKS pods. This associates the permissions defined in the Role with the pods using the specified service account.
-3.  Apply RBAC configuration: 
+3. Apply RBAC configuration: 
 - Apply the RBAC configuration (Role and RoleBinding) to your EKS cluster using the `kubectl apply` command or by applying the configuration through Kubernetes manifests.
 
 ```shell
