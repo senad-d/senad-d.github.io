@@ -16,9 +16,10 @@ Create resources:
 3.  [***RBAC for EKS***](https://senad-d.github.io/posts/eks-rds-connection/#configure-rbac-in-eks)
 4.  [***RDS Proxy (optional)***](https://senad-d.github.io/posts/eks-rds-connection/#connecting-eks-to-rds-by-using-proxy-(optional))
 
-In this diagram, you can observe a visual illustration of integrating EKS with RDS using IAM.
-
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/VNP_auth.png?raw=true){: .shadow }
+
+> In this diagram, you can observe a visual illustration of integrating EKS with RDS using IAM.
+{: .prompt-tip }
 
 ---
 
