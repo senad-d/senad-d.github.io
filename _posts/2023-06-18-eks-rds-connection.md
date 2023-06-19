@@ -27,6 +27,7 @@ To connect users or applications running in Amazon Elastic Kubernetes Service (E
 
 1.  Create an IAM policy: 
 - Start by creating an IAM policy that grants the necessary permissions for accessing the specific database in the RDS instance. The policy should include permissions for actions such as `rds-db:connect`, `rds-db:executeSql`, and other relevant permissions. 
+
 ```shell
 json{
   "Version": "2012-10-17",
@@ -50,6 +51,7 @@ json{
 - Create an IAM role and attach the IAM policy you created in step 1 to this role.
 3.  Configure the Kubernetes service account: 
 - Modify the Kubernetes service account associated with your users or applications in EKS. You can do this by adding an annotation to the service account, specifying the IAM role to be assumed. 
+
 ```shell
 yamlapiVersion: v1
 kind: ServiceAccount
@@ -75,6 +77,7 @@ To configure the underlying Amazon RDS database to restrict access to specific d
 - Enable IAM database authentication for your Amazon RDS instance. This allows users to authenticate to the database using their IAM credentials.
 2.  Create an IAM policy: 
 - Create an IAM policy that grants permissions to access the specific databases within the RDS instance. The policy should be associated with an IAM role or user and specify the appropriate actions and resources. For example, you can grant `rds-data:ExecuteStatement` permissions for the desired databases. 
+
 ```shell
 json{
   "Version": "2012-10-17",
@@ -95,6 +98,7 @@ json{
 - Create a database user within the RDS instance associated with the IAM user. This user represents the IAM user within the database and should have the necessary privileges to access the desired databases. You can create the user using the AWS CLI or database management tool specific to your database engine.
 5.  Grant privileges to the database user: 
 - Grant the appropriate privileges to the database user for the specific databases. This can be done using SQL commands executed against the RDS instance. For example, using MySQL, you can use the `GRANT` statement to assign privileges to the user:
+
 ```shell
 GRANT ALL PRIVILEGES ON database_name.* TO 'database_user'@'%';
 ```
@@ -141,6 +145,7 @@ In the situation where you are connecting EKS pods to an RDS database, you may n
 - Create a RoleBinding that binds the Role created in the previous step to the appropriate service account associated with your EKS pods. This associates the permissions defined in the Role with the pods using the specified service account.
 3.  Apply RBAC configuration: 
 - Apply the RBAC configuration (Role and RoleBinding) to your EKS cluster using the `kubectl apply` command or by applying the configuration through Kubernetes manifests.
+
 ```shell
 yamlCopy code# my-role.yaml
 apiVersion: rbac.authorization.k8s.io/v1
@@ -168,6 +173,7 @@ roleRef:
   name: my-role
   apiGroup: rbac.authorization.k8s.io
 ```
+
 > Replace `your-namespace` with the namespace in which your pods and service accounts reside. Also, replace `your-service-account` with the appropriate service account associated with your pods.
 {: .prompt-tip }
 
