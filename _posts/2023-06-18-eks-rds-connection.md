@@ -10,10 +10,10 @@ Imagine having an EKS cluster with multiple namespaces with multiple pods that s
 To create a new, completely isolated project with its own namespaces within a single EKS cluster and an RDS instance, and subsequently add users through IAM, you should follow the next steps.
 
 Create resources: 
-1.  IAM role and policy
-2.  RDS database user
-3.  RBAC for EKS
-4.  RDS Proxy (optional)
+1.  [***IAM role and policy***](https://senad-d.github.io/posts/eks-rds-connection/#use-iam-to-connect-rds-and-eks)
+2.  [***RDS database user***](https://senad-d.github.io/posts/eks-rds-connection/#configure-rds-users)
+3.  [***RBAC for EKS***](https://senad-d.github.io/posts/eks-rds-connection/#configure-rbac-in-eks)
+4.  [***RDS Proxy (optional)***](https://senad-d.github.io/posts/eks-rds-connection/#connecting-eks-to-rds-by-using-proxy-(optional))
 
 In this diagram, you can observe a visual illustration of integrating EKS with RDS using IAM.
 
@@ -82,7 +82,7 @@ metadata:
 With these steps in place, the users or applications running in EKS will be limited to accessing only the specific database within the RDS instance. IAM roles provide a secure and convenient way to manage access control for your EKS workloads, integrating with IAM and RDS for fine-grained permissions management.
 
 
-# Configure RDS users
+## Configure RDS users
 
 To configure the underlying Amazon RDS database to restrict access to specific databases based on IAM permissions, you can follow these steps:
 
@@ -157,7 +157,7 @@ By using RDS Proxy, you can achieve benefits such as connection pooling, improve
 
 Additionally, RDS Proxy integrates seamlessly with IAM authentication, enhancing security by allowing your EKS pods to authenticate with the RDS database using their IAM roles or IAM users' credentials. This provides a more secure and manageable approach to database authentication in an EKS environment.
 
-# Configure RBAC for EKS
+## Configure RBAC in EKS
 
 In the situation where you are connecting EKS pods to an RDS database, you may need to configure Role-Based Access Control (RBAC) for EKS depending on your specific requirements. RBAC allows you to define fine-grained access controls and permissions for different entities within the Kubernetes cluster, including users, service accounts, and roles.
 
