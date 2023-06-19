@@ -28,7 +28,7 @@ To connect users or applications running in Amazon Elastic Kubernetes Service (E
 1. Create an IAM policy: 
 - Start by creating an IAM policy that grants the necessary permissions for accessing the specific database in the RDS instance. The policy should include permissions for actions such as `rds-db:connect`, `rds-db:executeSql`, and other relevant permissions. 
 ```shell
-json{
+{
   "Version": "2012-10-17",
   "Statement": [
     {
@@ -76,7 +76,7 @@ To configure the underlying Amazon RDS database to restrict access to specific d
 2. Create an IAM policy: 
 - Create an IAM policy that grants permissions to access the specific databases within the RDS instance. The policy should be associated with an IAM role or user and specify the appropriate actions and resources. For example, you can grant `rds-data:ExecuteStatement` permissions for the desired databases. 
 ```shell
-json{
+{
   "Version": "2012-10-17",
   "Statement": [
     {
