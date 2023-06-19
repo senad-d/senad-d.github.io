@@ -61,7 +61,7 @@ Create an IAM role and attach the IAM policy you created in step 1 to this role.
 Modify the Kubernetes service account associated with your users or applications in EKS. You can do this by adding an annotation to the service account, specifying the IAM role to be assumed. 
 
 ```shell
-yamlapiVersion: v1
+apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: my-app-service-account
@@ -186,8 +186,8 @@ Create a RoleBinding that binds the Role created in the previous step to the app
 Apply the RBAC configuration (Role and RoleBinding) to your EKS cluster using the `kubectl apply` command or by applying the configuration through Kubernetes manifests.
 
 ```shell
+# my-role.yaml
 ---
-yamlCopy code# my-role.yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
