@@ -242,9 +242,9 @@ EOF
 helm install -n monitoring prometheus prometheus-community/kube-prometheus-stack -f values.yaml
 ```
 
-Port Forwarding Grafana UI
+* Port Forwarding Grafana UI
 
-( be sure to change the pod name to one that matches yours )
+***(be sure to change the pod name to one that matches yours)***
 
 > `kubectl get pods -n monitoring | grep grafana`
 {: .prompt-tip }
@@ -265,7 +265,7 @@ If you make changes to your values.yaml you can deploy these changes by running
 helm upgrade -n monitoring prometheus prometheus-community/kube-prometheus-stack -f values.yaml
 ```
 
-## Stop the Kind cluster
+## Stop the cluster
 
 ```shell
 kind delete cluster --name kind
