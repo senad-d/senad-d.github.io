@@ -1,5 +1,5 @@
 ---
-title: 
+title: Monitoring Kubernetes using the kube-prometheus-stack
 date: 2023-06-25 12:00:00
 categories: [Software, Kubernetes]
 tags: [kubernetes, kind, monitoring]
@@ -228,7 +228,7 @@ Port Forwarding Grafana UI
 
 ( be sure to change the pod name to one that matches yours )
 
-> `kubectl get pods -n monitoring`
+> `kubectl get pods -n monitoring | grep grafana`
 {: .prompt-tip }
 
 ```shell
@@ -248,5 +248,7 @@ helm upgrade -n monitoring prometheus prometheus-community/kube-prometheus-stack
 ```
 
 ---
+
+## Out of the box dashboards
 
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/k8s-grafana.png?raw=true){: .shadow }
