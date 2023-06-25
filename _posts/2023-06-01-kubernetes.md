@@ -119,7 +119,7 @@ kubectl -n test get pods
 
 ```shell
 kubectl -n test get pods
-kubectl -n test port-forward <pod-name> 80
+kubectl -n test port-forward <pod-name> 8080:80
 ```
 
 ## Public Traffic
@@ -135,7 +135,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 
 kubectl -n ingress-nginx get pods
 
-kubectl -n ingress-nginx --address 0.0.0.0 port-forward svc/ingress-nginx-controller 80
+kubectl -n ingress-nginx --address 0.0.0.0 port-forward svc/ingress-nginx-controller 8080:80
 ```
 
 * Create an Ingress
