@@ -117,6 +117,10 @@ kubelet:
 
 kubeControllerManager:
   enabled: true
+#  endpoints: # ips of servers 
+#    - 192.168.30.38
+#    - 192.168.30.39
+#    - 192.168.30.40
 
 coreDns:
   enabled: true
@@ -126,14 +130,28 @@ kubeDns:
 
 kubeEtcd:
   enabled: true
+#  endpoints: # ips of servers
+#    - 192.168.30.38
+#    - 192.168.30.39
+#    - 192.168.30.40
   service:
     enabled: true
+    port: 2381
+    targetPort: 2381
 
 kubeScheduler:
   enabled: true
+#  endpoints: # ips of servers
+#    - 192.168.30.38
+#    - 192.168.30.39
+#    - 192.168.30.40
 
 kubeProxy:
   enabled: true
+#  endpoints: # ips of servers
+#    - 192.168.30.38
+#    - 192.168.30.39
+#    - 192.168.30.40
 
 kubeStateMetrics:
   enabled: true
@@ -245,6 +263,12 @@ If you make changes to your values.yaml you can deploy these changes by running
 
 ```shell
 helm upgrade -n monitoring prometheus prometheus-community/kube-prometheus-stack -f values.yaml
+```
+
+## Stop the Kind cluster
+
+```shell
+kind delete cluster --name kind
 ```
 
 ---
