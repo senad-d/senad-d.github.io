@@ -286,8 +286,11 @@ helm install loki grafana/loki-stack -n monitoring
 http://loki:3100/
 ```
 
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/loki-grafana-datasource.png?raw=true){: .shadow }
+
 * Add Dashboard
 
 ```shell
 15141
 ```
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/loki-grafana-datasource.png?raw=true){: .shadow }
