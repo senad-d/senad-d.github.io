@@ -271,3 +271,23 @@ kind delete cluster --name kind
 ## Out of the box dashboards
 
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/k8s-grafana.png?raw=true){: .shadow }
+
+## Add logs to Grafana 
+
+* Install Loki
+
+```shell
+helm install loki grafana/loki-stack -n monitoring
+```
+
+* Add Data source to Grafana
+
+```shell
+http://loki:3100/
+```
+
+* Add Dashboard
+
+```shell
+15141
+```
