@@ -144,4 +144,5 @@ Now that you’ve experienced validate policies and seen a bit about policy repo
 kubectl delete clusterpolicy require-labels
 ```
 
-> Find more policy's on [***GitHub***](https://github.com/kyverno/policies) {: .prompt-tip }
+> Find more policy's on [***GitHub***](https://github.com/kyverno/policies)
+{: .prompt-tip }

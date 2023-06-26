@@ -242,7 +242,7 @@ EOF
 helm install -n monitoring prometheus prometheus-community/kube-prometheus-stack -f values.yaml
 ```
 
-* Port Forwarding Grafana UI
+* Port Forwarding Grafana
 
 ***(be sure to change the pod name to one that matches yours)***
 
