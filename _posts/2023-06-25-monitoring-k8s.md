@@ -260,14 +260,6 @@ If you make changes to your values.yaml you can deploy these changes by running
 helm upgrade -n monitoring prometheus prometheus-community/kube-prometheus-stack -f values.yaml
 ```
 
-## Stop the cluster
-
-```shell
-kind delete cluster --name kind
-```
-
----
-
 ## Out of the box dashboards
 
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/k8s-grafana.png?raw=true){: .shadow }
@@ -293,4 +285,10 @@ http://loki:3100/
 ```shell
 15141
 ```
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/loki-grafana-datasource.png?raw=true){: .shadow }
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/loki-grafana-dash.png?raw=true){: .shadow }
+
+## Stop the cluster
+
+```shell
+kind delete cluster --name kind
+```
