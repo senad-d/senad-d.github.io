@@ -4,7 +4,7 @@ date: 2021-04-02 12:00:00
 categories: [Software, GitHub]
 tags: [github, actions, docker]
 ---
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true){: .shadow }
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
 
 # Introduction
 
