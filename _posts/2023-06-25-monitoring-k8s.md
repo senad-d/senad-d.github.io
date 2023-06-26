@@ -244,13 +244,8 @@ helm install -n monitoring prometheus prometheus-community/kube-prometheus-stack
 
 * Port Forwarding Grafana
 
-***(be sure to change the pod name to one that matches yours)***
-
-> `kubectl get pods -n monitoring | grep grafana`
-{: .prompt-tip }
-
 ```shell
-kubectl port-forward -n monitoring grafana-0000000-00000 51000:3000
+kubectl port-forward -n monitoring svc/grafana 51000:80
 ```
 
 * Visit Grafana
