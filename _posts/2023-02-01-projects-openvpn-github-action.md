@@ -6,7 +6,7 @@ tags: [aws, openvpn, actions]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
-To streamline and simplify the process of creating a larger number of users requiring access, you can utilize a GitHub Action. One prerequisite for its usage is that during the deployment of the CloudFormation template, you have provided a verified email address for SES.
+To streamline and simplify the process of creating a larger number of users requiring access, you can utilize a GitHub Action. One prerequisite for its usage is that during the deployment of the [***CloudFormation template***](https://senad-d.github.io/posts/projects-openvpn-aws-cf/), you have provided a verified email address for SES.
 
 Here's a step-by-step guide:
 
@@ -23,7 +23,7 @@ Here's a step-by-step guide:
 
 By following these steps, you can efficiently generate OpenVPN users and automate the process using GitHub Actions.
 
-* GitHub Action
+* GitHub Action for creating OpenVPN users from the list
 
 ```shell
 name: Manage OpenVPN users
