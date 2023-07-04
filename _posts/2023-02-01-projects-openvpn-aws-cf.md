@@ -194,7 +194,7 @@ Resources:
         Fn::Base64: !Sub |
           #!/bin/bash -xe
           
-          git clone https://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@github.com/valconsee//VPN.git /root/OpenVPN
+          git clone https://<token>@github.com/valconsee//VPN.git /root/OpenVPN
           
           cat <<EOF > /root/start_OpenVPN.sh
           #!/bin/bash -xe
