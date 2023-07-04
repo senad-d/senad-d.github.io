@@ -101,7 +101,7 @@ cat /var/log/openvpn/openvpn-status.log | sed '/ROUTING/q' | head -n -1
 
 ## Create OpenVPN users through a list
 
-To streamline and simplify the process of creating a larger number of users requiring access, you can utilize a GitHub Action. One prerequisite for its usage is that during the deployment of the CloudFormation template, you have provided a verified email address for SES.
+To streamline and simplify the process of creating a larger number of users requiring access, you can utilize a [***GitHub Action***](https://senad-d.github.io/posts/projects-openvpn-github-action/). One prerequisite for its usage is that during the deployment of the CloudFormation template, you have provided a verified email address for SES.
 
 Here's a step-by-step guide:
 

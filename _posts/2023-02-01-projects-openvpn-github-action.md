@@ -1,8 +1,8 @@
 ---
-title: AWS OpenVPN bootstrap script
+title: Create OpenVPN users from the list with GitHub Actions
 date: 2023-02-01 12:00:00
-categories: [Projects, OpenVPN, AWS, Bootstrap]
-tags: [aws, openvpn, bootstrap]
+categories: [Projects, OpenVPN, AWS, GitHub]
+tags: [aws, openvpn, actions]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
