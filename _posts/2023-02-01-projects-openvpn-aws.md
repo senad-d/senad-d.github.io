@@ -31,9 +31,11 @@ A CloudFormation template for adding an EC2 instance with a fully automated boot
 	7. Role creation
 	8. Policy creation
 	9. FlowLog creation
+	10. S3 Bucket
+	11. SES
 -   VPN bootstrap script for installing and running OpenVPN 
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/20221120184106.png?raw=true){: .shadow }
+![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/oepnvpn-aws-cf.png?raw=true){: .shadow }
 
 ### 1. CloudFormation template
 
@@ -96,3 +98,22 @@ cat /var/log/openvpn/openvpn-status.log | sed '/ROUTING/q' | head -n -1
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/vpn_user.png?raw=true){: .shadow }
 
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/file_io.png?raw=true){: .shadow }
+
+## Create OpenVPN users through a list
+
+To streamline and simplify the process of creating a larger number of users requiring access, you can utilize a GitHub Action. One prerequisite for its usage is that during the deployment of the CloudFormation template, you have provided a verified email address for SES.
+
+Here's a step-by-step guide:
+
+1. Create a new private repository and add secrets for actions to establish a connection with AWS.
+2. Create an action to synchronize the user list with OpenVPN.
+3. Generate a new user list in the email address format, with each user listed on a separate line. Save the file as:
+	./users/vpn_user_list
+	```shell
+	mail1@example.com
+	mail2@example.com
+	mail3@example.com
+	```
+4. Once the changes are pushed to GitHub, your OpenVPN will create new users and send them an email containing the configuration file. Please note that the configuration file will expire within 24 hours of receiving the email.
+
+By following these steps, you can efficiently generate OpenVPN users and automate the process using GitHub Actions.
