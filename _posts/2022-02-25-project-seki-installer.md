@@ -1,6 +1,6 @@
 ---
 title: A quick and easy way to install a dev env for Docker.
-date: 2023-01-25 12:00:00
+date: 2022-02-25 12:00:00
 categories: [Projects, SekiInstaller]
 tags: [homelab, installer, dev]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Plausible Analytics
-date: 2023-03-03 12:00:00
+date: 2022-03-03 12:00:00
 categories: [Software, Plausible]
 tags: [analytics, monitoring]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Azure
-date: 2023-01-01 12:00:00
+date: 2022-01-01 12:00:00
 categories: [Cloud, Azure]
 tags: [azure, basics]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Nginx Proxy Manager
-date: 2023-03-03 13:00:00
+date: 2022-03-03 13:00:00
 categories: [Software, Nginx]
 tags: [nginx, proxymanager, docker-compose]
 ---
