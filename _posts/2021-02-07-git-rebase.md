@@ -1,8 +1,8 @@
 ---
 title: Git workflow with rebase
-date: 2023-04-20 12:00:00
+date: 2021-02-07 12:00:00
 categories: [Software, Git]
-tags: [git, basics, ]
+tags: [git, basics]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
 

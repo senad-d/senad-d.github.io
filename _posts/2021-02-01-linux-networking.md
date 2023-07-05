@@ -1,20 +1,20 @@
 ---
 title: Networking
-date: 2021-04-01 12:00:00
+date: 2021-02-01 12:00:00
 categories: [OS, Linux]
 tags: [linux, ip]
 ---
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/linux-banner.png?raw=true){: .shadow }
 
 ## Change Hostname
-```bash
+```shell
 hostnamectl set-hostname newhostname
 ```
 
 ## Change IP Address in Ubuntu 20.04 LTS
 
 1. Create a new file `/etc/netplan/01-netcfg.yaml`
-```yaml
+```shell
 network:
   version: 2
   renderer: networkd
@@ -29,7 +29,7 @@ network:
 ```
 
 2. Apply changes
-```bash
+```shell
 netplay apply
 ```
 
@@ -37,7 +37,7 @@ netplay apply
 gateway4 has been depricated in ubuntu 22.04 release and routes is used instead!
 
 1. Create a new file `/etc/netplan/00-installer-config.yaml`
-```yaml
+```shell
 network:
   ethernets:
     enp5s0:
@@ -51,7 +51,7 @@ network:
   version: 2
 ```
 1.1 Create  `/etc/netplan/00-installer-config-wifi.yaml`
-```yaml
+```shell
 network:
   version: 2
   wifis:
@@ -62,16 +62,16 @@ network:
       dhcp4: true
 ```
 2. Apply changes
-```bash
+```shell
 netplay apply
 ```
 
 Get hardware info
-```bash
+```shell
 sudo lshw -short
 ```
 
 ## Check open ports and apps useing them
-```bash
+```shell
 sudo ss -tulwnp | grep LISTEN
 ```

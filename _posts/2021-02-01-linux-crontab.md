@@ -1,6 +1,6 @@
 ---
 title: Linux Chrontab
-date: 2021-04-01 12:00:00
+date: 2021-02-01 12:00:00
 categories: [OS, Linux]
 tags: [linux, crontab]
 ---
