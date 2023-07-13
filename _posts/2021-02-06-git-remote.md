@@ -25,7 +25,7 @@ Are you developing a new application with Mendix using a free license and findin
 - Example: `https://github.com/<user-name>/<name>.git`
 5.  Within the project folder, open a Git terminal and enter the following commands:
     
-    ```
+    ```shell
     git remote set-url origin https://github.com/<user-name>/<name>.git
     
     git push origin main --force
@@ -33,7 +33,7 @@ Are you developing a new application with Mendix using a free license and findin
     
 6.  Once the transfer is complete, return to Mendix's Git in order to continue working normally:
     
-    ```
+    ```shell
     git remote set-url origin https://git.api.mendix.com/<number>.git
     ```
 
