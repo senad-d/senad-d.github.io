@@ -28,7 +28,7 @@ Are you developing a new application with Mendix using a free license and findin
     ```shell
     git remote set-url origin https://github.com/<user-name>/<name>.git
     
-    git push origin main --force
+    git push
     ```
     
 6.  Once the transfer is complete, return to Mendix's Git in order to continue working normally:
@@ -36,6 +36,8 @@ Are you developing a new application with Mendix using a free license and findin
     ```shell
     git remote set-url origin https://git.api.mendix.com/<number>.git
     ```
+
+6.  Now if you are using different branch in your Mendix git project you need to do is to go to the GitHub repository and Merge the new branch to main branch.
 
 ### Conclusion: 
 
