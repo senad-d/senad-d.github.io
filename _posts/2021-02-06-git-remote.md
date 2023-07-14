@@ -37,7 +37,7 @@ Are you developing a new application with Mendix using a free license and findin
     git remote set-url origin https://git.api.mendix.com/<number>.git
     ```
 
-6.  Now if you are using different branch in your Mendix git project you need to do is to go to the GitHub repository and Merge the new branch to main branch.
+6.  Now if you are using different branch in your Mendix git project you'll need to go to the GitHub repository and Merge the new branch to main branch.
 
 ### Conclusion: 
 
