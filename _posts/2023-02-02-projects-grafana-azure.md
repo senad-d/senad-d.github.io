@@ -77,7 +77,7 @@ Custom [***dashboard***](https://senad-d.github.io/posts/projects-grafana-azure-
 -   A mixture of both uppercase and lowercase letters
 -   A mixture of letters and numbers
 
-6. Go to [portal.azure.com](http://portal.azure.com/) and add the role assignment “Monitoring Reader” to the Subscription you want to monitor.
+6. Go to portal.azure.com and add the role assignment “Monitoring Reader” to the Subscription you want to monitor.
 
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/Azure_IAM_Access_control.jpg?raw=true){: .shadow }
 

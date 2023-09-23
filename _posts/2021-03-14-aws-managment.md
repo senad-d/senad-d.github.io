@@ -142,7 +142,7 @@ VPC Flow Logs: If you need to capture network traffic at an interface, subnet or
     
 -   Any traffic destined to the IP address for the VPC default router
     
--   Traffic to and from the following addresses, [169.254.169.254](http://169.254.169.254) and [169.254.169.123](http://169.254.169.123)
+-   Traffic to and from the following addresses, 169.254.169.254 and 169.254.169.123
     
 -   Traffic between a network load balancer interface and an endpoint network interface
 
