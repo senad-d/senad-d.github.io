@@ -4,6 +4,7 @@ date: 2023-06-02 12:00:00
 categories: [Software, Kubernetes]
 tags: [kubernetes, cheat-sheet]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/kubernetes-banner.png?raw=true){: .shadow }
 
 This page contains a list of commonly used `kubectl` commands and flags.
@@ -199,7 +200,7 @@ JSONPATH='{range .items[*]}{@.metadata.name}:{range @.status.conditions[*]}{@.ty
  && kubectl get nodes -o jsonpath="$JSONPATH" | grep "Ready=True"
 
 # Output decoded secrets without external tools
-kubectl get secret my-secret -o go-template='{{range \$k,$v := .data}}{{"### "}}{{\$k}}{{"\n"}}{{$v|base64decode}}{{"\n\n"}}{{end}}'
+kubectl get secret my-secret -o go-template='{{range $k,$v := .data}}{{"### "}}{{$k}}{{"\n"}}{{$v|base64decode}}{{"\n\n"}}{{end}}'
 
 # List all Secrets currently in use by a pod
 kubectl get pods -o json | jq '.items[*].spec.containers[*].env[*]?.valueFrom.secretKeyRef.name' | grep -v null | sort | uniq
