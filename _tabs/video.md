@@ -1,11 +1,11 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+icon: fas fa-play-circle
 order: 4
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/gif/giphy.gif?raw=true){: .shadow } | Join us as we delve into the world of Amazon Web Services (AWS) and explore the latest DevOps technologies. Uncover expert insights, tutorials, and best practices to streamline your cloud infrastructure and expedite software development. Whether you're an experienced professional or new to the field, our content is designed to assist you in mastering AWS and DevOps tools for maximum efficiency and success.
+Join us as we delve into the world of Amazon Web Services (AWS) and explore the latest DevOps technologies. Uncover expert insights, tutorials, and best practices to streamline your cloud infrastructure and expedite software development. Whether you're an experienced professional or new to the field, our content is designed to assist you in mastering AWS and DevOps tools for maximum efficiency and success.
 
 ---
 
