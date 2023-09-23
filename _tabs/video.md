@@ -15,7 +15,7 @@ order: 4
 
 .my_text {
     flex: 1;
-    padding: 10px;
+    padding: 20px;
 }
 
 .my_image {
@@ -42,7 +42,6 @@ order: 4
 </div>
 
 ---
-# Video Gallery
 
 
 {% include embed/youtube.html id='RnxS23ypF5U' %}
