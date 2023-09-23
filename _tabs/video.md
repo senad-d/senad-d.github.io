@@ -19,7 +19,7 @@ order: 4
 }
 
 .my_image {
-    max-width: 30%;
+    max-width: 50%;
 }
 @media (max-width: 768px) {
     .my_container {
@@ -27,7 +27,7 @@ order: 4
         text-align: center; /* Center text */
     }
     .my_image {
-        max-width: 100%; /* Full width for the image */
+        max-width: 80%; /* Full width for the image */
         margin-top: 5px; /* Add some space between text and image */
     }
 }
