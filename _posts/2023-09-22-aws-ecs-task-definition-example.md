@@ -341,7 +341,7 @@ EOF
 
 - Github Action
 
-```Shell
+```shell
 name: 3 - Deploy Backend Container
 
 env:
@@ -375,9 +375,9 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v3
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ${{ env.AWS_REGION }}
+        aws-access-key-id: 
+        aws-secret-access-key: 
+        aws-region: 
 
     - name: Create App Task Definition
       run: |
