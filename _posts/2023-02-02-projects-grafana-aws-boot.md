@@ -4,6 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, Grafana, AWS, Bootstrap]
 tags: [aws, grafana, bootstrap]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 Bootstrap script for Amazon-Linux AMI. This script installs docker and docker-compose. Runs Grafana, InfluxDB, and Telegraf with custom configuration files. 

@@ -4,6 +4,7 @@ date: 2022-02-25 12:00:00
 categories: [Projects, SekiInstaller]
 tags: [homelab, installer, dev]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/homelab-banner.jpeg?raw=true){: .shadow }
 
 # Installer

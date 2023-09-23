@@ -4,6 +4,7 @@ date: 2023-06-02 12:00:00
 categories: [Software, Terraform]
 tags: [terraform, cheat-sheet]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/terraform-banner.png?raw=true){: .shadow }
 
 ## The 10 most useful Terraform commands

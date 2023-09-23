@@ -4,6 +4,8 @@ date: 2021-02-01 12:00:00
 categories: [OS, Linux]
 tags: [linux, crontab]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/linux-banner.png?raw=true){: .shadow }
 
 The Cron daemon is a service that runs on all main distributions of Unix and Linux. Specifically designed to execute commands at a given time. These jobs are commonly referred to as cronjobs and are one of the essential tools that should be present in every Systems Administrator's toolbox. Cronjobs are used for automating tasks or scripts so that they can be executed at specific times.

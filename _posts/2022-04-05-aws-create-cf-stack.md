@@ -4,6 +4,7 @@ date: 2022-04-05 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, account]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 A step-by-step example of provisioning resources with a CloudFormation template. 

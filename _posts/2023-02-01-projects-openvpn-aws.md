@@ -4,6 +4,7 @@ date: 2023-02-01 12:00:00
 categories: [Projects, OpenVPN, AWS]
 tags: [aws, openvpn]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 A CloudFormation template for adding an EC2 instance with a fully automated bootstrap script to create a VPN that automatically creates SSL certificates and allows easy management of users.

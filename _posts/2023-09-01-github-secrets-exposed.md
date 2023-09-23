@@ -4,6 +4,7 @@ date: 2023-09-01 08:00:00
 categories: [Software, GitHub]
 tags: [github, actions, secret]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
 
 # GitHub Secrets

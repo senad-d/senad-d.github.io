@@ -4,6 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, Grafana, AWS]
 tags: [aws, grafana]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 A CloudFormation template for adding an EC2 instance with a fully automated bootstrap script to create monitoring that automatically connects to AWS CloudWatch for metrics and allows users easy viewing of key metrics for AWS resources.

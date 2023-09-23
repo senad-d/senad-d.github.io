@@ -4,6 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, OpenVPN, Azure]
 tags: [azure, openvpn]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 ARM template for adding VM with a fully automated bootstrap script to create a VPN that automatically creates SSL certificates and allows easy management of users.

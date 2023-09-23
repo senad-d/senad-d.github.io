@@ -4,6 +4,7 @@ date: 2023-03-01 12:00:00
 categories: [Projects, CSI, CloudFormation]
 tags: [aws, ecs, cloudformation]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 Create an AWS User to manage the infrastructure and give it permissions.

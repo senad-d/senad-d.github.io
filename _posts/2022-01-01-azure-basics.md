@@ -4,6 +4,7 @@ date: 2022-01-01 12:00:00
 categories: [Cloud, Azure]
 tags: [azure, basics]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 # All Products

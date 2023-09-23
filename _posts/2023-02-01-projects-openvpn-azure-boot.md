@@ -4,6 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, OpenVPN, Azure, Bootstrap]
 tags: [azure, openvpn, bootstrap]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 

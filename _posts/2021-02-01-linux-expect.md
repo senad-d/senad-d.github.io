@@ -4,6 +4,8 @@ date: 2021-02-01 12:00:00
 categories: [OS, Linux]
 tags: [linux, expect]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/linux-banner.png?raw=true){: .shadow }
 
 System administrators automate repetitive tasks all the time. Bash scripts provide many programs and features to carry out system automation tasks. The expect command offers a way to control interactive applications which require user input to continue.

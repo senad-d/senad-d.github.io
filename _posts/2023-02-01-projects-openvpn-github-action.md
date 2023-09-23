@@ -4,6 +4,7 @@ date: 2023-02-01 12:00:00
 categories: [Projects, OpenVPN, AWS, GitHub]
 tags: [aws, openvpn, actions]
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 To streamline and simplify the process of creating a larger number of users requiring access, you can utilize a GitHub Action. One prerequisite for its usage is that during the deployment of the [***CloudFormation template***](https://senad-d.github.io/posts/projects-openvpn-aws-cf/), you have provided a verified email address for SES.
