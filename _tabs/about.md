@@ -3,6 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 
 >Thank you for visiting. Together, let's unlock the full potential of DevOps and propel you towards continuous success.
 
