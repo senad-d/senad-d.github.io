@@ -8,16 +8,28 @@ order: 4
 <style>
 .my_container {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    padding: 5px;
 }
 
 .my_text {
     flex: 1;
+    padding: 10px;
 }
 
 .my_image {
     max-width: 30%;
+}
+@media (max-width: 300px) {
+    .container {
+        flex-direction: column; /* Text on top, image below */
+        text-align: center; /* Center text */
+    }
+    .image {
+        max-width: 100%; /* Full width for the image */
+        margin-top: 5px; /* Add some space between text and image */
+    }
 }
 </style>
 <div class="my_container">
