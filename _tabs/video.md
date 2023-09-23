@@ -33,16 +33,16 @@ order: 4
 }
 </style>
 <div class="my_container">
-    <div class="my_text">
-        <h2>Video Gallery</h2>
-        <p>Join us as we delve into the world of Amazon Web Services (AWS) and explore the latest DevOps technologies. Uncover expert insights, tutorials, and best practices to streamline your cloud infrastructure and expedite software development. Whether you're an experienced professional or new to the field, our content is designed to assist you in mastering AWS and DevOps tools for maximum efficiency and success.</p>
-    </div>
     <div class="my_image">
             <img src="https://github.com/senad-d/senad-d.github.io/blob/main/_media/gif/giphy.gif?raw=true" width="300" height="100" />
+    </div>
+    <div class="my_text">
+        <p>Join us as we delve into the world of Amazon Web Services (AWS) and explore the latest DevOps technologies. Uncover expert insights, tutorials, and best practices to streamline your cloud infrastructure and expedite software development. Whether you're an experienced professional or new to the field, our content is designed to assist you in mastering AWS and DevOps tools for maximum efficiency and success.</p>
     </div>
 </div>
 
 ---
+# Video Gallery
 
 
 {% include embed/youtube.html id='RnxS23ypF5U' %}
