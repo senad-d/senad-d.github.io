@@ -1,6 +1,6 @@
 ---
-title: Connecting Amazon ECS Exec for debugging
-date: 2023-09-22 12:00:00
+title: How to connect to AWS ECS for debugging
+date: 2023-09-22 11:00:00
 categories: [Cloud, AWS]
 tags: [aws, ecs]
 ---
