@@ -21,7 +21,7 @@ order: 4
 .my_image {
     max-width: 30%;
 }
-@media (max-width: 300px) {
+@media (max-width: 768px) {
     .my_container {
         flex-direction: column; /* Text on top, image below */
         text-align: center; /* Center text */
