@@ -22,11 +22,11 @@ order: 4
     max-width: 30%;
 }
 @media (max-width: 300px) {
-    .container {
+    .my_container {
         flex-direction: column; /* Text on top, image below */
         text-align: center; /* Center text */
     }
-    .image {
+    .my_image {
         max-width: 100%; /* Full width for the image */
         margin-top: 5px; /* Add some space between text and image */
     }
