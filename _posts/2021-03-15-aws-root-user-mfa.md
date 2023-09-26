@@ -13,32 +13,32 @@ tags: [aws, account]
     
 2.  Navigate to the **IAM** service
     
-    ![AWS Services list](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-services-list.webp){: .shadow }
+    ![AWS Services list](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-services-list.png?raw=true){: .shadow }
     
 3.  On the IAM Dashboard, check if MFA is enabled or not. In the picture below we can see that MFA has not been enabled for the root user
     
-    ![IAM Dashboard](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/iam-dashboard.webp){: .shadow }
+    ![IAM Dashboard](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/iam-dashboard.png?raw=true){: .shadow }
     
 4.  To enable MFA, click on **Add MFA**
     
-    ![AWS add MFA](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-add-mfa.webp){: .shadow }
+    ![AWS add MFA](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-add-mfa.png?raw=true){: .shadow }
     
 5.  This will open a new tab. In the new tab, click on **Activate MFA**
     
-    ![AWS activate MFA](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-activate-mfa.webp){: .shadow }
+    ![AWS activate MFA](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-activate-mfa.png?raw=true){: .shadow }
     
 6.  This will show a pop up with three options. You can select any one. In this article we will select the **Virtual MFA device** option and click on **Continue**
     
-    ![AWS manage MFA device](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-manage-mfa-device.webp){: .shadow }
+    ![AWS manage MFA device](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-manage-mfa-device.png?raw=true){: .shadow }
     
 7.  If you have the option of scanning QR code, click on Show QR code and scan it to proceed with the set up. You can also set it up using the secret key. Click on show secret key, copy the key, and set up the MFA device.
     
-    ![AWS set MFA device](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-set-mfa-device.webp){: .shadow }
+    ![AWS set MFA device](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-set-mfa-device.png?raw=true){: .shadow }
     
 8.  Now provide two consecutive MFA codes and click on **Assign MFA.** This will set up the virtual MFA device
     
-    ![AWS Assign MFA](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-assign-mfa.webp){: .shadow }
+    ![AWS Assign MFA](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/aws-assign-mfa.png?raw=true){: .shadow }
     
 9.  To verify the success of the setting change, go back to the IAM dashboard and refresh the tab to confirm if the MFA has been successfully setup
     
-    ![IAM dashboard MFA assigned](![https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/iam-dashboard-mfa-assigned.webp)){: .shadow }
+    ![IAM dashboard MFA assigned](![https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/iam-dashboard-mfa-assigned.png?raw=true)){: .shadow }
