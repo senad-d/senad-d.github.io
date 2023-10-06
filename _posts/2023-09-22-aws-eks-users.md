@@ -11,6 +11,7 @@ To add additional IAM users to an Amazon Elastic Kubernetes Service (EKS) cluste
 
 1.  **Create IAM Group, Role and User:**
     - Create IAM group, role or user that you want to associate with your EKS cluster. 
+    
     ```shell
     NAME="<name>"
     
@@ -51,7 +52,7 @@ To add additional IAM users to an Amazon Elastic Kubernetes Service (EKS) cluste
 
 2.  **Associate IAM Roles/Users with the EKS Cluster:**
     
-    -   To edit the `aws-auth` ConfigMap, you can use the `kubectl edit` command or by creating a YAML file and then applying it.
+    -   To edit the `aws-auth` ConfigMap, you must log in as an EKS cluster administrator user. Then, you can use the `kubectl edit` command or create a YAML file to apply changes.
     ```shell
     kubectl get configmap aws-auth -n kube-system -o yaml > aws-auth-cm.yaml
     ```
