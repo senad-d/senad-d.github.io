@@ -18,7 +18,7 @@ Before you can use the script, you need to ensure you have the following prerequ
     
 2.  **Access to AWS SES**: You must have access to AWS SES to send emails. Ensure that your AWS credentials have the required permissions to use SES.
 
-3. **`tmp.html`** file with your massage.
+3. **HTML template** file `tmp.html` with your massage.
 
 4. **Base64 encoded** file you want to send as an attachment.
 
@@ -70,10 +70,10 @@ Run the script with the required arguments in the following format:
 ```shell
 ./script.sh "from@example.com" "to@example.com" "base64_encoded_content" "file_name" "aws_region"
 ```
-   > Replace: <br>
-   > `from@example.com` with the sender's email address<br>
-   > `to@example.com` with the recipient's email address<br>
-   > `base64_encoded_content` with the base64-encoded content you want to send as an attachment<br>
-   > `file_name` with the desired name for the attachment file (without an extension)<br>
-   > `aws_region` with the AWS Region in which you have SES Identity verified
+   > Replace:
+   `from@example.com` with the sender's email address
+   `to@example.com` with the recipient's email address
+   `base64_encoded_content` with the base64-encoded content you want to send as an attachment
+   `file_name` with the desired name for the attachment file (without an extension)
+   `aws_region` with the AWS Region in which you have SES Identity verified
 
