@@ -70,10 +70,10 @@ Run the script with the required arguments in the following format:
 ```shell
 ./script.sh "from@example.com" "to@example.com" "base64_encoded_content" "file_name" "aws_region"
 ```
-   > Replace: 
-   > `from@example.com` with the sender's email address
-   > `to@example.com` with the recipient's email address
-   > `base64_encoded_content` with the base64-encoded content you want to send as an attachment
-   > `file_name` with the desired name for the attachment file (without an extension)
+   > Replace: <br>
+   > `from@example.com` with the sender's email address<br>
+   > `to@example.com` with the recipient's email address<br>
+   > `base64_encoded_content` with the base64-encoded content you want to send as an attachment<br>
+   > `file_name` with the desired name for the attachment file (without an extension)<br>
    > `aws_region` with the AWS Region in which you have SES Identity verified
 
