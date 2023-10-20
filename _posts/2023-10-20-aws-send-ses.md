@@ -1,6 +1,6 @@
 ---
 title: Send Raw Email using AWS SES
-date: 2023-10-22 12:00:00
+date: 2023-10-20 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, ses]
 ---
