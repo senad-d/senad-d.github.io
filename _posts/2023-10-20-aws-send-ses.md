@@ -7,10 +7,9 @@ tags: [aws, ses]
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
-# **Introduction:** 
-The script constructs an email message in MIME format. The email is structured with headers, and it includes both HTML content and a plain text attachment.
+The script is designed to construct an email message in Multipurpose Internet Mail Extensions (MIME) format. This email is structured with headers and encompasses both HTML content and a plain text attachment.
 
-## **Prerequisites:**
+## **Prerequisites**
 
 Before you can use the script, you need to ensure you have the following prerequisites in place:
 
@@ -18,9 +17,9 @@ Before you can use the script, you need to ensure you have the following prerequ
     
 2.  **Access to AWS SES**: You must have access to AWS SES to send emails. Ensure that your AWS credentials have the required permissions to use SES.
 
-3. **HTML template** file `tmp.html` with your massage.
+2. **HTML Template File**: Have the 'tmp.html' file ready, containing the desired message.
 
-4. **Base64 encoded** file you want to send as an attachment.
+3. **Base64 Encoded Attachment**: Ensure that the file you intend to send as an attachment is encoded in Base64 format.
 
 ## **Creating the script**
 ```shell
