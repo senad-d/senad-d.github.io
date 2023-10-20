@@ -26,15 +26,15 @@ Before you can use the script, you need to ensure you have the following prerequ
 cat <<EOF >  send_ses
 #!/bin/bash
 
-FROM="$1"
-TO="$2"
-CONTENT="$3"
-NAME="$4"
-REGION="$5"
-HTML="$(cat tmp.html)"
+FROM="\$1"
+TO="\$2"
+CONTENT="\$3"
+NAME="\$4"
+REGION="\$5"
+HTML="\$(cat tmp.html)"
 
-CONTENT="From: $FROM
-To: $TO
+CONTENT="From: \$FROM
+To: \$TO
 Subject: AWS Credentials
 MIME-Version: 1.0
 Content-type: Multipart/Mixed; boundary=\"NextPart\"
@@ -43,20 +43,20 @@ Content-type: Multipart/Mixed; boundary=\"NextPart\"
 Content-Type: text/html; charset=iso-8859-1
 Content-Transfer-Encoding: quoted-printable
 
-$HTML
+\$HTML
 
 --NextPart
 Content-Type: text/plain; charset=us-ascii
-Content-Disposition: attachment; filename=\"$NAME.txt\"
+Content-Disposition: attachment; filename=\"\$NAME.txt\"
 Content-Transfer-Encoding: base64
 
-$CONTENT
+\$CONTENT
 --NextPart--"
 
-ENCODED=$(echo -n "$CONTENT" | base64 | sed ':a;N;$!ba;s/\n/\\n/g')
-JSON="{\"Data\": \"$ENCODED\"}"
+ENCODED=\$(echo -n "\$CONTENT" | base64 | sed ':a;N;$!ba;s/\n/\\n/g')
+JSON="{\"Data\": \"\$ENCODED\"}"
 
-aws ses send-raw-email --region "$REGION" --raw-message "$JSON"
+aws ses send-raw-email --region "\$REGION" --raw-message "\$JSON"
 EOF
 
 chmod +x send_ses
