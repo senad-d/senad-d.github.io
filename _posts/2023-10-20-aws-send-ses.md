@@ -63,17 +63,17 @@ EOF
 chmod +x send_ses
 ```
 
-## Usage:
+## **Usage**
 
 Run the script with the required arguments in the following format:
     
 ```shell
-./script.sh "from@example.com" "to@example.com" "base64_encoded_content" "file_name" "aws_region"
+./send_ses "from@example.com" "to@example.com" "base64_encoded_content" "file_name" "aws_region"
 ```
    > Replace:
    `from@example.com` with the sender's email address
    `to@example.com` with the recipient's email address
-   `base64_encoded_content` with the base64-encoded content you want to send as an attachment
+   `base64_encoded_content` with the base64-encoded content you want to send as an attachment. You can use `$(cat "input" | base64)`
    `file_name` with the desired name for the attachment file (without an extension)
    `aws_region` with the AWS Region in which you have SES Identity verified
 
