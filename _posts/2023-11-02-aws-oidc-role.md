@@ -106,9 +106,9 @@ aws iam put-role-policy \
   --policy-document "$OIDC_POLICY" \
 
 ```
-> Edit ***`OIDC_POLICY`***: Assign a minimum level of permissions to the role.{: .prompt-tip }
+> Edit ***`OIDC_POLICY`***: Assign a minimum level of permissions to the role. {: .prompt-tip }
 
-> ***`oidc.sh`*** script allows you to create the OIDC connection IAM Role for new the AWS environment.{: .prompt-tip }
+> ***`oidc.sh`*** script allows you to create the OIDC connection IAM Role for new the AWS environment. {: .prompt-tip }
 
 
 ## Usage
