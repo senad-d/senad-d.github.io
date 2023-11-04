@@ -21,7 +21,7 @@ To follow along with this blog post, you should have the following prerequisites
     -   Must be able to [create an OpenID Connect IdP](https://docs.aws.amazon.com/IAM/latest/APIReference/API_CreateOpenIDConnectProvider.html)
     -   Must be able to [create an IAM role and attach a policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions_create-policies.html)
 
-# Create IAM OIDC Role in AWS
+# Create OIDC provider, IAM role and scope the trust policy
 
 Connect to your AWS account and create the ***`oidc.sh`*** script.
 
@@ -121,7 +121,7 @@ FRONTEND_REPO="account/project-frontend"
 BACKEND_REPO="account/project-backend"
 URL="https://token.actions.githubusercontent.com/.well-known/openid-configuration"
 
-./oidc.sh "$NAME" "$INFRA_REPO" "$FRONTEND_REPO" "$BACKEND_REPO"
+./oidc.sh "$NAME" "$INFRA_REPO" "$FRONTEND_REPO" "$BACKEND_REPO" "$URL"
 ```
 
 ## Create a GitHub action to invoke the AWS CLI
