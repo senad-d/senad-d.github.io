@@ -22,6 +22,7 @@ In the `.github/workflows` directory, create a file named like `github-actions.y
 ## Example Start App YAML file:
 
 > The double curly braces are missing for the GitHub action, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 3 - Build and Deploy Backend Container
@@ -80,6 +81,7 @@ jobs:
 ## Example Stop Data base YAML file:
 
 > The double curly braces are missing for the GitHub action, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 2 - Build and Deploy DataBase
@@ -133,6 +135,7 @@ jobs:
 ## Example Stop YAML file:
 
 > The double curly braces are missing for the GitHub action, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 4 - Stop running ECS Fargate services

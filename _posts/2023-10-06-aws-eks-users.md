@@ -57,6 +57,7 @@ To add additional IAM users to an Amazon Elastic Kubernetes Service (EKS) cluste
     kubectl get configmap aws-auth -n kube-system -o yaml > aws-auth-cm.yaml
     ```
     > Get current ConfigMap from EKS
+    {: .prompt-tip }
     
 3.  **Edit the `aws-auth` ConfigMap:**
     -   Here's an example of a YAML file to associate an IAM user with your EKS cluster:
@@ -82,6 +83,7 @@ To add additional IAM users to an Amazon Elastic Kubernetes Service (EKS) cluste
       namespace: kube-system
     ```
     > Replace `arn:aws:iam::123456789012:user/your-iam-user` with the actual IAM user ARN you want to associate with your cluster and `your-eks-username` with the desired Kubernetes username.
+    {: .prompt-tip }
 
 4.  **Apply the ConfigMap:**
     -   If you've created the YAML file as shown above, you can apply it using the `kubectl apply` command:
@@ -89,6 +91,7 @@ To add additional IAM users to an Amazon Elastic Kubernetes Service (EKS) cluste
     kubectl apply -f aws-auth-cm.yaml
     ```
     > If you used `kubectl edit`, save the changes.
+    {: .prompt-tip }
 
 5.  **Test Access:**
     -   After applying the ConfigMap, the IAM user should have access to your EKS cluster as specified in the `aws-auth` ConfigMap.

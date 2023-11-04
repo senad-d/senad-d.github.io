@@ -75,4 +75,5 @@ Run the script with the required arguments in the following format:
    `base64_encoded_content` with the base64-encoded content you want to send as an attachment. You can use `$(cat "input" | base64)`<br>
    `file_name` with the desired name for the attachment file (without an extension)<br>
    `aws_region` with the AWS Region in which you have SES Identity verified
+   {: .prompt-tip }
 

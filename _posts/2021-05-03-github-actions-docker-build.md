@@ -22,6 +22,7 @@ In the `.github/workflows` directory, create a file named like `github-actions.y
 ## Example YAML file:
 
 > The double curly braces are missing for the GitHub action, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 0.3 - Build and Push Backend Image
@@ -76,6 +77,7 @@ jobs:
 ## Example Update docker image YAML file:
 
 > The double curly braces are missing for the GitHub action, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 0.4 - Push new Backend Image and Update ECS 

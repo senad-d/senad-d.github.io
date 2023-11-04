@@ -25,4 +25,4 @@ I would like to express my heartfelt gratitude to my mentor, ***Mario Runtić***
 
 
 > You can view my portfolio [***here***](https://portfolio.seki.ink/).
-
+{: .prompt-tip }

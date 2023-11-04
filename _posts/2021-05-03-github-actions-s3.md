@@ -22,6 +22,7 @@ In the `.github/workflows` directory, create a file named like `github-actions.y
 ## Example YAML file:
 
 > The double curly braces are missing for the GitHub actions, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 0.1 - Copy Inf. templates
@@ -66,6 +67,7 @@ jobs:
 ## Example 2 YAML file:
 
 > The double curly braces are missing for the GitHub actions, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 0.2 - Build and Push Frontend to S3

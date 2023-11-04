@@ -22,6 +22,7 @@ In the `.github/workflows` directory, create a file named like `github-actions.y
 ## Example Start YAML file:
 
 > The double curly braces are missing for the GitHub action, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 1 - Create AWS Inf. Stack
@@ -101,6 +102,7 @@ jobs:
 ## Example Stop YAML file:
 
 > The double curly braces are missing for the GitHub action, don't forget to put them back.
+{: .prompt-tip }
 
 ```shell
 name: 5 - Delete AWS Inf. Stack

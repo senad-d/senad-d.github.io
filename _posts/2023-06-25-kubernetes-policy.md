@@ -116,7 +116,8 @@ require-labels:
 ```
 In addition to the error returned, Kyverno also produces an Event in the same Namespace which contains this information.
 
-> Kyverno may be configured to exclude system Namespaces like `kube-system` and `kyverno`. Make sure you create the Deployment in a user-defined Namespace or the `default` Namespace (for testing only).{: .prompt-tip }
+> Kyverno may be configured to exclude system Namespaces like `kube-system` and `kyverno`. Make sure you create the Deployment in a user-defined Namespace or the `default` Namespace (for testing only).
+{: .prompt-tip }
 
 * Now, create a Pod with the required label.
 
