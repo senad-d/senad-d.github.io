@@ -1,6 +1,6 @@
 ---
 title: Create AWS OIDC for GitHub Actions
-date: 2023-10-20 12:00:00
+date: 2023-11-02 12:00:00
 categories: [Cloud, AWS]
 tags: [aws, ses]
 ---
