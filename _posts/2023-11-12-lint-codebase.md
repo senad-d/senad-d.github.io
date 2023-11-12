@@ -39,6 +39,7 @@ In your repository you should have a `.github/workflows` folder with **GitHub** 
 -   `.github/workflows/linter.yml`
 
 This file should have the following code:
+
 ```shell
 ---
 name: Lint Code Base
@@ -70,13 +71,14 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
-          GITHUB_TOKEN: \$${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: \$\{\{ secrets.GITHUB_TOKEN \}\}
 ```
 
 ## Use locally
 
-1. Install and run Docker on your local machine.
-2. Run the script that detects the user's shell and sets up a linting alias:
+\1. Install and run Docker on your local machine.
+\2. Run the script that detects the user's shell and sets up a linting alias:
+
 ```shell
 # Detect the current shell
 SHELL_TYPE="$(basename "$SHELL")"
@@ -102,8 +104,9 @@ else
     echo "Unsupported shell: $SHELL_TYPE"
 fi
 ```
-3. To perform linting on a GitHub Repository directory, you need to run the ***`lint`*** command inside that directory.
-4. To review the outcomes of Super-Linter, you can access the ***`super-linter.log`*** file.
+
+\3. To perform linting on a GitHub Repository directory, you need to run the ***`lint`*** command inside that directory.
+\4. To review the outcomes of Super-Linter, you can access the ***`super-linter.log`*** file.
 
 
 ## Environment variables
