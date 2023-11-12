@@ -29,7 +29,7 @@ To use this **GitHub** Action you will need to complete the following:
 5.  Enjoy your more _stable_, and _cleaner_ codebase
 6.  Check out the [Wiki](https://github.com/super-linter/super-linter/wiki) for customization options
 
-> If you pass the _Environment_ variable `GITHUB_TOKEN: ${{\ secrets.GITHUB_TOKEN }}` in your workflow, then the **GitHub Super-Linter** will mark the status of each individual linter run in the Checks section of a pull request. Without this you will only see the overall status of the full run. There is no need to set the **GitHub** Secret as it is automatically set by GitHub, it only needs to be passed to the action.
+> If you pass the _Environment_ variable `GITHUB_TOKEN: &lt;${{ secrets.GITHUB_TOKEN }}&gt;` in your workflow, then the **GitHub Super-Linter** will mark the status of each individual linter run in the Checks section of a pull request. Without this you will only see the overall status of the full run. There is no need to set the **GitHub** Secret as it is automatically set by GitHub, it only needs to be passed to the action.
 {: .prompt-tip }
 
 ## Example connecting GitHub Action Workflow
@@ -71,13 +71,13 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{\ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: &lt;${{ secrets.GITHUB_TOKEN }}&gt;
 ```
 
 ## Use locally
 
-1. Install and run Docker on your local machine.
-2. Run the script that detects the user's shell and sets up a linting alias:
+1\. Install and run Docker on your local machine.
+2\. Run the script that detects the user's shell and sets up a linting alias:
 
 ```shell
 # Detect the current shell
@@ -105,8 +105,8 @@ else
 fi
 ```
 
-3. To perform linting on a GitHub Repository directory, you need to run the ***`lint`*** command inside that directory.
-4. To review the outcomes of Super-Linter, you can access the ***`super-linter.log`*** file.
+3\. To perform linting on a GitHub Repository directory, you need to run the ***`lint`*** command inside that directory.
+4\. To review the outcomes of Super-Linter, you can access the ***`super-linter.log`*** file.
 
 
 ## Environment variables
