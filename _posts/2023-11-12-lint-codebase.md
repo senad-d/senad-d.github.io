@@ -80,6 +80,7 @@ jobs:
 ## Use locally
 
 1\. Install and run Docker on your local machine.
+
 2\. Run the script that detects the user's shell and sets up a linting alias:
 
 ```shell
@@ -109,6 +110,7 @@ fi
 ```
 
 3\. To perform linting on a GitHub Repository directory, you need to run the ***`lint`*** command inside that directory.
+
 4\. To review the outcomes of Super-Linter, you can access the ***`super-linter.log`*** file.
 
 
