@@ -44,16 +44,16 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-          aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-          aws-region: $ env.AWS_REGION 
+          aws-access-key-id: ${\{secrets.AWS_ACCESS_KEY_ID_DEV}} 
+          aws-secret-access-key: ${\{secrets.AWS_SECRET_ACCESS_KEY_DEV}} 
+          aws-region: ${\{env.AWS_REGION}} 
       
       - name: Create App backend stack
         run: |
           aws cloudformation create-stack \
           --stack-name App-backend-resources \
-          --template-url https://csi-resources-$ env.aws_env .s3.$ env.AWS_REGION .amazonaws.com/cloudformation/backend.yml \
-          --parameters ParameterKey=Environment,ParameterValue=$ env.aws_env   \
+          --template-url https://csi-resources-${\{env.AWS_REGION}}.s3.${\{env.AWS_REGION}} .amazonaws.com/cloudformation/backend.yml \
+          --parameters ParameterKey=Environment,ParameterValue=${\{env.AWS_REGION}}   \
           --capabilities CAPABILITY_IAM
           aws cloudformation wait stack-create-complete --stack-name App-backend-resources
 
@@ -61,8 +61,8 @@ jobs:
         run: |
           aws cloudformation create-stack \
           --stack-name App-frontend-resources \
-          --template-url https://csi-resources-$ env.aws_env .s3.$ env.AWS_REGION .amazonaws.com/cloudformation/frontend.yml \
-          --parameters ParameterKey=Environment,ParameterValue=$ env.aws_env   \
+          --template-url https://csi-resources-${\{env.AWS_REGION}}.s3.${\{env.AWS_REGION}} .amazonaws.com/cloudformation/frontend.yml \
+          --parameters ParameterKey=Environment,ParameterValue=${\{env.AWS_REGION}}   \
           --capabilities CAPABILITY_IAM
           aws cloudformation wait stack-create-complete --stack-name App-frontend-resources
 
@@ -96,8 +96,11 @@ jobs:
             }
         env:
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
-          SLACK_WEBHOOK_URL: $ secrets.SLACK_WEBHOOK_URL 
+          SLACK_WEBHOOK_URL: ${\{secrets.SLACK_WEBHOOK_URL}} 
 ```
+
+> After you copy this action remove `\` symbols from secrets.
+{: .prompt-tip }
 
 ## Example Stop YAML file:
 
@@ -123,9 +126,9 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-          aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-          aws-region: $ env.AWS_REGION 
+          aws-access-key-id: $ {\{secrets.AWS_ACCESS_KEY_ID_DEV}} 
+          aws-secret-access-key: $ {\{secrets.AWS_SECRET_ACCESS_KEY_DEV}} 
+          aws-region: ${\{env.AWS_REGION}} 
       
       - name: Delete App frontend stack
         run: |

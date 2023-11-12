@@ -53,9 +53,9 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-        aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-        aws-region: $ env.AWS_REGION 
+        aws-access-key-id: ${\{secrets.AWS_ACCESS_KEY_ID_DEV}} 
+        aws-secret-access-key: ${\{secrets.AWS_SECRET_ACCESS_KEY_DEV}} 
+        aws-region: ${\{env.AWS_REGION}}
 
     - name: Create App Task Definition for ECS Fargate
       run: |
@@ -68,14 +68,14 @@ jobs:
     - name: Create a Backend Service in ECS Fargate
       run: |
         aws ecs create-service \
-        --cluster $(aws ssm get-parameter --name "$ env.AWS_ENV .ECSCluster.App" --query "Parameter.Value" --output text) \
+        --cluster $(aws ssm get-parameter --name "${\{env.AWS_REGION}}.ECSCluster.App" --query "Parameter.Value" --output text) \
         --service-name App-service \
         --task-definition $(aws ecs list-task-definitions | grep App-App-TaskDefinition | tail -n 1 | sed s/\",// | sed s/\"// | sed 's/ //g') \
         --desired-count 1 \
         --enable-execute-command \
         --launch-type "FARGATE" \
-        --network-configuration "awsvpcConfiguration={subnets=[$(aws ssm get-parameter --name "$ env.AWS_ENV .PublicSubnetA.App" --query "Parameter.Value" --output text)],securityGroups=[$(aws ssm get-parameter --name "$ env.AWS_ENV .AppSG.App" --query "Parameter.Value" --output text)],assignPublicIp=ENABLED}" \
-        --load-balancers targetGroupArn=$(aws elbv2 describe-target-groups --names $ env.AWS_ENV -App-Fargate-TG --query "TargetGroups[0].TargetGroupArn" --output text),containerName=App,containerPort=80
+        --network-configuration "awsvpcConfiguration={subnets=[$(aws ssm get-parameter --name "${\{env.AWS_REGION}}.PublicSubnetA.App" --query "Parameter.Value" --output text)],securityGroups=[$(aws ssm get-parameter --name "${\{env.AWS_REGION}}.AppSG.App" --query "Parameter.Value" --output text)],assignPublicIp=ENABLED}" \
+        --load-balancers targetGroupArn=$(aws elbv2 describe-target-groups --names ${\{env.AWS_REGION}}-App-Fargate-TG --query "TargetGroups[0].TargetGroupArn" --output text),containerName=App,containerPort=80
 ```
 
 ## Example Stop Data base YAML file:
@@ -108,9 +108,9 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-        aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-        aws-region: $ env.AWS_REGION 
+        aws-access-key-id: ${\{secrets.AWS_ACCESS_KEY_ID_DEV}} 
+        aws-secret-access-key: ${\{secrets.AWS_SECRET_ACCESS_KEY_DEV}} 
+        aws-region: ${\{env.AWS_REGION}}
 
     - name: Create DataBase Task Definition for ECS Fargate
       run: |
@@ -123,14 +123,17 @@ jobs:
     - name: Create a Private DataBase Service in ECS Fatgate
       run: |
         aws ecs create-service \
-        --cluster $(aws ssm get-parameter --name "$ env.AWS_ENV .ECSCluster.App" --query "Parameter.Value" --output text) \
+        --cluster $(aws ssm get-parameter --name "${\{env.AWS_REGION}}.ECSCluster.App" --query "Parameter.Value" --output text) \
         --service-name CSI-DataBase-service \
         --task-definition $(aws ecs list-task-definitions | grep DataBase-CSI-TaskDefinition | tail -n 1 | sed s/\",// | sed s/\"// | sed 's/ //g') \
         --desired-count 1 \
         --enable-execute-command \
         --launch-type "FARGATE" \
-        --network-configuration "awsvpcConfiguration={subnets=[$(aws ssm get-parameter --name "$ env.AWS_ENV .PrivateSubnet.App" --query "Parameter.Value" --output text)],securityGroups=[$(aws ssm get-parameter --name "$ env.AWS_ENV .SG.App.DataBase" --query "Parameter.Value" --output text)]}"
+        --network-configuration "awsvpcConfiguration={subnets=[$(aws ssm get-parameter --name "${\{env.AWS_REGION}}.PrivateSubnet.App" --query "Parameter.Value" --output text)],securityGroups=[$(aws ssm get-parameter --name "${\{env.AWS_REGION}}.SG.App.DataBase" --query "Parameter.Value" --output text)]}"
 ```
+
+> After you copy this action remove `\` symbols from secrets.
+{: .prompt-tip }
 
 ## Example Stop YAML file:
 
@@ -160,18 +163,21 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-        aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-        aws-region: $ env.AWS_REGION 
+        aws-access-key-id: ${\{secrets.AWS_ACCESS_KEY_ID_DEV}} 
+        aws-secret-access-key: ${\{secrets.AWS_SECRET_ACCESS_KEY_DEV}} 
+        aws-region: ${\{env.AWS_REGION}}
 
     - name: Stop App Services in ECS Fargate
       run: |
        aws ecs delete-service \
-       --cluster $(aws ssm get-parameter --name "$ env.aws_env .ECSCluster.App" --query "Parameter.Value" --output text) \
+       --cluster $(aws ssm get-parameter --name "${\{env.AWS_REGION}}.ECSCluster.App" --query "Parameter.Value" --output text) \
        --service App-service \
        --force
        aws ecs delete-service \
-       --cluster $(aws ssm get-parameter --name "$ env.aws_env .ECSCluster.App" --query "Parameter.Value" --output text) \
+       --cluster $(aws ssm get-parameter --name "${\{env.AWS_REGION}}.ECSCluster.App" --query "Parameter.Value" --output text) \
        --service CSI-DataBase-service \
        --force
 ```
+
+> After you copy this action remove `\` symbols from secrets.
+{: .prompt-tip }

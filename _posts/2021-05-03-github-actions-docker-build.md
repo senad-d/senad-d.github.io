@@ -47,16 +47,16 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-        aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-        aws-region: $ env.AWS_REGION 
+        aws-access-key-id: ${\{secrets.AWS_ACCESS_KEY_ID_DEV}} 
+        aws-secret-access-key: ${\{secrets.AWS_SECRET_ACCESS_KEY_DEV}} 
+        aws-region: ${\{env.AWS_REGION}} 
 
     - name: Retrieve an authentication token
       run: |
         aws ecr get-login-password \
-        --region $ env.AWS_REGION  | docker login \
+        --region ${\{env.AWS_REGION}}  | docker login \
         --username AWS \
-        --password-stdin $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com
+        --password-stdin $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.${\{env.AWS_REGION}} .amazonaws.com
 
     - name: Build docker image
       run: |
@@ -66,11 +66,11 @@ jobs:
 
     - name: Tag docker image
       run: |
-        docker tag $(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest
+        docker tag $(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.${\{env.AWS_REGION}} .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest
 
     - name: Push docker image to ECR repository
       run: | 
-        docker push $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest
+        docker push $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.${\{env.AWS_REGION}} .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest
 ```
 
 
@@ -103,15 +103,15 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-        aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-        aws-region: $ env.AWS_REGION 
+        aws-access-key-id: ${\{secrets.AWS_ACCESS_KEY_ID_DEV}} 
+        aws-secret-access-key: ${\{secrets.AWS_SECRET_ACCESS_KEY_DEV}} 
+        aws-region: ${\{env.AWS_REGION}} 
 
     - name: Retrieve an authentication token
       run: |
-        aws ecr get-login-password --region $ env.AWS_REGION  | docker login \
+        aws ecr get-login-password --region ${\{env.AWS_REGION}}  | docker login \
         --username AWS \
-        --password-stdin $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com
+        --password-stdin $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.${\{env.AWS_REGION}} .amazonaws.com
 
     - name: Build new Backend docker image
       run: |
@@ -120,13 +120,13 @@ jobs:
 
     - name: Tag docker image version
       run: |
-        docker tag $(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest
+        docker tag $(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest $(aws sts get-caller-identity --query "Account" --output text).dkr.ecr.${\{env.AWS_REGION}} .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest
 
     - name: Push docker image to ECR repository
       run: | 
         docker push $(aws sts get-caller-identity \
         --query "Account" \
-        --output text).dkr.ecr.$ env.AWS_REGION .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest
+        --output text).dkr.ecr.${\{env.AWS_REGION}} .amazonaws.com/$(aws ssm get-parameter --name "$ env.aws_env .ECRepo.App" --query "Parameter.Value" --output text):latest
 
     - name: Update ECS cluster with new Backend image
       run: | 
@@ -165,5 +165,5 @@ jobs:
             }
         env:
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
-          SLACK_WEBHOOK_URL: $ secrets.SLACK_WEBHOOK_URL 
+          SLACK_WEBHOOK_URL: ${\{secrets.SLACK_WEBHOOK_URL}} 
 ```

@@ -48,9 +48,9 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-        aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-        aws-region: $ env.AWS_REGION 
+        aws-access-key-id: $ {\{secrets.AWS_ACCESS_KEY_ID_DEV}} 
+        aws-secret-access-key: $ {\{secrets.AWS_SECRET_ACCESS_KEY_DEV }}
+        aws-region: $ {\{env.AWS_REGION }}
 
     - name: Retrieve an authentication token
       run: |
@@ -109,8 +109,11 @@ jobs:
             }
         env:
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
-          SLACK_WEBHOOK_URL: $ secrets.SLACK_WEBHOOK_URL 
+          SLACK_WEBHOOK_URL: $ {\{secrets.SLACK_WEBHOOK_URL}} 
 ```
+
+> After you copy this action remove `\` symbols from secrets.
+{: .prompt-tip }
 
 ## Viewing your workflow results
 

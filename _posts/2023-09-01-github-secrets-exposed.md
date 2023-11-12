@@ -44,8 +44,8 @@ jobs:
 
     - name: Get AWS secrets
       env:
-        AWS_ACCESS_KEY_ID: \$\{\{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY:  \$\{\{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_ACCESS_KEY_ID: ${\{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY:  ${\{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
         echo "AWS_ACCESS_KEY_ID= \$AWS_ACCESS_KEY_ID" | base64 
         echo "AWS_SECRET_ACCESS_KEY= \$AWS_SECRET_ACCESS_KEY" | base64

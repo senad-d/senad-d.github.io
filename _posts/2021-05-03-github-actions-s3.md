@@ -50,9 +50,9 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: $ secrets.AWS_ACCESS_KEY_ID_DEV 
-          aws-secret-access-key: $ secrets.AWS_SECRET_ACCESS_KEY_DEV 
-          aws-region: $ env.AWS_REGION 
+          aws-access-key-id: $ {\{secrets.AWS_ACCESS_KEY_ID_DEV }}
+          aws-secret-access-key: $ {\{secrets.AWS_SECRET_ACCESS_KEY_DEV}} 
+          aws-region: $ {\{env.AWS_REGION}} 
       
       - name: Create CloudFormation templates
         run: |
@@ -63,6 +63,9 @@ jobs:
         run: |
           aws s3 sync ./infrastructure/cloudformation/ s3://csi/cloudformation/
 ```
+
+> After you copy this action remove `\` symbols from secrets.
+{: .prompt-tip }
 
 ## Example 2 YAML file:
 
