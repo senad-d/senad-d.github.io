@@ -89,7 +89,7 @@ SHELL_TYPE="$(basename "$SHELL")"
 
 # Set the lint alias based on the detected shell
 if [ "$SHELL_TYPE" = "bash" ]; then
-    echo "alias lint='echo \"Linting \$(pwd)\" \
+    echo "alias lint='echo \"Linting \$(basename \"\$(pwd)\") repository\" \
       && docker run --rm --name Linterdocker \
       -e LOG_FILE=super-linter.log \
       -e RUN_LOCAL=true \
@@ -97,7 +97,7 @@ if [ "$SHELL_TYPE" = "bash" ]; then
       -v \$(pwd):/tmp/lint github/super-linter'" >> ~/.bashrc
     source ~/.bashrc
 elif [ "$SHELL_TYPE" = "zsh" ]; then
-    echo "alias lint='echo \"Linting \$(pwd)\" \
+    echo "alias lint='echo \"Linting \$(basename \"\$(pwd)\") repository\" \
       && docker run --rm --name Linterdocker \
       -e LOG_FILE=super-linter.log \
       -e RUN_LOCAL=true \
