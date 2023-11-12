@@ -92,6 +92,7 @@ if [ "$SHELL_TYPE" = "bash" ]; then
     echo "alias lint='echo \"Linting \$(basename \"\$(pwd)\") repository\" \
       && docker run --rm --name Linterdocker \
       -e LOG_FILE=super-linter.log \
+      -e CREATE_LOG_FILE=true \
       -e RUN_LOCAL=true \
       -e DEFAULT_WORKSPACE=/tmp/lint \
       -v \$(pwd):/tmp/lint github/super-linter'" >> ~/.bashrc
@@ -100,6 +101,7 @@ elif [ "$SHELL_TYPE" = "zsh" ]; then
     echo "alias lint='echo \"Linting \$(basename \"\$(pwd)\") repository\" \
       && docker run --rm --name Linterdocker \
       -e LOG_FILE=super-linter.log \
+      -e CREATE_LOG_FILE=true \
       -e RUN_LOCAL=true \
       -e DEFAULT_WORKSPACE=/tmp/lint \
       -v \$(pwd):/tmp/lint github/super-linter'" >> ~/.zshrc
