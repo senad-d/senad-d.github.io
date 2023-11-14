@@ -17,7 +17,7 @@ Before you can use the script, you need to ensure you have the following prerequ
     
 2.  **Access to AWS SES**: You must have access to AWS SES to send emails. Ensure that your AWS credentials have the required permissions to use SES.
 
-2. **HTML Template File**: Have the 'tmp.html' file ready, containing the desired message.
+2. **HTML Template File**: Have the `tmp.html` file ready, containing the desired message.
 
 3. **Base64 Encoded Attachment**: Ensure that the file you intend to send as an attachment is encoded in Base64 format.
 
