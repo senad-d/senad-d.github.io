@@ -15,7 +15,7 @@ If you are facing challenges with Docker Desktop licensing for a large software 
 # Prerequisite
   - [Homebrew](https://brew.sh/)
 
-1/. Install Docker and the credential helper. The credential helper allows you to use the macOS Keychain as the credential store for remote container repos instead of Docker Desktop.
+1\. Install Docker and the credential helper. The credential helper allows you to use the macOS Keychain as the credential store for remote container repos instead of Docker Desktop.
 
 ```shell
 brew install docker docker-credential-helper
@@ -33,19 +33,19 @@ nano ~/.docker/config.json
 }
 ```
 
-2/. Colima is a container runtime that supports Docker (and containerd) and needs to be installed.
+2\. Colima is a container runtime that supports Docker (and containerd) and needs to be installed.
 
 ```shell
 brew install colima
 ```
 
-3/. After installing, simply initiate the Colima VM to start using it.
+3\. After installing, simply initiate the Colima VM to start using it.
 
 ```shell
 colima start
 ```
 
-4/. Test the setup
+4\. Test the setup
 
 ```shell
 docker context use colima
