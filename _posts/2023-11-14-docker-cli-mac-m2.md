@@ -54,9 +54,10 @@ docker context use colima
 docker run hello-world
 ```
 
-## Installation script
+# Installation script
 
 If you are looking for a quick and easy method to set up the Docker CLI, use this script:
+
 ```shell
 #!/bin/bash
 
