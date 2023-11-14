@@ -17,13 +17,13 @@ If you are facing challenges with Docker Desktop licensing for a large software 
 
 1/. Install Docker and the credential helper. The credential helper allows you to use the macOS Keychain as the credential store for remote container repos instead of Docker Desktop.
 
-```
+```shell
 brew install docker docker-credential-helper
 ```
 
 - You may encounter an issue later on where the Docker CLI throws an error stating that 'docker-credential-desktop' is not installed. This error is likely caused by a misconfiguration, possibly from a previous installation of Docker Desktop. You can resolve this issue by following these steps.
 
-```
+```shell
 nano ~/.docker/config.json
 
 {
@@ -35,19 +35,19 @@ nano ~/.docker/config.json
 
 2/. Colima is a container runtime that supports Docker (and containerd) and needs to be installed.
 
-```
+```shell
 brew install colima
 ```
 
 3/. After installing, simply initiate the Colima VM to start using it.
 
-```
+```shell
 colima start
 ```
 
 4/. Test the setup
 
-```
+```shell
 docker context use colima
 
 docker run hello-world
