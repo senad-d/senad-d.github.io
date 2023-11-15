@@ -99,6 +99,6 @@ docker-stop
 
 ## Control Docker
 
-If you're not comfortable with the Docker CLI, you can use the ***`Docker`*** extension in VSCode to easily manage containers, images, volumes, and networks.
+If you're not comfortable with the Docker CLI, you can use the ***`Docker`*** [extension](https://github.com/microsoft/vscode-docker) in VSCode to easily manage containers, images, volumes, and networks.
 
 ![](https://github.com/microsoft/vscode-docker/blob/main/resources/readme/overview.gif?raw=true){: .shadow }
