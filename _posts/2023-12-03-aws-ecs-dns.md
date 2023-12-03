@@ -16,7 +16,7 @@ To establish a private DNS for an AWS ECS cluster utilizing Service Discovery th
 > We will demonstrate these steps using CloudFormation and aws-cli.
 {: .prompt-tip }
 
-1\. Create the simple ECS Cluster with a dedicated namespace
+1\. Create the simple ***ECS Cluster*** with a dedicated ***namespace***
 
 ```shell
 ECSCluster:
@@ -38,7 +38,7 @@ Namespace:
             TTL: 60
 ```
 
-2\. Create ServiceDiscovery Service for the specific ECS Service you intend to run.
+2\. Create ***ServiceDiscovery*** Service for the specific ECS Service you intend to run.
 
 ```shell
 ServiceDiscovery:
@@ -65,7 +65,7 @@ Outputs:
 
 3\. Now we can run new ECS services and add them to the service registries.
 
-- Create Task Definition for a simple application: ***My_task.json***
+- Create ***Task Definition*** for a simple application: ***My_task.json***
 
 ```shell
 {
@@ -104,7 +104,7 @@ Outputs:
 aws ecs register-task-definition --cli-input-json file://My_task.json
 ```
 
-- Create ECS Service for the new Task Definition
+- Create ***ECS Service*** for the new Task Definition
 
 ```shell
 aws ecs create-service \
@@ -118,7 +118,7 @@ aws ecs create-service \
     --network-configuration "awsvpcConfiguration={subnets=[PrivateSubnetA,PrivateSubnetB],securityGroups=[AppSG]}"
 ```
 
-4\. After starting the ECS Service, ServiceDiscovery creates a new DNS record in the Private Hosted Zone associated with the PrivateDnsNamespace we created earlier.
+4\. After starting the ECS Service, ***ServiceDiscovery*** creates a new DNS record in the Private Hosted Zone associated with the ***PrivateDnsNamespace*** we created earlier.
 
 5\. We can confirm connectivity to the service by performing a quick ping test from AWS CloudShell or any service running within the VPC.
 
@@ -127,3 +127,4 @@ ping example.local
 ```
 
 > To connect different services, you can use the new service name inside of other services. For instance, you can use an ECS Service to run a database and a separate ECS Service to run an application that needs to connect to that database. You can simply use the new DNS name ***app.local*** in Task Definition to connect.
+{: .prompt-tip }
