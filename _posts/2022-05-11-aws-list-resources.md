@@ -1,7 +1,7 @@
 ---
 title: List all resources in AWS
 date: 2022-05-11 12:00:00
-categories: [AWS]
+categories: [AWS, Basics]
 tags: [aws, resources]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

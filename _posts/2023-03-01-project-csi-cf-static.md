@@ -1,7 +1,7 @@
 ---
-title: CSI CloudFormation static Infrastructure
+title: CloudFormation static Infrastructure
 date: 2023-03-01 12:00:00
-categories: [Projects]
+categories: [Projects, ECS]
 tags: [aws, ecs, cloudformation]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
@@ -15,7 +15,7 @@ static_resources_ecs.yml
 ```shell
 ---
 AWSTemplateFormatVersion : 2010-09-09
-Description : ConstructionSiteInventory backend infrastructure
+Description: Project backend infrastructure
 
 # Set Parameters (values to pass to your template at runtime)
 Parameters:
@@ -48,7 +48,7 @@ Conditions:
 
 Resources:
 ### EFS
-  CSIAppSystemFiles:
+  ProjectAppSystemFiles:
     Type: 'AWS::EFS::FileSystem'
     Properties:
       AvailabilityZoneName: !Select [0, !GetAZs ""]
@@ -120,7 +120,7 @@ Resources:
     Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
     Properties:
       CloudFrontOriginAccessIdentityConfig:
-        Comment: !Sub 'Identity for ${ProjectName} CloudFront for ConstructionSiteInventory app'
+        Comment: !Sub 'Identity for ${ProjectName} CloudFront for Project app'
 
 ### S3 buckets for deployment
   ReleasesBucket:
@@ -229,12 +229,12 @@ Resources:
       - {Key: Environment, Value: !Ref Environment}
 
 ### Parameters
-  CSIAppSystemFilesParameter:
+  ProjectAppSystemFilesParameter:
       Type: AWS::SSM::Parameter
       Properties:
         Name: !Sub '${Environment}.CSIAppSystemFiles.App'
         Type: String
-        Value: !Ref CSIAppSystemFiles
+        Value: !Ref ProjectAppSystemFiles
         Description: SSM Parameter for SystemFiles
 
   LogGroupParameter:
@@ -271,22 +271,22 @@ Resources:
 
 ### Outputs
 Outputs:
-  CSIAppSystemFiles:
+  ProjectAppSystemFiles:
     Description: EFS
-    Value: !Ref CSIAppSystemFiles
+    Value: !Ref ProjectAppSystemFiles
     Export:
-      Name: CSIAppSystemFiles
+      Name: ProjectAppSystemFiles
 
   BucketFrontend:
     Description: CloudFront Bucket
     Value: !Ref BucketFrontend
     Export:
-      Name: CSIBucketFrontend
+      Name: ProjectBucketFrontend
 
   CloudFrontOAI:
     Description: CloudFront Bucket
     Value: !GetAtt CloudFrontOAI.Id
     Export:
-      Name: CSICloudFrontOAI
+      Name: ProjectCloudFrontOAI
 
 ```

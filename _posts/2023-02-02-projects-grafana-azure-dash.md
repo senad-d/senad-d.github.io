@@ -1,7 +1,7 @@
 ---
 title: Azure Grafana bootstrap script
 date: 2023-02-02 13:00:00
-categories: [Projects]
+categories: [Projects, Grafana]
 tags: [azure, grafana, dashboard]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

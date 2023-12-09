@@ -1,7 +1,7 @@
 ---
-title: Configure ECS private DNS
+title: Configure ECS private DNS (Service Discovery)
 date: 2023-12-03 12:00:00
-categories: [ECS]
+categories: [ECS, DNS]
 tags: [aws, ecs, dns]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

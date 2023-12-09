@@ -1,7 +1,7 @@
 ---
 title: Create AWS IAM Role for accessing the EKS namespace
 date: 2023-09-07 08:00:00
-categories: [EKS]
+categories: [EKS, IAM]
 tags: [iam, aws, eks, role]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

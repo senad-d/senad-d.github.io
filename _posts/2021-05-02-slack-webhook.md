@@ -1,7 +1,7 @@
 ---
 title: Slack incoming webhooks
 date: 2021-05-02 12:00:00
-categories: [Software]
+categories: [Software, Slack]
 tags: [slack, webhooks]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

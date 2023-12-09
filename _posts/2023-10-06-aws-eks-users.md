@@ -1,7 +1,7 @@
 ---
 title: Add additional IAM users/roles to EKS ConfigMap
 date: 2023-10-06 11:00:00
-categories: [EKS]
+categories: [EKS, Basics]
 tags: [aws, eks]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

@@ -1,7 +1,7 @@
 ---
 title: Send Raw Email using AWS SES
 date: 2023-10-20 12:00:00
-categories: [AWS]
+categories: [AWS, SES]
 tags: [aws, ses]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

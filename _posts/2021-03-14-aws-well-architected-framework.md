@@ -1,7 +1,7 @@
 ---
 title: AWS Well-Architected Framework
 date: 2021-03-14 12:00:00
-categories: [AWS]
+categories: [AWS, Basics]
 tags: [aws, well-architected framework]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

@@ -1,13 +1,13 @@
 ---
-title: CSI CloudFormation Backend and Frontend Infrastructure
+title: CloudFormation - Backend and Frontend Infrastructure
 date: 2023-03-01 12:00:00
-categories: [Projects]
+categories: [Projects, ECS]
 tags: [aws, ecs, cloudformation]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
-Create AWS Infrastructure for the CSI backend services.
+Create AWS Infrastructure for the backend services.
 
 ## Backend template
 ```shell
@@ -20,7 +20,7 @@ CERT="$3"
 cat <<EOF >> backend.yml
 ---
 AWSTemplateFormatVersion : 2010-09-09
-Description : ConstructionSiteInventory Backend infrastructure
+Description: Backend infrastructure
 
 ### Set Parameters (values to pass to your template at runtime)
 Parameters:
@@ -318,7 +318,7 @@ Resources:
       HostedZoneId: !Ref HostedZoneId
       Comment: Zone apex alias targeted to myELB LoadBalancer.
       RecordSets:
-      - Name: !Sub csi-bck.\${HostedZoneName}
+      - Name: !Sub App-bck.\${HostedZoneName}
         Type: A
         AliasTarget:
           HostedZoneId: !GetAtt 'ALB.CanonicalHostedZoneID'
@@ -339,7 +339,7 @@ Resources:
   EFSMountTargetDB:
     Type: AWS::EFS::MountTarget
     Properties:
-      FileSystemId: !ImportValue CSIAppSystemFiles
+      FileSystemId: !ImportValue AppAppSystemFiles
       SubnetId: !Ref PrivateSubnetAZa
       SecurityGroups: [!Ref EFSTargetSecurityGroup]
 
@@ -622,7 +622,7 @@ CERT="$3"
 cat <<EOF >> frontend.yml
 ---
 AWSTemplateFormatVersion : 2010-09-09
-Description: ConstructionSiteInventory CloudFront distributions Stack
+Description: Project CloudFront distributions Stack
 
 ### Set Parameters (values to pass to your template at runtime)
 Parameters:
@@ -635,7 +635,7 @@ Parameters:
     Description: Choose environment to deploy
   DomainPrefix:
     Type: String
-    Default: csi-fe
+    Default: App-fe
     Description: Choose domain prefix for Construction Site Inventory app
   ProjectName:
     Type: String
@@ -643,8 +643,8 @@ Parameters:
     Description: This will be used for for resource names, keyname and tagging
   SiteBucket:
     Type: String
-    Default: csi-app
-    Description: Prefix for ConstructionSiteInventory website
+    Default: App-app
+    Description: Prefix for Project website
   HostedZone:
     Type: String
     Default: $HZN
@@ -670,7 +670,7 @@ Resources:
     Type: AWS::CloudFront::Distribution
     Properties:
       DistributionConfig:
-        Comment: ConstructionSiteInventory App
+        Comment: Project App
         Aliases: 
           - !Sub '\${DomainPrefix}.\${HostedZone}'
         Enabled: true
@@ -696,14 +696,14 @@ Resources:
           ForwardedValues:
             QueryString: false
         Logging:
-          Bucket: !Sub 'csi-cf-logs-\${Environment}.s3.amazonaws.com'
+          Bucket: !Sub 'App-cf-logs-\${Environment}.s3.amazonaws.com'
           IncludeCookies: true
-          Prefix: !Sub 'cloudfront-logs-csi-\${DomainPrefix}/'
+          Prefix: !Sub 'cloudfront-logs-App-\${DomainPrefix}/'
         Origins:
         - DomainName: !Sub '\${SiteBucket}-\${Environment}.s3.eu-west-1.amazonaws.com'
           Id: !Sub "\${SiteBucket}-\${Environment}"
           S3OriginConfig:
-            OriginAccessIdentity: !Join ['', ['origin-access-identity/cloudfront/', !ImportValue CSICloudFrontOAI]]
+            OriginAccessIdentity: !Join ['', ['origin-access-identity/cloudfront/', !ImportValue AppCloudFrontOAI]]
         ViewerCertificate:
           AcmCertificateArn: $CERT
           SslSupportMethod: sni-only

@@ -148,17 +148,17 @@ jobs:
         uses: slackapi/slack-github-action@v1.23.0
         with:
           # Optional Input
-          name: 'ConstructionSiteInventory - New Backend Version'
+          name: 'Project - New Backend Version'
           # For posting a rich message using Block Kit
           payload: |
             {
-              "text": "ConstructionSiteInventory - New Backend Version GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url ",
+              "text": "Project - New Backend Version GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url ",
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "ConstructionSiteInventory - New Backend Version GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url "
+                    "text": "Project - New Backend Version GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url "
                   }
                 }
               ]

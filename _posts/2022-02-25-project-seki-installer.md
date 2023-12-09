@@ -1,7 +1,7 @@
 ---
 title: A quick and easy way to install a dev env for Docker.
 date: 2022-02-25 12:00:00
-categories: [Projects]
+categories: [Projects, Homelab]
 tags: [homelab, installer, dev]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

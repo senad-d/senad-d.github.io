@@ -1,7 +1,7 @@
 ---
 title: Kubernetes/Kind Tutorial
 date: 2023-06-02 12:00:00
-categories: [Kubernetes]
+categories: [Kubernetes, Kind]
 tags: [kubernetes, kind]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

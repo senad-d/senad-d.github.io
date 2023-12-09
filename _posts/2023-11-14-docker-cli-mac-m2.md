@@ -1,7 +1,7 @@
 ---
 title: How to use Docker without Docker Desktop on MacOS (M2)
 date: 2023-11-14 12:00:00
-categories: [Docker]
+categories: [Software, Docker]
 tags: [docker, cli]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

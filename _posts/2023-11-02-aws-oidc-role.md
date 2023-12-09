@@ -1,7 +1,7 @@
 ---
 title: Use IAM roles to connect GitHub Actions to actions in AWS
 date: 2023-11-02 12:00:00
-categories: [AWS]
+categories: [AWS, OIDC]
 tags: [aws, ses]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

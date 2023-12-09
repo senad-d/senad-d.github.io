@@ -1,7 +1,7 @@
 ---
 title: Linux Users
 date: 2021-02-01 12:00:00
-categories: [Linux]
+categories: [Linux, Basics]
 tags: [linux, users]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

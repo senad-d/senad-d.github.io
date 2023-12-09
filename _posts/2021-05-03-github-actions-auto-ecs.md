@@ -1,7 +1,7 @@
 ---
 title: GitHub Actions for ECS service
 date: 2021-04-02 12:00:00
-categories: [GitHub]
+categories: [GitHub, Actions]
 tags: [github, actions, aws, ecs]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
@@ -124,7 +124,7 @@ jobs:
       run: |
         aws ecs create-service \
         --cluster $(aws ssm get-parameter --name "${\{env.AWS_REGION}}.ECSCluster.App" --query "Parameter.Value" --output text) \
-        --service-name CSI-DataBase-service \
+        --service-name Project-DataBase-service \
         --task-definition $(aws ecs list-task-definitions | grep DataBase-CSI-TaskDefinition | tail -n 1 | sed s/\",// | sed s/\"// | sed 's/ //g') \
         --desired-count 1 \
         --enable-execute-command \
@@ -175,7 +175,7 @@ jobs:
        --force
        aws ecs delete-service \
        --cluster $(aws ssm get-parameter --name "${\{env.AWS_REGION}}.ECSCluster.App" --query "Parameter.Value" --output text) \
-       --service CSI-DataBase-service \
+       --service Project-DataBase-service \
        --force
 ```
 

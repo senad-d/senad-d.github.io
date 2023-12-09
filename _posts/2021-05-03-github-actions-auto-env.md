@@ -79,17 +79,17 @@ jobs:
         uses: slackapi/slack-github-action@v1.23.0
         with:
           # Optional Input
-          name: 'ConstructionSiteInventory - Create App application stack'
+          name: 'Project - Create App application stack'
           # For posting a rich message using Block Kit
           payload: |
             {
-              "text": "ConstructionSiteInventory - Create App application stack GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url ",
+              "text": "Project - Create App application stack GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url ",
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "ConstructionSiteInventory - Create App application stack GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url "
+                    "text": "Project - Create App application stack GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url "
                   }
                 }
               ]
@@ -153,17 +153,17 @@ jobs:
         uses: slackapi/slack-github-action@v1.23.0
         with:
           # Optional Input
-          name: 'ConstructionSiteInventory - Delete App application stack'
+          name: 'Project - Delete App application stack'
           # For posting a rich message using Block Kit
           payload: |
             {
-              "text": "ConstructionSiteInventory - Delete App application stack GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url ",
+              "text": "Project - Delete App application stack GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url ",
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "ConstructionSiteInventory - Delete App application stack GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url "
+                    "text": "Project - Delete App application stack GitHub Action build result: $ job.status \n$ github.event.pull_request.html_url || github.event.head_commit.url "
                   }
                 }
               ]
