@@ -1,7 +1,7 @@
 ---
 title: Grafana bootstrap script for AWS
 date: 2023-02-02 12:00:00
-categories: [Projects, Grafana, AWS, Bootstrap]
+categories: [Projects]
 tags: [aws, grafana, bootstrap]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

@@ -1,7 +1,7 @@
 ---
 title: Connect EKS to specific database in RDS
 date: 2023-06-18 12:00:00
-categories: [Cloud, AWS]
+categories: [AWS]
 tags: [iam, aws, rds, eks]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

@@ -1,7 +1,7 @@
 ---
 title: Enable MFA for Root User
 date: 2022-04-04 13:00:00
-categories: [Cloud, AWS]
+categories: [AWS]
 tags: [aws, account]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

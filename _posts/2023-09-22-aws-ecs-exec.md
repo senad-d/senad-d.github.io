@@ -1,7 +1,7 @@
 ---
 title: How to connect to AWS ECS for debugging
 date: 2023-09-22 11:00:00
-categories: [Cloud, AWS]
+categories: [ECS]
 tags: [aws, ecs]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

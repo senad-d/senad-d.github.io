@@ -1,7 +1,7 @@
 ---
 title: Run your GitHub Actions locally
 date: 2023-08-11 12:00:00
-categories: [Software, GitHub]
+categories: [GitHub]
 tags: [github, actions, locally]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

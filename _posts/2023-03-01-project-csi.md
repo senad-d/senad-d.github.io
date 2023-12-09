@@ -1,7 +1,7 @@
 ---
 title: Dev env for Quasar and Laravel app on AWS ECS
 date: 2023-03-01 12:00:00
-categories: [Projects, CSI]
+categories: [Projects]
 tags: [aws, ecs, quasar, laravel, dev]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

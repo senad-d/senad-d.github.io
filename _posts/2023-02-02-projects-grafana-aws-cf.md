@@ -1,7 +1,7 @@
 ---
 title: Grafana CloudFormation
 date: 2023-02-02 12:00:00
-categories: [Projects, Grafana, AWS, CloudFormation]
+categories: [Projects]
 tags: [aws, grafana, cloudformation]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

@@ -1,7 +1,7 @@
 ---
 title: Create OpenVPN users from the list with GitHub Actions
 date: 2023-02-01 12:00:00
-categories: [Projects, OpenVPN, AWS, GitHub]
+categories: [Projects]
 tags: [aws, openvpn, actions]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

@@ -1,7 +1,7 @@
 ---
 title: GPU pasture to VM
 date: 2021-02-01 12:00:00
-categories: [OS, Linux]
+categories: [VM]
 tags: [linux, vm, gpu]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

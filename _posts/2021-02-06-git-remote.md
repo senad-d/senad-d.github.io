@@ -1,7 +1,7 @@
 ---
 title: Send your Mendix App to GitHub
 date: 2021-02-06 13:00:00
-categories: [Software, Git]
+categories: [Software]
 tags: [git, remote]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

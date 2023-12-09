@@ -1,7 +1,7 @@
 ---
 title: Plausible Analytics
 date: 2022-03-03 12:00:00
-categories: [Software, Plausible]
+categories: [Software]
 tags: [analytics, monitoring]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

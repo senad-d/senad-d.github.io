@@ -1,7 +1,7 @@
 ---
 title: Git workflow with rebase
 date: 2021-02-07 12:00:00
-categories: [Software, Git]
+categories: [Software]
 tags: [git, basics]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

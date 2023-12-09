@@ -1,7 +1,7 @@
 ---
 title: Super-Linter
 date: 2023-11-12 12:00:00
-categories: [Software, GitHub]
+categories: [Software]
 tags: [github, actions, linter, locally]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

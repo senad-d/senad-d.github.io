@@ -1,7 +1,7 @@
 ---
 title: AWS Introduction
 date: 2023-02-02 12:00:00
-categories: [Projects, Education]
+categories: [Projects]
 tags: [aws, video]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

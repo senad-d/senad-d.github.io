@@ -1,7 +1,7 @@
 ---
 title: Linux Chrontab
 date: 2021-02-01 12:00:00
-categories: [OS, Linux]
+categories: [Linux]
 tags: [linux, crontab]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

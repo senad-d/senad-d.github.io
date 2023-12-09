@@ -1,7 +1,7 @@
 ---
 title: AWS OpenVPN bootstrap script
 date: 2023-02-01 12:00:00
-categories: [Projects, OpenVPN, AWS, Bootstrap]
+categories: [Projects]
 tags: [aws, openvpn, bootstrap]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

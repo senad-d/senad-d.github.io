@@ -1,7 +1,7 @@
 ---
 title: AWS Basics
 date: 2021-03-14 11:00:00
-categories: [Cloud, AWS]
+categories: [AWS]
 tags: [aws, basics]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

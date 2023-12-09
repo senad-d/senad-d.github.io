@@ -1,7 +1,7 @@
 ---
 title: GitHub Actions for starting and stopping AWS resources
 date: 2021-04-02 12:00:00
-categories: [Software, GitHub]
+categories: [GitHub]
 tags: [github, actions, aws]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
