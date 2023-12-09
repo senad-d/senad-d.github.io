@@ -1,7 +1,7 @@
 ---
 title: Networking
 date: 2021-02-01 12:00:00
-categories: [Linux, Basics]
+categories: [Linux, Linux Basics]
 tags: [linux, ip]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

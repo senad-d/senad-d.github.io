@@ -1,7 +1,7 @@
 ---
 title: CloudFormation - Backend and Frontend Infrastructure
 date: 2023-03-01 12:00:00
-categories: [Projects, ECS]
+categories: [Projects, CSI]
 tags: [aws, ecs, cloudformation]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

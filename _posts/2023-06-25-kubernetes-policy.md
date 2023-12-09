@@ -1,7 +1,7 @@
 ---
 title: Policy engine for Kubernetes.
 date: 2023-06-25 12:00:00
-categories: [Kubernetes, Basics]
+categories: [Kubernetes, K8s Basics]
 tags: [kubernetes, policy]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

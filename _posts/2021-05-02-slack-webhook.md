@@ -25,5 +25,5 @@ Add this webhook to your workspace below to activate this curl example.
 ### **Sample curl request to post to a channel:**
 
 ```shell
-curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/T6CK3J83X/B04ACdXJC10/Xj4Yx5jWmlqRZ8S4Q5O0SNJN
+curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/T6CK3X/B0CdXJC10/Xj4YlqRZ8S4Q5O0SNJN
 ```

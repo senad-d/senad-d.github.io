@@ -1,7 +1,7 @@
 ---
 title: AWS Architecture
 date: 2021-03-15 12:00:00
-categories: [AWS, Basics]
+categories: [AWS, AWS Basics]
 tags: [aws, architecture]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

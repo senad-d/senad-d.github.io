@@ -1,7 +1,7 @@
 ---
 title: Nginx Proxy Manager
 date: 2022-03-03 13:00:00
-categories: [Software, Nginx]
+categories: [Software, Open source]
 tags: [nginx, proxymanager, docker-compose]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>

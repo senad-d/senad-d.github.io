@@ -1,7 +1,7 @@
 ---
 title: Dev env for Mendix app on AWS ECS
 date: 2023-03-01 12:00:00
-categories: [Projects, ECS]
+categories: [Projects, WSM]
 tags: [aws, ecs, mendix, dev]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
