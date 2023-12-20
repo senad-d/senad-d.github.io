@@ -4,7 +4,7 @@ date: 2023-06-02 12:00:00
 categories: [Kubernetes, Kind]
 tags: [kubernetes, kind]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/kubernetes-banner.png?raw=true){: .shadow }
 
 ## The Basics

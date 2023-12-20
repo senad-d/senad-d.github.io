@@ -3,7 +3,7 @@
 icon: fas fa-play-circle
 order: 4
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 
 <style>
 .my_container {

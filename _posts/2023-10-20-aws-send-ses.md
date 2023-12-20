@@ -4,7 +4,7 @@ date: 2023-10-20 12:00:00
 categories: [AWS, SES]
 tags: [aws, ses]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 The script is designed to construct an email message in Multipurpose Internet Mail Extensions (MIME) format. This email is structured with headers and encompasses both HTML content and a plain text attachment.

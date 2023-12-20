@@ -4,7 +4,7 @@ date: 2023-11-02 12:00:00
 categories: [AWS, OIDC]
 tags: [aws, iam]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/OpenID_logo.png?raw=true){: .shadow }
 
 Use Web Identity or OpenID Connect (OIDC) federated identity providers instead of creating AWS Identity and Access Management users in your AWS account. With an identity provider (IdP), you can manage your user identities outside of AWS and give these external user identities permissions to access AWS resources in your account. 

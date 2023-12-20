@@ -4,7 +4,7 @@ date: 2023-12-03 12:00:00
 categories: [ECS, DNS]
 tags: [aws, ecs, dns]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/ECS-Anywhere.png?raw=true){: .shadow }
 
 ---

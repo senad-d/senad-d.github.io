@@ -4,7 +4,7 @@ date: 2023-06-18 12:00:00
 categories: [EKS, RDS]
 tags: [iam, aws, rds, eks]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 Imagine having an EKS cluster with multiple namespaces with multiple pods that should not be able to see or communicate with other namespaces or any other resources, except for specific resources such as databases within the RDS instance.

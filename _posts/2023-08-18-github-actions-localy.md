@@ -4,7 +4,7 @@ date: 2023-08-11 12:00:00
 categories: [GitHub, Actions]
 tags: [github, actions, locally]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
 
 Why would you want to do this? Two reasons:

@@ -4,7 +4,7 @@ date: 2021-04-02 12:00:00
 categories: [GitHub, Actions]
 tags: [github, actions, docker]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
 
 # Introduction

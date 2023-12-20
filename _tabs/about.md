@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 6
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 
 >Thank you for visiting. Together, let's unlock the full potential of DevOps and propel you towards continuous success.
 
@@ -24,5 +24,5 @@ Recognizing the need for a career transition from the oil industry to IT, I soug
 I would like to express my heartfelt gratitude to my mentor, ***Mario Runtić***, whose guidance and support have been instrumental in my professional growth.
 
 
-> You can view my portfolio [***here***](https://portfolio.seki.ink/).
+> You can view my portfolio [***here***](https://portfolio.seki.pro/).
 {: .prompt-tip }
