@@ -13,6 +13,6 @@ order: 6
 ---
 
 ### [AWS Amazon EKS](https://github.com/senad-d/senad-d.github.io/blob/6515949f370883370923b27de9b0af79b44ad774/_media/cert/AWSCertifiedSolutionsArchitect-Associatecertificate.pdf)
-![AWS Amazon EKS](https://github.com/senad-d/senad-d.github.io/blob/d57763196443ec16097c9224c1bcf9e544875de0/_media/cert/aws-knowledge-amazon-eks.png?raw=true)
+![AWS Amazon EKS](https://github.com/senad-d/senad-d.github.io/blob/6515949f370883370923b27de9b0af79b44ad774/_media/cert/AmazonEKSKnowledgeBadgeAssessment.pdf?raw=true)
 
 ---
