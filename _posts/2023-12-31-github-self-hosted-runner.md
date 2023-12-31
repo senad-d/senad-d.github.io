@@ -1,6 +1,6 @@
 ---
 title: Self-hosted GitHub Runners
-date: 2023-12-03 11:00:00
+date: 2023-12-31 11:00:00
 categories: [GitHub, Actions]
 tags: [github, runners]
 ---
@@ -40,7 +40,7 @@ I've implemented a robust `self-hosted` GitHub Actions runner tailored to amplif
 For this to work we need a `dockerfile` and follow instructions to [Install Docker](https://docs.docker.com/engine/install/debian/).</br>
 
 Dockerfile
-```Shell
+```shell
 FROM --platform=linux/amd64 debian:bookworm-slim
 
 ARG RUNNER_VERSION="2.311.0"
@@ -135,7 +135,7 @@ We will need to install the [GitHub actions runner](https://github.com/actions/r
 
 Run a container to test installs: 
 
-```Shell
+```shell
 docker build . -t github-runner:latest 
 docker run -it -e GITHUB_PERSONAL_TOKEN=<token> -e GITHUB_OWNER=<owner> -e GITHUB_REPOSITORY=<repository> github-runner
 
@@ -146,7 +146,7 @@ docker run -it -e GITHUB_PERSONAL_TOKEN=<token> -e GITHUB_OWNER=<owner> -e GITHU
 
 Create Deployment:
 
-```Shell
+```shell
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -223,7 +223,7 @@ spec:
 
 Create a kubernetes secret with github details and apply the file:
 
-```Shell
+```shell
 kubectl create ns github
 kubectl -n github create secret generic github-secret `
   --from-literal GITHUB_OWNER=<owner> `
@@ -236,18 +236,18 @@ kubectl -n github apply -f kubernetes.yaml
 ## Deploy locally with docker-compose
 
 Create .env file:
-```Shell
+```shell
 GITHUB_OWNER=<owner>
 GITHUB_PERSONAL_TOKEN=<token>
 ```
 
 Create new docker network:
-```Shell
+```shell
 docker network create -d dnd
 ```
 Create docker-compose.yml:
 
-```Shell
+```shell
 version: '3'
 
 services:
@@ -303,7 +303,7 @@ networks:
 ```
 
 Run containers:
-```Shell
+```shell
 docker-compose up -d
 ```
 > Docker compose does not remove the runners from GitHub Runners list for some unknown reason.
