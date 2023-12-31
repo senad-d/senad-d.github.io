@@ -45,9 +45,9 @@ I've implemented a robust `self-hosted` GitHub Actions runner tailored to amplif
 * Installing Docker CLI 
 For this to work we need a `dockerfile` and follow instructions to [Install Docker](https://docs.docker.com/engine/install/debian/).
 
-We only install the `docker` CLI. This is because we want our runner to be able to run docker commands , but the actual docker server runs elsewhere. This gives you flexibility to tighten security by running docker on the host itself and potentially run the container runtime in a non-root environment.
+- We only install the `docker` CLI. This is because we want our runner to be able to run docker commands , but the actual docker server runs elsewhere. This gives you flexibility to tighten security by running docker on the host itself and potentially run the container runtime in a non-root environment.
 
-We will need to install the [GitHub actions runner](https://github.com/actions/runner) in our `dockerfile`
+- Install the [GitHub actions runner](https://github.com/actions/runner) in our `dockerfile`
 
 Dockerfile:
 
@@ -136,7 +136,7 @@ ENTRYPOINT ["/actions-runner/entrypoint.sh"]
 
 ```
 
-We need to create a shell script called ***entrypoint.sh*** to easily register the runner with our repository/organisation.
+We also need to create a shell script called ***entrypoint.sh*** to easily register the runner with our repository/organisation.
 
 entrypoint.sh:
 
@@ -182,7 +182,7 @@ wait $!
 
 ```
 
-Run a container to test installs: 
+Now we can run container to test installs: 
 
 ```shell
 docker build . -t github-runner:latest 
@@ -284,17 +284,25 @@ kubectl -n github apply -f kubernetes.yaml
 
 ## Deploy locally with docker-compose
 
-Create .env file:
+For this example we will use our GitHub Organizations account to run our self-hosted runners so that we can share them.
+
+> You need to create a GitHub Personal Access Token for your user and give it Administrator rights.
+{: .prompt-tip }
+
+First we create .env file:
+
 ```shell
 GITHUB_OWNER=<owner>
 GITHUB_PERSONAL_TOKEN=<token>
 ```
 
-Create new docker network:
+For better separation we can create new docker network:
+
 ```shell
 docker network create -d dnd
 ```
-Create docker-compose.yml:
+
+Now we can create our docker-compose.yml file:
 
 ```shell
 version: '3'
@@ -351,7 +359,8 @@ networks:
     external: true
 ```
 
-Run containers:
+And for the last step we can run our new runner with the following command:
+
 ```shell
 docker-compose up -d
 ```
