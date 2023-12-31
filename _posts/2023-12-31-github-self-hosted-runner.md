@@ -37,7 +37,9 @@ I've implemented a robust `self-hosted` GitHub Actions runner tailored to amplif
 ### Creating a Dockerfile
 
 * Installing Docker CLI 
-For this to work we need a `dockerfile` and follow instructions to [Install Docker](https://docs.docker.com/engine/install/debian/).</br>
+For this to work we need a `dockerfile` and follow instructions to [Install Docker](https://docs.docker.com/engine/install/debian/).
+
+We only install the `docker` CLI. This is because we want our running to be able to run docker commands , but the actual docker server runs elsewhere. This gives you flexibility to tighten security by running docker on the host itself and potentially run the container runtime in a non-root environment.
 
 Dockerfile:
 
@@ -125,8 +127,6 @@ RUN sudo apt-get clean && \
 ENTRYPOINT ["/actions-runner/entrypoint.sh"]
 
 ```
-
-We only install the `docker` CLI. This is because we want our running to be able to run docker commands , but the actual docker server runs elsewhere. This gives you flexibility to tighten security by running docker on the host itself and potentially run the container runtime in a non-root environment.
 
 entrypoint.sh:
 
