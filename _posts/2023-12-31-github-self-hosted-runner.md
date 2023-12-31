@@ -39,7 +39,8 @@ I've implemented a robust `self-hosted` GitHub Actions runner tailored to amplif
 * Installing Docker CLI 
 For this to work we need a `dockerfile` and follow instructions to [Install Docker](https://docs.docker.com/engine/install/debian/).</br>
 
-Dockerfile
+Dockerfile:
+
 ```shell
 FROM --platform=linux/amd64 debian:bookworm-slim
 
@@ -125,9 +126,51 @@ ENTRYPOINT ["/actions-runner/entrypoint.sh"]
 
 ```
 
-We only install the `docker` CLI. </br> 
-This is because we want our running to be able to run docker commands , but the actual docker server runs elsewhere </br>
-This gives you flexibility to tighten security by running docker on the host itself and potentially run the container runtime in a non-root environment </br>
+We only install the `docker` CLI. This is because we want our running to be able to run docker commands , but the actual docker server runs elsewhere. This gives you flexibility to tighten security by running docker on the host itself and potentially run the container runtime in a non-root environment.
+
+entrypoint.sh:
+
+```shell
+#!/bin/sh
+if [ -n "${GITHUB_REPOSITORY}" ]; then
+    registration_url="https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPOSITORY}/actions/runners/registration-token"
+    repository_url="https://github.com/${GITHUB_OWNER}/${GITHUB_REPOSITORY}"
+else
+    registration_url="https://api.github.com/orgs/${GITHUB_OWNER}/actions/runners/registration-token"
+    repository_url="https://github.com/${GITHUB_OWNER}"
+fi
+
+echo "Requesting registration URL at '${registration_url}'"
+
+payload="$(curl -L \
+  -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer ${GITHUB_PERSONAL_TOKEN}" \
+  ${registration_url})"
+RUNNER_TOKEN="$(echo "$payload" | jq .token --raw-output)"
+export RUNNER_TOKEN
+
+./config.sh \
+    --name "$(hostname)" \
+    --token "${RUNNER_TOKEN}" \
+    --labels custom-runner \
+    --url "${repository_url}" \
+    --work "/home/github/work" \
+    --unattended \
+    --replace
+
+remove() {
+    ./config.sh remove --unattended --token "${RUNNER_TOKEN}"
+}
+
+trap 'remove; exit 130' INT
+trap 'remove; exit 143' TERM
+
+./run.sh "$*"
+
+wait $!
+
+```
 
 * Installing Github Actions Runner 
 
