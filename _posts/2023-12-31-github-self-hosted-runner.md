@@ -18,6 +18,10 @@ I've implemented a robust `self-hosted` GitHub Actions runner tailored to amplif
 
 [Here](https://hub.docker.com/r/senaddizdarevic/git-hub-selfhosted-runner) you can find my docker image on Docker Hub.
 
+## Demo
+![demo](https://github.com/senad-d/senad-d.github.io/blob/main/_media/gif/runner_demo.gif?raw=true)
+
+
 ## Key Components:
 
 ***Docker in Docker (DinD)***: This enables your runner to execute Docker commands within a Docker container, facilitating containerized builds and deployments.
