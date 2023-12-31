@@ -39,7 +39,9 @@ I've implemented a robust `self-hosted` GitHub Actions runner tailored to amplif
 * Installing Docker CLI 
 For this to work we need a `dockerfile` and follow instructions to [Install Docker](https://docs.docker.com/engine/install/debian/).
 
-We only install the `docker` CLI. This is because we want our running to be able to run docker commands , but the actual docker server runs elsewhere. This gives you flexibility to tighten security by running docker on the host itself and potentially run the container runtime in a non-root environment.
+We only install the `docker` CLI. This is because we want our runner to be able to run docker commands , but the actual docker server runs elsewhere. This gives you flexibility to tighten security by running docker on the host itself and potentially run the container runtime in a non-root environment.
+
+We will need to install the [GitHub actions runner](https://github.com/actions/runner) in our `dockerfile`
 
 Dockerfile:
 
@@ -128,6 +130,8 @@ ENTRYPOINT ["/actions-runner/entrypoint.sh"]
 
 ```
 
+We need to create a shell script called ***entrypoint.sh*** to easily register the runner with our repository/organisation.
+
 entrypoint.sh:
 
 ```shell
@@ -171,10 +175,6 @@ trap 'remove; exit 143' TERM
 wait $!
 
 ```
-
-* Installing Github Actions Runner 
-
-We will need to install the [GitHub actions runner](https://github.com/actions/runner) in our `dockerfile`
 
 Run a container to test installs: 
 
