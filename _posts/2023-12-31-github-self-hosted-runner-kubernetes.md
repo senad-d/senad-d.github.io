@@ -366,3 +366,65 @@ docker-compose up -d
 ```
 > Docker compose does not remove the runners from GitHub Runners list for some unknown reason.
 {: .prompt-tip }
+
+## Test Action for the runner
+
+Create a Github Workflow for testing the new runner and run it to confirm everything is running as expected.
+
+> If you are running this in Organizations account then make sure to create and store Gitleaks license.
+{: .prompt-tip }
+
+runner-test.yml:
+
+```shell
+---
+name: Runner test
+run-name: Deploy by @${{ github.actor }}
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Build:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          clean: true
+
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
+
+      - name: Test GitHub self-hosted runner
+        run: |
+          echo "Starting the test"
+
+          echo "AWS-CLI"
+          echo "<============================================>"
+          aws --version
+          echo "<============================================>"
+
+          echo "Terraform"
+          echo "<============================================>"
+          terraform -v
+          echo "<============================================>"
+
+          echo "Kubernetes"
+          echo "<============================================>"
+          kubectl version --client
+          echo "<============================================>"
+
+          echo "Trivy"
+          echo "<============================================>"
+          bash /actions-runner/scan.sh alpine
+          echo "<============================================>"
+
+          echo "Docker"
+          echo "<============================================>"
+          docker run hello-world
+          echo "<============================================>"
+
+```
