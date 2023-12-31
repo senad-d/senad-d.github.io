@@ -1,5 +1,5 @@
 ---
-title: Self-hosted GitHub Runners
+title: Self-hosted GitHub Runners for Kubernetes
 date: 2023-12-31 11:00:00
 categories: [GitHub, Actions]
 tags: [github, runners]
