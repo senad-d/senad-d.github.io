@@ -3,8 +3,6 @@ title: Self-hosted GitHub Runners for Kubernetes
 date: 2023-12-31 11:00:00
 categories: [GitHub, Actions]
 tags: [github, runners]
-layout: default
-comments: true
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
