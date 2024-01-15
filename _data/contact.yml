@@ -2,6 +2,7 @@
 
 - type: github
   icon: "fab fa-github"
+  url:  'https://github.com/devops-seki'
 
 - type: youtube
   icon: 'fab fa-youtube'   
