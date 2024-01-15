@@ -181,3 +181,23 @@ The final step is to view the AWS CloudTrail logs in your account to audit the u
 4.  You should see the GetCallerIdentity and AssumeRoleWithWebIdentity events.
 
 You can also view one event at a time.
+
+## Creating a Github OIDC Provider with CloudFormation 
+
+```shell
+Description: OpenID Connect provider for GitHub Actions
+Resources:
+  GithubOidc:
+    Type: AWS::IAM::OIDCProvider
+    Properties:
+      Url: https://token.actions.githubusercontent.com
+      ThumbprintList:
+        - ****
+      ClientIdList:
+        - sts.amazonaws.com
+Outputs:
+  GithubOidcProviderArn:
+    Value: !Ref GithubOidc
+    Export:
+      Name: GithubOidcProviderArn
+```
