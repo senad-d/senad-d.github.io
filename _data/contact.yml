@@ -2,8 +2,8 @@
 
 - type: portfolio
   icon: "fas fa-user-circle"
-  url:  'https://portfolio.seki.ink/'
-  
+  url:  'https://portfolio.seki.pro/'
+
 - type: github
   icon: "fab fa-github"
 
