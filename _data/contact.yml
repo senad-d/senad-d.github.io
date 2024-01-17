@@ -1,5 +1,9 @@
 #  The contact options.
 
+- type: portfolio
+  icon: "fas fa-user-circle"
+  url:  'https://portfolio.seki.ink/'
+  
 - type: github
   icon: "fab fa-github"
 
