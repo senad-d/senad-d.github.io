@@ -190,6 +190,7 @@ docker run -it -e GITHUB_PERSONAL_TOKEN=<token> -e GITHUB_OWNER=<owner> -e GITHU
 
 ```
 > If you wish to create a runner for GitHub Organizations, you can generate a proper access tokens and not use the GITHUB_REPOSITORY variable.
+{: .prompt-tip }
 
 ## Deploy to Kubernetes 
 
