@@ -8,8 +8,6 @@ tags: [cli, init]
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/docker-banner.png?raw=true)
 {: .shadow }
 
-# Docker init 
-
 Initialize a project with the files necessary to run the project in a container.
 
 Docker 4.18 and later provides the Docker Init plugin with the `docker init` CLI command. Run `docker init` in your project directory to be walked through the creation of the following files with sensible defaults for your project:
