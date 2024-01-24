@@ -1,6 +1,6 @@
 ---
 title: Docker init
-date: 2023-12-31 11:00:00
+date: 2024-01-21 11:00:00
 categories: [Docker]
 tags: [cli, init]
 ---

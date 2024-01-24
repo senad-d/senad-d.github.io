@@ -22,4 +22,10 @@ Imagine a community where tenants enjoy Cost Efficiency, pooling resources for s
 ![Multi tenancy](https://github.com/senad-d/senad-d.github.io/blob/b81c05fa558c1917ee6fae1fec1d3f0667777ff0/_media/gif/Multi-Tenancy-AWS-ACC.gif?raw=true){: .shadow }
 
 
+## 3\. k8s Deployments
 
+This diagram provides a clear overview of the deployment of an application in a Kubernetes cluster, along with the interactions between its various components. 
+
+In Kubernetes, Pods are the smallest units that can be scheduled, hosting containers that facilitate shared storage and network resources. ReplicaSets (rs) ensures that a specified number of identical Pods are always running. Deployments (deploy) provide a control layer that allows for declarative scaling of replicas, along with additional features like rollback and various update strategies. Kubernetes employs ConfigMaps (cm), key-value dictionaries for configuration data, and Secrets (secret) for sensitive information like passwords. Persistent Volumes (pv) provide an abstraction of underlying storage, allowing data to persist through container restarts. Persistent Volume Claims (pvc) enable Pods to request provisioned volumes. Services (svc) provide abstractions allowing access to Pods via selectors, and balance incoming traffic between Pods, eliminating the need to know individual Pod IPs. Ingress (ing) controllers, such as NGINX or Traefik, facilitate path rewriting and load balancing.
+
+![k8s Deployments](https://github.com/senad-d/senad-d.github.io/blob/b81c05fa558c1917ee6fae1fec1d3f0667777ff0/_media/gif/k8s_deployment.gif?raw=true){: .shadow }
