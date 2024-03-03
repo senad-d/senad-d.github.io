@@ -20,7 +20,7 @@ In this approach, distinct GitHub repositories are employed for the application,
 
 This organizational structure fosters a smooth, hands-off deployment process, reducing manual intervention and boosting overall efficiency. Embrace the power of GitHub and ArgoCD to streamline your deployment workflows today!
 
-![GITHUB](https://github.com/senad-d/senad-d.github.io/blob/b81c05fa558c1917ee6fae1fec1d3f0667777ff0/_media/gif/GitHub-flow.gif?raw=true){: .shadow }
+![fllow_github](https://github.com/senad-d/senad-d.github.io/blob/673c8dbb7c8953dc4fe46794a6e9a5628cb327ed/_media/gif/GitHub-flow.gif?raw=true){: .shadow }
 
 # ECS Fargate with CloudFront distribution - AWS
 In the realm of AWS, ECS Fargate serves as an orchestration powerhouse for running containers without the burden of managing infrastructure. It dynamically scales based on workloads, adapting to changing demands effortlessly.
@@ -34,7 +34,7 @@ On the frontend, leverage the scalable storage of S3 for static assets, delivere
 In the shared realm of AWS, multi-tenancy is a collaborative tale where diverse tenants coexist on common ground.
 Imagine a community where tenants enjoy Cost Efficiency, pooling resources for shared gains. They optimize resource use, efficiently allocating EC2 instances and storage—creating a symphony of Resource Optimization. As the community grows, the narrative unfolds with seamless Scalability, allowing tenants to dynamically adapt. Security, a vigilant guardian, ensures Isolation and Security through well-configured VPCs and IAM roles. In this shared space, Operational Efficiency takes center stage, streamlining tasks like monitoring and updates across tenants. AWS Organizations becomes a hub for Centralized Management, fostering collaboration in billing, compliance, and overall account management.Flexibility becomes a recurring theme, with the shared environment adapting to diverse workloads. Real-life scenarios include SaaS providers hosting multiple customers and enterprises managing departmental applications within a unified AWS account.
 
-![Multi tenancy](https://github.com/senad-d/senad-d.github.io/blob/b81c05fa558c1917ee6fae1fec1d3f0667777ff0/_media/gif/AWS-Cloud.gif?raw=true){: .shadow }
+![Multi tenancy](https://github.com/senad-d/senad-d.github.io/blob/673c8dbb7c8953dc4fe46794a6e9a5628cb327ed/_media/gif/AWS-Cloud.gif?raw=true){: .shadow }
 
 
 # K8s Deployments
