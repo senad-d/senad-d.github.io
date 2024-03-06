@@ -20,7 +20,7 @@ In this approach, distinct GitHub repositories are employed for the application,
 
 This organizational structure fosters a smooth, hands-off deployment process, reducing manual intervention and boosting overall efficiency. Embrace the power of GitHub and ArgoCD to streamline your deployment workflows today!
 
-![fllow_github](https://github.com/senad-d/senad-d.github.io/blob/033400d1c0c2b0b93997da2024f4367867f9ec05/_media/gif/GitHub-flow-v2.gif?raw=true){: .shadow }
+![fllow_github](https://github.com/senad-d/senad-d.github.io/blob/422458c8dc7c90ba72e549148625ba1823a24dc2/_media/gif/GitHub-flow-v2.gif?raw=true){: .shadow }
 
 # ECS Fargate with CloudFront distribution - AWS
 In the realm of AWS, ECS Fargate serves as an orchestration powerhouse for running containers without the burden of managing infrastructure. It dynamically scales based on workloads, adapting to changing demands effortlessly.
