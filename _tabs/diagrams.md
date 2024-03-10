@@ -9,13 +9,13 @@ order: 5
 
 Why choose AWS Identity Center over IAM?
 
-1️⃣ Enhanced Control: Granular access permissions for precise management.
+1️⃣ **Enhanced Control**: Granular access permissions for precise management.
 
-2️⃣ Centralized Management: Streamline identity management from one interface.
+2️⃣ **Centralized Management**: Streamline identity management from one interface.
 
-3️⃣ Streamlined Collaboration: Assign roles effortlessly for seamless teamwork.
+3️⃣ **Streamlined Collaboration**: Assign roles effortlessly for seamless teamwork.
 
-4️⃣ Increased Visibility: Monitor access patterns and maintain compliance effortlessly.
+4️⃣ **Increased Visibility**: Monitor access patterns and maintain compliance effortlessly.
 
 Setting up AWS Identity Center:
 
