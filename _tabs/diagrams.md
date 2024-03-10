@@ -5,6 +5,32 @@ order: 5
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 
+# Introducing AWS Identity Center – Revolutionizing Access Management for Organizations
+
+Why choose AWS Identity Center over IAM?
+
+1️⃣ Enhanced Control: Granular access permissions for precise management.
+
+2️⃣ Centralized Management: Streamline identity management from one interface.
+
+3️⃣ Streamlined Collaboration: Assign roles effortlessly for seamless teamwork.
+
+4️⃣ Increased Visibility: Monitor access patterns and maintain compliance effortlessly.
+
+Setting up AWS Identity Center:
+
+1️⃣ Integrate with existing identity providers.
+2️⃣ Define user groups and roles.
+3️⃣ Craft policies for least privilege.
+4️⃣ Enable detailed audit trails.
+5️⃣ Seamlessly integrate with AWS services.
+
+![fllow_github](https://github.com/senad-d/senad-d.github.io/blob/5c85b206895c7b7a1fd9a31744aa63895f69134a/_media/gif/Iam_identity_center.gif?raw=true){: .shadow }
+
+Learn more [here](https://aws.amazon.com/iam/identity-center/).
+
+Elevate your organization's security posture with AWS Identity Center!
+
 # Simplifying Deployment with GitHub and AWS
 Efficient software development hinges on optimizing deployment workflows. By harnessing the power of GitHub, AWS EKS, and ArgoCD, we can achieve seamless deployment automation and management.
 
