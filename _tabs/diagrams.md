@@ -19,11 +19,11 @@ Why choose AWS Identity Center over IAM?
 
 Setting up AWS Identity Center:
 
-1️⃣ Integrate with existing identity providers.
-2️⃣ Define user groups and roles.
-3️⃣ Craft policies for least privilege.
-4️⃣ Enable detailed audit trails.
-5️⃣ Seamlessly integrate with AWS services.
+- Integrate with existing identity providers.
+- Define user groups and roles.
+- Craft policies for least privilege.
+- Enable detailed audit trails.
+- Seamlessly integrate with AWS services.
 
 ![fllow_github](https://github.com/senad-d/senad-d.github.io/blob/5c85b206895c7b7a1fd9a31744aa63895f69134a/_media/gif/Iam_identity_center.gif?raw=true){: .shadow }
 
