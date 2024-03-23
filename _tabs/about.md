@@ -5,8 +5,6 @@ order: 6
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 
-![seki](https://github.com/senad-d/senad-d.github.io/blob/a67ca18f9c45453853db4a3e761c8f4cb309eab0/_media/images/seki_ai.png?raw=true){: .shadow }
-
 >Thank you for visiting. Together, let's unlock the full potential of DevOps and propel you towards continuous success.
 
 ## Enhancing Collaboration
@@ -25,6 +23,6 @@ Recognizing the need for a career transition from the oil industry to IT, I soug
 
 I would like to express my heartfelt gratitude to my mentor, ***Mario Runtić***, whose guidance and support have been instrumental in my professional growth.
 
-
+![seki](https://github.com/senad-d/senad-d.github.io/blob/a67ca18f9c45453853db4a3e761c8f4cb309eab0/_media/images/seki_ai.png?raw=true){: width="350" .shadow }
 > You can view my portfolio [***here***](https://portfolio.seki.pro/).
 {: .prompt-tip }
