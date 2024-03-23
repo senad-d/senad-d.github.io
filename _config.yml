@@ -76,7 +76,7 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://github.com/senad-d/senad-d.github.io/blob/a67ca18f9c45453853db4a3e761c8f4cb309eab0/_media/images/seki_ai.png
+avatar: https://avatars.githubusercontent.com/u/112484166?v=4
 
 # boolean type, the global switch for TOC in posts.
 toc: true
