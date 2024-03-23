@@ -5,6 +5,8 @@ order: 6
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 
+![seki](https://github.com/senad-d/senad-d.github.io/blob/a67ca18f9c45453853db4a3e761c8f4cb309eab0/_media/images/seki_ai.png?raw=true){: .shadow }
+
 >Thank you for visiting. Together, let's unlock the full potential of DevOps and propel you towards continuous success.
 
 ## Enhancing Collaboration
