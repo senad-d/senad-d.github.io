@@ -1,8 +1,8 @@
 ---
 title: Run LLM locally with Ollama and Open WebUI
-date: 2024-06-29 11:00:00
-categories: [Docker]
-tags: [cli, init]
+date: 2024-05-13 11:00:00
+categories: [LLM]
+tags: [ollama, stablediffusion]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/ollama.png?raw=true)
