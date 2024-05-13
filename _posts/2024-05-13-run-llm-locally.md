@@ -128,7 +128,7 @@ pyenv global 3.10
 ### Install Stable Diffusion
 
 ```shell
-wget -q [https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
+wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
 chmod +x webui.sh
 ./webui.sh --listen --api
 ```
