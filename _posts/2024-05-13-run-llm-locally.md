@@ -113,26 +113,19 @@ watch -n 0.5 nvidia-smi
 docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 
-## Stable Diffusion Install
-
-#### Pyenv
+## Install Stable Diffusion 
 
 ```shell
 sudo apt install -y make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
 libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev git
-```
 
-
-```shell
 curl https://pyenv.run | bash
 
 pyenv install 3.10
 
 pyenv global 3.10
 ```
-
-### Install Stable Diffusion
 
 ```shell
 wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
