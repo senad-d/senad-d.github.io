@@ -5,7 +5,7 @@ categories: [LLM]
 tags: [ollama, stablediffusion]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
-![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/ollama.png?raw=true)
+![llm](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/ollama.png?raw=true)
 {: .shadow }
 
 # How to run LLM in side of a Docker container
@@ -68,6 +68,9 @@ docker-copose up -d
 
 Go to the address `localhost:8080` to visit the newly started container. 
 Once there, you can create the first user.
+
+![llm](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/openwebui.png?raw=true)
+{: .shadow }
 
 # How to install LLM on bare metal
 
