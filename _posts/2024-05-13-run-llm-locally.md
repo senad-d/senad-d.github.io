@@ -66,6 +66,12 @@ Run our new docker-compose.yml
 docker-copose up -d
 ```
 
+Add a model to Ollama
+
+```shell
+docker exec ollama ollama pull llama2
+```
+
 Go to the address `localhost:8080` to visit the newly started container. 
 Once there, you can create the first user.
 
@@ -104,21 +110,17 @@ docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=
 
 ## Stable Diffusion Install
 
-### Prereqs
-
 #### Pyenv
 
 ```shell
-#Install Pyenv prereqs
 sudo apt install -y make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
 libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev git
 ```
 
-### Install Pyenv
 
 ```shell
-curl [https://pyenv.run](https://pyenv.run) | bash
+curl https://pyenv.run | bash
 
 pyenv install 3.10
 
