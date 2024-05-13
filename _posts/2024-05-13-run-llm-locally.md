@@ -1,5 +1,5 @@
 ---
-title: Run LLM locally wit Ollama and Open WebUI
+title: Run LLM locally with Ollama and Open WebUI
 date: 2024-06-29 11:00:00
 categories: [Docker]
 tags: [cli, init]
