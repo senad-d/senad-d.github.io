@@ -78,6 +78,11 @@ Once there, you can create the first user.
 ![llm](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/openwebui.png?raw=true)
 {: .shadow }
 
+Afterward, you should confirm that you have a valid connection to Ollama. You can do this by going into your settings and then selecting connections. Make sure the URL is correct and start the connection test. You can include your Stable Diffusion server URL in the Images section to obtain its capabilities.
+
+![llm](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/ollama-setup.png?raw=true)
+{: .shadow }
+
 # How to install LLM on bare metal
 
 ## Install Ollama
