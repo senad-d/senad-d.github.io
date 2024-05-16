@@ -9,1127 +9,1147 @@
 
 <url>
   <loc>https://senad-d.github.io/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/archives/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/video/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/diagrams/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/about/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/consulting/</loc>
-  <lastmod>2024-03-25T07:20:04+00:00</lastmod>
+  <lastmod>2024-03-26T21:42:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://senad-d.github.io/posts/docker-init/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <loc>https://senad-d.github.io/posts/run-llm-locally/</loc>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/github-self-hosted-runner-kubernetes/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-ecs-dns/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/docker-cli-mac-m2/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/lint-codebase/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-oidc-role/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-send-ses/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-eks-users/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-ecs-task-definition-example/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-ecs-exec/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page2/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page3/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page10/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/docker/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/markdown/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/aws/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/linux/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/ecs/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/actions/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/github/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/grafana/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/azure/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/openvpn/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/basics/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/iam/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/aws/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/aws-basics/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/cli/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/oidc/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/ses/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/azure/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/azure-basics/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://senad-d.github.io/categories/docker/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/ecs/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/dns/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/ecs-basics/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/eks/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/eks-basics/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/iam/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/rds/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/github/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/actions/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/kubernetes/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/k8s-basics/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/kind/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/monitoring/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://senad-d.github.io/categories/llm/</loc>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/linux/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/linux-basics/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/vm/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/projects/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/csi/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/grafana/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/homelab/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/openvpn/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/video/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/wsm/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/software/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://senad-d.github.io/categories/docker/</loc>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/git/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/linter/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/md/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/open-source/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/slack/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/terraform/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/tf-basics/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/categories/tf-eks/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/eks-iam-role-namespace/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/github-secrets-exposed/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/github-actions-localy/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-fzf/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://senad-d.github.io/posts/docker-init/</loc>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/monitoring-k8s/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/kubernetes-policy/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/eks-rds-connection/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/terraform-cheatsheet/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/kubernetes/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/kubernetes-cheatsheet/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/terra-eks/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/project-wsm/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/project-csi/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/project-csi-ecs-db/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/project-csi-ecs-app/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/project-csi-cf-static/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/project-csi-cf-resources/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-grafana-azure/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-grafana-azure-dash/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-grafana-azure-boot/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-grafana-azure-arm/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-monitoring-aws-with-grafana/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-monitoring-aws-introduction-video/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-grafana-aws/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-grafana-aws-dash/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-grafana-aws-cf/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-grafana-aws-boot/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-openvpn-azure/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-openvpn-azure-boot/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-openvpn-azure-arm/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-openvpn-github-action/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-openvpn-aws/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-openvpn-aws-cf/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/projects-openvpn-aws-boot/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-ecs/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-credentials/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-cli-login/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-ec2-ip/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-list-resources/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-create-cf-stack/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-root-user-mfa/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-create-acc/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/nginx-proxy-manager-docker/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/plausible/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/project-seki-installer/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/azure-basics/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/slack-webhook/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/github-actions/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/github-actions-s3/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/github-actions-docker-build/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/github-actions-auto-env/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/github-actions-auto-ecs/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/git-leaks/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-arhitecture/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-well-architected-framework/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-storage/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-security/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-networking/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-managment/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-high-availability/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-encryption/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-database/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-compute/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/aws-basics/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/docker-compose/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/git-rebase/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/git-remote/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/git/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-vm/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-vm-gpu/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-users/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-ufw/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-ssh/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-networking/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-expect/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-disk/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-crontab/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-backups/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/posts/linux-alias/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/account/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/alias/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/analytics/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/architecture/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/arm/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/aws-cli/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/backups/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/bootstrap/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/cheat-sheet/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/cli/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/cloudformation/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/compute/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/crontab/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/dashboard/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/database/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/dev/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/disk/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/dns/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/docker/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/docker-compose/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/ec2-ip/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/eks/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/encryption/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/expect/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/fzf/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/git/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/gitleaks/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/gpu/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/high-availability/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/homelab/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/init/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/installer/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/ip/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/kind/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/kubernetes/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/laravel/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/linter/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/locally/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/management/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/markdown/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/mendix/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/monitoring/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/networking/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/nginx/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://senad-d.github.io/tags/ollama/</loc>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/policy/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/proxymanager/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/quasar/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/rds/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/remote/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/resources/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/role/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/runners/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/s3/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/secret/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/security/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/ses/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/slack/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/ssh/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://senad-d.github.io/tags/stablediffusion/</loc>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/storage/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/task-definition/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/terraform/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/ufw/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/users/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/video/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/vm/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/webhooks/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/tags/well-architected-framework/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page4/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page9/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page8/</loc>
-  <lastmod>2024-03-24T15:44:34+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page5/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page7/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://senad-d.github.io/page6/</loc>
-  <lastmod>2024-03-24T15:44:35+00:00</lastmod>
+  <lastmod>2024-05-13T13:34:05+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 
