@@ -46,7 +46,7 @@ In this approach, distinct GitHub repositories are employed for the application,
 
 This organizational structure fosters a smooth, hands-off deployment process, reducing manual intervention and boosting overall efficiency. Embrace the power of GitHub and ArgoCD to streamline your deployment workflows today!
 
-![fllow_github](https://github.com/senad-d/senad-d.github.io/blob/49ce32e6c45c8eb1c6578b56e1ef79e9eae034be/_media/gif/cicd-pipeline.gif?raw=true){: .shadow }
+![fllow_github](https://github.com/senad-d/senad-d.github.io/blob/1ad70a97359d4aed4420872346bc44271d56a6c8/_media/gif/cicd-pipeline.gif?raw=true){: .shadow }
 
 # Embrace the Power of AWS ECS Fargate!
 In the dynamic realm of AWS, ECS Fargate emerges as an orchestration powerhouse, enabling seamless container deployment sans the hassle of managing infrastructure. It effortlessly scales in response to fluctuating workloads, ensuring optimal performance without manual intervention.
