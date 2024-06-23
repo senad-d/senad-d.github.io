@@ -5,21 +5,21 @@ categories: [Migration]
 tags: [aws, migration]
 ---
 <script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
-![migration](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/migration/migration.png?raw=true)
+![migration](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/migration.png?raw=true)
 {: .shadow }
 
 # What Is AWS Application Migration Service?
 
 AWS Application Migration Service (MGN) is a highly automated lift-and-shift (rehost) solution that simplifies, expedites, and reduces the cost of migrating applications to AWS. It allows companies to lift-and-shift a large number of physical, virtual, or cloud servers without compatibility issues, performance disruption, or long cutover windows. MGN replicates source servers into your AWS account. When you’re ready, it automatically converts and launches your servers on AWS so you can quickly benefit from the cost savings, productivity, resilience, and agility of the Cloud. Once your applications are running on AWS, you can leverage AWS services and capabilities to quickly and easily replatform or refactor those applications – which makes lift-and-shift a fast route to modernization.
 
-![MGN](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/migration/welcome.png?raw=true)
+![MGN](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/welcome.png?raw=true)
 {: .shadow }
 
 # Migrating to AWS: A Step-by-Step Guide
 
 AWS MGN is the recommended service for migrating applications to AWS without modifying them. Here's a simplified guide:
 
-![diagram](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/migration/diagram.png?raw=true)
+![diagram](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/diagram.png?raw=true)
 {: .shadow }
 
 ## **1. Getting Started**
@@ -29,26 +29,26 @@ AWS MGN is the recommended service for migrating applications to AWS without mod
 * Create IAM User for the agent.
 * In the AWS MGN console, create a replication settings template.
 
-![template](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/migration/template.png?raw=true)
+![template](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/template.png?raw=true)
 {: .shadow }
 
 ## **2. Adding Source Servers**
 
 * Install the AWS MGN Replication Agent on your source servers (Linux or Windows).
 
-![agent](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/migration/agent.png?raw=true)
+![agent](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/agent.png?raw=true)
 {: .shadow }
 
 * The agent will be added to the console and start syncing data.
 
-![cli](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/migration/cli.png?raw=true)
+![cli](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/cli.png?raw=true)
 {: .shadow }
 
 ## **3. Configuring Launch Settings**
 
 * Define how test or cutover instances will launch for each source server.
 
-![cli](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/migration/lounchset.png?raw=true)
+![cli](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/lounchset.png?raw=true)
 {: .shadow }
 
 ## **4. Launching a Test Instance**
