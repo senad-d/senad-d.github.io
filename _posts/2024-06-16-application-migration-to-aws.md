@@ -56,20 +56,20 @@ AWS MGN is the recommended service for migrating applications to AWS without mod
 * Launch a test instance to verify your source server functions properly in AWS.
 * Use SSH to connect and test functionality.
 
-![cli](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/testec2.png?raw=true)
+![cli](https://github.com/senad-d/senad-d.github.io/blob/577441c248863c9f579d34c1a26f1519759ed6e4/_media/migration/testec2.png?raw=true)
 {: .shadow }
 
 ## **5. Performing a Cutover**
 
 * Cutover to migrate your source server to AWS.
 
-![cli](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/conv-serv.png?raw=true)
+![cli](https://github.com/senad-d/senad-d.github.io/blob/577441c248863c9f579d34c1a26f1519759ed6e4/_media/migration/conv-serv.png?raw=true)
 {: .shadow }
 
 * After cutover, redirect users to the migrated server.
 * Finalize the cutover to mark the migration complete.
 
-![cli](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/finalize.png?raw=true)
+![cli](https://github.com/senad-d/senad-d.github.io/blob/577441c248863c9f579d34c1a26f1519759ed6e4/_media/migration/finalize.png?raw=true)
 {: .shadow }
 
 **Additional Points**
