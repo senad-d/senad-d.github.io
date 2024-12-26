@@ -4,7 +4,7 @@ date: 2024-07-01 11:00:00
 categories: [DockerComposeAPI]
 tags: [flask, api]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 
 Imagine your server running multiple Docker containers, each providing essential services that need to be operational around the clock. Occasionally, you might require an additional service, such as a VPN, for specific tasks or troubleshooting. This is where DockerComposeAPI excels, revolutionizing the management of your home lab.
 

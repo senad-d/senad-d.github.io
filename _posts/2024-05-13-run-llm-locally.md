@@ -4,7 +4,7 @@ date: 2024-05-13 11:00:00
 categories: [LLM]
 tags: [ollama, stablediffusion]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![llm](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/ollama.png?raw=true)
 {: .shadow }
 

@@ -4,7 +4,7 @@ date: 2023-02-02 13:00:00
 categories: [Projects, Grafana]
 tags: [azure, grafana, dashboard]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 The Dashboard provides a comprehensive visualization of essential metrics derived from Azure services, enabling users to monitor and analyze the performance and health of their Azure resources. Built using Grafana, this dashboard offers a streamlined and intuitive interface that simplifies the interpretation of data and empowers users to make informed decisions.

@@ -4,7 +4,7 @@ date: 2022-06-01 12:00:00
 categories: [AWS, CLI]
 tags: [aws-cli, iam]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 [Configure AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)

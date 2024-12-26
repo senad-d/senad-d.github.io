@@ -4,7 +4,7 @@ date: 2023-02-02 12:00:00
 categories: [Projects, Grafana]
 tags: [aws, grafana, cloudformation]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 CloudFormation template for creating an automated monitoring solution for AWS resources.

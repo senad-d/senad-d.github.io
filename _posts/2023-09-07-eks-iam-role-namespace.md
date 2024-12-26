@@ -4,7 +4,7 @@ date: 2023-09-07 08:00:00
 categories: [EKS, IAM]
 tags: [iam, aws, eks, role]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/eks-banner.png?raw=true)
 
 This guide delves into the essential process of creating an AWS IAM Role tailored specifically for accessing an EKS namespace. By following the steps outlined in this tutorial, you'll gain a comprehensive understanding of how to set up fine-grained access control, enhancing the security and manageability of your Kubernetes workloads on AWS EKS. 

@@ -4,7 +4,7 @@ date: 2023-02-02 13:00:00
 categories: [Projects, Grafana]
 tags: [azure, grafana]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/azure-banner.png?raw=true){: .shadow }
 
 ARM template for adding an VM with a fully automated bootstrap script to create monitoring that automatically connects to Azure monitor (data source) for metrics and allows users easy viewing of key metrics for Azure resources.

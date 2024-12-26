@@ -4,7 +4,7 @@ date: 2023-10-06 11:00:00
 categories: [EKS, EKS Basics]
 tags: [aws, eks]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/kubernetes-banner.png?raw=true){: .shadow }
 
 To add additional IAM users to an Amazon Elastic Kubernetes Service (EKS) cluster's ConfigMap, you typically use the aws-auth ConfigMap to define the IAM roles or users that are authorized to interact with the cluster. Here are the steps to add IAM users to the aws-auth ConfigMap:

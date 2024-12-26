@@ -4,7 +4,7 @@ date: 2022-03-03 13:00:00
 categories: [Software, Open source]
 tags: [nginx, proxymanager, docker-compose]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/nginx-banner.png?raw=true){: .shadow }
 
 

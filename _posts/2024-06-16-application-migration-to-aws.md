@@ -4,7 +4,7 @@ date: 2024-06-16 11:00:00
 categories: [Migration]
 tags: [aws, migration]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![migration](https://github.com/senad-d/senad-d.github.io/blob/e89749986a2196c8f9e4032d3918f08b95532340/_media/migration/migration.png?raw=true)
 {: .shadow }
 

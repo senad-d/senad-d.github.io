@@ -4,7 +4,7 @@ date: 2023-06-25 12:00:00
 categories: [Kubernetes, Monitoring]
 tags: [kubernetes, kind, monitoring]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/kubernetes-banner.png?raw=true){: .shadow }
 
 Grafana and Prometheus are a powerful monitoring solution. It allows you to visualize, query, and alert metrics no matter where they are stored. Today, we’ll install and configure Prometheus and Grafana in Kubernetes using kube-prometheus-stack. By the end of this tutorial you be able to observe and visualize your entire Kubernetes cluster with Grafana and Prometheus.

@@ -4,7 +4,7 @@ date: 2021-02-06 13:00:00
 categories: [Software, Git]
 tags: [git, remote]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/git-banner.png?raw=true)
 
 Are you developing a new application with Mendix using a free license and finding that one environment is not sufficient? Would you like to send your code to GitHub so that you can run your application, for example, on AWS, or do you simply want to store your project in a private GitHub repository? You can follow the following steps to achieve exactly that with minimal effort.

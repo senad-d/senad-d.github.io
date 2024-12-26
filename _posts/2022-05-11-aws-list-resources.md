@@ -4,7 +4,7 @@ date: 2022-05-11 12:00:00
 categories: [AWS, AWS Basics]
 tags: [aws, resources]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/backgroun.png?raw=true){: .shadow }
 
 You can use the `Tag Editor`

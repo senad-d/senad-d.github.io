@@ -4,7 +4,7 @@ date: 2023-11-14 12:00:00
 categories: [Software, Docker]
 tags: [docker, cli]
 ---
-<script defer data-domain="senad-d.github.io" src="https://plus.seki.pro/js/script.js"></script>
+<script defer data-domain="senad-d.github.io" src="https://plus.seki.ink/js/script.js"></script>
 ![](https://github.com/senad-d/senad-d.github.io/blob/main/_media/images/docker-banner.png?raw=true){: .shadow }
 
 If you are facing challenges with Docker Desktop licensing for a large software team, this guide will assist you in easily utilizing Docker CLI on Mac machines with M2 chips.
